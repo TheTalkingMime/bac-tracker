@@ -1,0 +1,1171 @@
+display_name	true_name
+Adventuring Time	minecraft:adventure/adventuring_time
+Arbalistic	minecraft:adventure/arbalistic
+Sneak 100	minecraft:adventure/avoid_vibration
+Bullseye	minecraft:adventure/bullseye
+Careful Restoration	minecraft:adventure/craft_decorated_pot_using_only_sherds
+Caves & Cliffs	minecraft:adventure/fall_from_world_height
+Hero of the Village	minecraft:adventure/hero_of_the_village
+Sticky Situation	minecraft:adventure/honey_block_slide
+Monsters Hunted	minecraft:adventure/kill_all_mobs
+Monster Hunter	minecraft:adventure/kill_a_mob
+It spreads!	minecraft:adventure/kill_mob_near_sculk_catalyst
+Surge Protector	minecraft:adventure/lightning_rod_with_villager_no_fire
+Ol' Betsy	minecraft:adventure/ol_betsy
+The Sound of Music	minecraft:adventure/play_jukebox_in_meadows
+The Power of Books	minecraft:adventure/read_power_of_chiseled_bookshelf
+Adventure	minecraft:adventure/root
+Respecting the Remnants	minecraft:adventure/salvage_sherd
+Take Aim	minecraft:adventure/shoot_arrow
+Sweet dreams	minecraft:adventure/sleep_in_bed
+Sniper Duel	minecraft:adventure/sniper_duel
+Is it a Plane?	minecraft:adventure/spyglass_at_dragon
+Is it a Balloon?	minecraft:adventure/spyglass_at_ghast
+Is it a Bird?	minecraft:adventure/spyglass_at_parrot
+Hired Help	minecraft:adventure/summon_iron_golem
+A Throwaway Joke	minecraft:adventure/throw_trident
+Postmortal	minecraft:adventure/totem_of_undying
+What a Deal!	minecraft:adventure/trade
+Star Trader	minecraft:adventure/trade_at_world_height
+Smithing With Style	minecraft:adventure/trim_with_all_exclusive_armor_patterns
+Crafting a New Look	minecraft:adventure/trim_with_any_armor_pattern
+Two Birds, One Arrow	minecraft:adventure/two_birds_one_arrow
+Very Very Frightening	minecraft:adventure/very_very_frightening
+I've got a bad feeling about this	minecraft:adventure/voluntary_exile
+Light as a Rabbit	minecraft:adventure/walk_on_powder_snow_with_leather_boots
+Who's the Pillager Now?	minecraft:adventure/whos_the_pillager_now
+You Need a Mint	minecraft:end/dragon_breath
+The Next Generation	minecraft:end/dragon_egg
+Sky's the Limit	minecraft:end/elytra
+Remote Getaway	minecraft:end/enter_end_gateway
+The City at the End of the Game	minecraft:end/find_end_city
+Free the End	minecraft:end/kill_dragon
+Great View From Up Here	minecraft:end/levitate
+The End... Again	minecraft:end/respawn_dragon
+The End	minecraft:end/root
+Birthday Song	minecraft:husbandry/allay_deliver_cake_to_note_block
+You’ve Got a Friend in Me	minecraft:husbandry/allay_deliver_item_to_player
+The Cutest Predator	minecraft:husbandry/axolotl_in_a_bucket
+A Balanced Diet	minecraft:husbandry/balanced_diet
+Serious Dedication	minecraft:husbandry/break_diamond_hoe
+Overpopulation	minecraft:husbandry/bred_all_animals
+Repopulation	minecraft:husbandry/breed_an_animal
+A Complete Catalogue	minecraft:husbandry/complete_catalogue
+Little Sniffs	minecraft:husbandry/feed_snifflet
+Fishy Business	minecraft:husbandry/fishy_business
+Incandescent!	minecraft:husbandry/froglights
+The Healing Power of Friendship	minecraft:husbandry/kill_axolotl_target
+When the Squad Hops into Town	minecraft:husbandry/leash_all_frog_variants
+Glow and Behold	minecraft:husbandry/make_a_sign_glow
+NOT AN ADVANCEMENT	minecraft:husbandry/obtain_netherite_hoe
+Life… uhh… finds a way	minecraft:husbandry/obtain_sniffer_egg
+Planting the Past	minecraft:husbandry/plant_any_sniffer_seed
+A Seedy Place	minecraft:husbandry/plant_seed
+Whatever Floats Your Goat!	minecraft:husbandry/ride_a_boat_with_a_goat
+Animals	minecraft:husbandry/root
+Bee Our Guest	minecraft:husbandry/safely_harvest_honey
+Total Beelocation	minecraft:husbandry/silk_touch_nest
+Tactical Fishing	minecraft:husbandry/tactical_fishing
+Bukkit bukkit	minecraft:husbandry/tadpole_in_a_bucket
+Leader of the Pack	minecraft:husbandry/tame_an_animal
+Wax Off	minecraft:husbandry/wax_off
+Wax On	minecraft:husbandry/wax_on
+How Did We Get Here?	minecraft:nether/all_effects
+A Furious Cocktail	minecraft:nether/all_potions
+Local Brewery	minecraft:nether/brew_potion
+Not Quite 'Nine' Lives	minecraft:nether/charge_respawn_anchor
+Bring Home the Beacon	minecraft:nether/create_beacon
+Beaconator	minecraft:nether/create_full_beacon
+Oh, Shiny!	minecraft:nether/distract_piglin
+Hot Tourist Destination	minecraft:nether/explore_nether
+Subspace Bubble	minecraft:nether/fast_travel
+Those Were the Days	minecraft:nether/find_bastion
+A Terrible Fortress	minecraft:nether/find_fortress
+Spooky Scary Skeleton	minecraft:nether/get_wither_skull
+War Pigs	minecraft:nether/loot_bastion
+A Knight to Nether Forget	minecraft:nether/netherite_armor
+Nether Say Die	minecraft:nether/obtain_ancient_debris
+Into Fire	minecraft:nether/obtain_blaze_rod
+Who is Cutting Onions?	minecraft:nether/obtain_crying_obsidian
+Return to Sender	minecraft:nether/return_to_sender
+This Boat Has Legs	minecraft:nether/ride_strider
+Feels Like Home	minecraft:nether/ride_strider_in_overworld_lava
+Nether	minecraft:nether/root
+Withering Heights	minecraft:nether/summon_wither
+Uneasy Alliance	minecraft:nether/uneasy_alliance
+Country Lode, Take Me Home	minecraft:nether/use_lodestone
+Zombie Doctor	minecraft:story/cure_zombie_villager
+Not Today, Thank You	minecraft:story/deflect_arrow
+Enchanter	minecraft:story/enchant_item
+The End?	minecraft:story/enter_the_end
+We Need to Go Deeper	minecraft:story/enter_the_nether
+Eye Spy	minecraft:story/follow_ender_eye
+Ice Bucket Challenge	minecraft:story/form_obsidian
+Isn't It Iron Pick	minecraft:story/iron_tools
+Hot Stuff	minecraft:story/lava_bucket
+Diamonds!	minecraft:story/mine_diamond
+Stone Age	minecraft:story/mine_stone
+Suit Up	minecraft:story/obtain_armor
+Benchmarking	minecraft:story/root
+Cover Me With Diamonds	minecraft:story/shiny_gear
+Acquire Hardware	minecraft:story/smelt_iron
+Getting an Upgrade	minecraft:story/upgrade_tools
+Allayance	blazeandcave:adventure/allayance
+All chained up	blazeandcave:adventure/all_chained_up
+And make it double!	blazeandcave:adventure/and_make_it_double
+Awards Ceremony	blazeandcave:adventure/awards_ceremony
+A Chiptune Relic	blazeandcave:adventure/a_chiptune_relic
+Beethoven	blazeandcave:adventure/beethoven
+Brushed Away	blazeandcave:adventure/brushed_away
+Budget Vex	blazeandcave:adventure/budget_vex
+Businessman	blazeandcave:adventure/businessman
+Buy Low, Sell High	blazeandcave:adventure/buy_low_sell_high
+Chromatic Armory	blazeandcave:adventure/chromatic_armory
+Coordinated Flair	blazeandcave:adventure/coordinated_flair
+Crazy Cat Lady	blazeandcave:adventure/crazy_cat_lady
+Deal's Off!	blazeandcave:adventure/deals_off
+Diagon Allay	blazeandcave:adventure/diagon_allay
+Disc Jockey	blazeandcave:adventure/disc_jockey
+Do You Want to Trade?	blazeandcave:adventure/do_you_want_to_trade
+Dry Spell	blazeandcave:adventure/dry_spell
+Evelyn Evergreen	blazeandcave:adventure/evelyn_evergreen
+Feeling Ill	blazeandcave:adventure/feeling_ill
+Filthy Rich	blazeandcave:adventure/filthy_rich
+Filthy Stinkin' Rich	blazeandcave:adventure/filthy_stinkin_rich
+Florist	blazeandcave:adventure/florist
+Genesis of the End	blazeandcave:adventure/genesis_of_the_end
+Ghostbuster!	blazeandcave:adventure/ghostbuster
+Good-Lookin’ Treasure	blazeandcave:adventure/good_lookin_treasure
+Grave Robber	blazeandcave:adventure/grave_robber
+Guardian Destroyer	blazeandcave:adventure/guardian_destroyer
+Happy Trails!	blazeandcave:adventure/happy_trails
+Heeere's Johnny!	blazeandcave:adventure/heres_johnny
+Hey! You two should kiss!	blazeandcave:adventure/hey_you_two_should_kiss
+House of Psychos	blazeandcave:adventure/house_of_psychos
+If only cats grew into kittens	blazeandcave:adventure/if_only_cats_grew_into_kittens
+I'm not lost anymore!	blazeandcave:adventure/im_not_lost_anymore
+It's So Beast-Like!	blazeandcave:adventure/its_so_beast_like
+I am Ravager, hear me ROAR!	blazeandcave:adventure/i_am_ravager_hear_me_roar
+I hereby dub thee...	blazeandcave:adventure/i_hereby_dub_thee
+I just want to make toast!	blazeandcave:adventure/i_just_want_to_make_toast
+Jurassic Sniff	blazeandcave:adventure/jurassic_sniff
+Justice	blazeandcave:adventure/justice
+Knowledge is Power	blazeandcave:adventure/knowledge_is_power
+Laser Sharks!	blazeandcave:adventure/laser_sharks
+Lilypad Hatter	blazeandcave:adventure/lilypad_hatter
+Mapmaker	blazeandcave:adventure/mapmaker
+Mapmaker's Table	blazeandcave:adventure/mapmakers_table
+Map Room	blazeandcave:adventure/map_room
+Master Trader	blazeandcave:adventure/master_trader
+Mold Maker	blazeandcave:adventure/mold_maker
+Monumental	blazeandcave:adventure/monumental
+MURDERER!	blazeandcave:adventure/murderer
+Music To My Ears	blazeandcave:adventure/music_to_my_ears
+Nerds Never Die	blazeandcave:adventure/nerds_never_die
+Now You’re Thinking With Portals	blazeandcave:adventure/now_youre_thinking_with_portals
+Nyan Sheep	blazeandcave:adventure/nyan_sheep
+Oh, look, it dings!	blazeandcave:adventure/oh_look_it_dings
+Out of Posts	blazeandcave:adventure/out_of_posts
+Overpowered	blazeandcave:adventure/overpowered
+Picador	blazeandcave:adventure/picador
+Pottery Exhibition	blazeandcave:adventure/pottery_exhibition
+Prime Specimen	blazeandcave:adventure/prime_specimen
+Professional	blazeandcave:adventure/professional
+Raiders of the Lost Trim	blazeandcave:adventure/raiders_of_the_lost_trim
+Raidin' Master	blazeandcave:adventure/raidin_master
+Rare Candy Shop	blazeandcave:adventure/rare_candy_shop
+Rebuilding the Oceans	blazeandcave:adventure/rebuilding_the_oceans
+Redemption Arc	blazeandcave:adventure/redemption_arc
+Rekt!	blazeandcave:adventure/rekt
+Retro Future Knight	blazeandcave:adventure/retro_future_knight
+Riot Shield	blazeandcave:adventure/riot_shield
+Secret of the Igloo	blazeandcave:adventure/secret_of_the_igloo
+Shady Deals	blazeandcave:adventure/shady_deals
+Slenderman	blazeandcave:adventure/slenderman
+Sound the Alarm!	blazeandcave:adventure/sound_the_alarm
+Spear Fishing	blazeandcave:adventure/spear_fishing
+Sponge Miner	blazeandcave:adventure/sponge_miner
+Stacked Smither	blazeandcave:adventure/stacked_smither
+Superhero of the Village	blazeandcave:adventure/superhero_of_the_village
+The Deep End	blazeandcave:adventure/the_deep_end
+The one and true Johnny	blazeandcave:adventure/the_one_and_true_johnny
+The Shielding	blazeandcave:adventure/the_shielding
+The Sound of Silence	blazeandcave:adventure/the_sound_of_silence
+The Tribal Villagers	blazeandcave:adventure/the_tribal_villagers
+Tomb Raider	blazeandcave:adventure/tomb_raider
+Town Planner	blazeandcave:adventure/town_planner
+Traveller	blazeandcave:adventure/traveller
+Travelling Merchant	blazeandcave:adventure/travelling_merchant
+Treasure Map	blazeandcave:adventure/treasure_map
+Truffle Worm	blazeandcave:adventure/truffle_worm
+Undying Fandom	blazeandcave:adventure/undying_fandom
+Veteran of the Village	blazeandcave:adventure/veteran_of_the_village
+Vexingly Hard to Find	blazeandcave:adventure/vexingly_hard_to_find
+Village Settler	blazeandcave:adventure/village_settler
+War is Coming	blazeandcave:adventure/war_is_coming
+We're being attacked!	blazeandcave:adventure/were_being_attacked
+What's Up, Doc?	blazeandcave:adventure/whats_up_doc
+Witchcraft	blazeandcave:adventure/witchcraft
+Wololo!	blazeandcave:adventure/wololo
+Workaholic	blazeandcave:adventure/workaholic
+Your Daily Fix	blazeandcave:adventure/your_daily_fix
+You are the Pillager	blazeandcave:adventure/you_are_the_pillager
+Animal Kingdom	blazeandcave:animal/animal_kingdom
+Aquarium	blazeandcave:animal/aquarium
+Are we there yet?	blazeandcave:animal/are_we_there_yet
+Artificial Selection	blazeandcave:animal/artificial_selection
+Axeolotl	blazeandcave:animal/axeolotl
+Axolittle	blazeandcave:animal/axolittle
+Axolotl of them	blazeandcave:animal/axolotl_of_them
+A Horse in Shining Armor	blazeandcave:animal/a_horse_in_shining_armor
+Bacon!	blazeandcave:animal/bacon
+Battle of the Bands	blazeandcave:animal/battle_of_the_bands
+Beeloons!	blazeandcave:animal/beeloons
+Billy the Kid	blazeandcave:animal/billy_the_kid
+Birdkeeper	blazeandcave:animal/birdkeeper
+Blackberry Market	blazeandcave:animal/blackberry_market
+Blistering Barnacles!	blazeandcave:animal/blistering_barnacles
+Bunny Lover	blazeandcave:animal/bunny_lover
+Caprymphony	blazeandcave:animal/caprymphony
+Catching Nemo	blazeandcave:animal/catching_nemo
+Cephalight	blazeandcave:animal/cephalight
+Chatterbox	blazeandcave:animal/chatterbox
+Chicken Cooper	blazeandcave:animal/chicken_cooper
+Colorful Cavalry	blazeandcave:animal/colorful_cavalry
+Cool Kids	blazeandcave:animal/cool_kids
+Cowboy	blazeandcave:animal/cowboy
+Cow Tipper	blazeandcave:animal/cow_tipper
+Delicious Fish	blazeandcave:animal/delicious_fish
+Desert Rider	blazeandcave:animal/desert_rider
+Direct Fishing	blazeandcave:animal/direct_fishing
+Fashion Statement	blazeandcave:animal/fashion_statement
+Feeding the §mDucks§r Chickens	blazeandcave:animal/feeding_the_chickens
+Feeling Sheepish	blazeandcave:animal/feeling_sheepish
+Flashy Items	blazeandcave:animal/flashy_items
+Foal Play	blazeandcave:animal/foal_play
+Follow the Leader	blazeandcave:animal/follow_the_leader
+Foxy Thievery	blazeandcave:animal/foxy_thievery
+Fractal	blazeandcave:animal/fractal
+Frog Family	blazeandcave:animal/frog_family
+Fuzzy Feet	blazeandcave:animal/fuzzy_feet
+Getting Into a Stew	blazeandcave:animal/getting_into_a_stew
+Goat out of here!	blazeandcave:animal/goat_out_of_here
+Goat Simulator	blazeandcave:animal/goat_simulator
+Going Down the Rabbit Hole	blazeandcave:animal/going_down_the_rabbit_hole
+Grinding Nemo	blazeandcave:animal/grinding_nemo
+Have a Shearful Day	blazeandcave:animal/have_a_shearful_day
+Heavy Duty Caravan	blazeandcave:animal/heavy_duty_caravan
+Hey, look, Mom!	blazeandcave:animal/hey_look_mom
+High Steaks	blazeandcave:animal/high_steaks
+Hive Mind	blazeandcave:animal/hive_mind
+Honey, I'm Home!	blazeandcave:animal/honey_im_home
+Horse Armorer	blazeandcave:animal/horse_armorer
+Humble Bundle	blazeandcave:animal/humble_bundle
+Hump Day	blazeandcave:animal/hump_day
+Iceologer Should've Won	blazeandcave:animal/iceologer_shouldve_won
+In a hole there lived a Rabbit	blazeandcave:animal/in_a_hole_there_lived_a_rabbit
+It's High Noon	blazeandcave:animal/its_high_noon
+Just Keeps Going	blazeandcave:animal/just_keeps_going
+Lead the Way!	blazeandcave:animal/lead_the_way
+Live and Let Dye	blazeandcave:animal/live_and_let_dye
+Llama Festival	blazeandcave:animal/llama_festival
+Llama Llama Duck King	blazeandcave:animal/llama_llama_duck_king
+Loud and Proud	blazeandcave:animal/loud_and_proud
+Lucky Charm	blazeandcave:animal/lucky_charm
+Mary Had a Little Lamb...	blazeandcave:animal/mary_had_a_little_lamb
+Master Angler	blazeandcave:animal/master_angler
+Master Farrier	blazeandcave:animal/master_farrier
+Milkshroom	blazeandcave:animal/milkshroom
+Milk does your body good	blazeandcave:animal/milk_does_your_body_good
+Mooshroom Kingdom	blazeandcave:animal/mooshroom_kingdom
+Mushroom Scientist	blazeandcave:animal/mushroom_scientist
+Nest, Quick!	blazeandcave:animal/nest_quick
+NOT THE BEES!	blazeandcave:animal/not_the_bees
+Pig Slaughterer	blazeandcave:animal/pig_slaughterer
+Poacher	blazeandcave:animal/poacher
+Pork Chop	blazeandcave:animal/pork_chop
+Puppies! Yipe!	blazeandcave:animal/puppies_yipe
+Rabbit Season	blazeandcave:animal/rabbit_season
+Rainbow Collection	blazeandcave:animal/rainbow_collection
+Ram	blazeandcave:animal/ram
+Salmonella Poisoning	blazeandcave:animal/salmonella_poisoning
+Save the Turtles!	blazeandcave:animal/save_the_turtles
+Screaming Milk	blazeandcave:animal/screaming_milk
+Scuttler	blazeandcave:animal/scuttler
+Sheariously?	blazeandcave:animal/sheariously
+Shoe Shed	blazeandcave:animal/shoe_shed
+Silence of the Lambs	blazeandcave:animal/silence_of_the_lambs
+Snow Fox 64	blazeandcave:animal/snow_fox_64
+Someone's been here before...	blazeandcave:animal/someones_been_here_before
+So Good	blazeandcave:animal/so_good
+So Hungry I Could Eat a Horse!	blazeandcave:animal/so_hungry_i_could_eat_a_horse
+So I got that going for me	blazeandcave:animal/so_i_got_that_going_for_me
+Stay Calmer	blazeandcave:animal/stay_calmer
+Super Mooshroom	blazeandcave:animal/super_mooshroom
+Sushi	blazeandcave:animal/sushi
+Swine Sailing	blazeandcave:animal/swine_sailing
+Thanks a lotl	blazeandcave:animal/thanks_a_lotl
+They're breeding like rabbits!	blazeandcave:animal/theyre_breeding_like_rabbits
+The High Road	blazeandcave:animal/the_high_road
+Tickle Time!	blazeandcave:animal/tickle_time
+Totally not an AFK fisher!	blazeandcave:animal/totally_not_an_afk_fisher
+Treasure Hunter	blazeandcave:animal/treasure_hunter
+Tropical Collection	blazeandcave:animal/tropical_collection
+True Cow Tipper	blazeandcave:animal/true_cow_tipper
+Turtle Army	blazeandcave:animal/turtle_army
+Turtle Soldier	blazeandcave:animal/turtle_soldier
+What a piece of junk!	blazeandcave:animal/what_a_piece_of_junk
+What Does The Fox Say?	blazeandcave:animal/what_does_the_fox_say
+When Pigs Used to Fly	blazeandcave:animal/when_pigs_used_to_fly
+WHERE'S THE HONEY LEBOWSKI	blazeandcave:animal/wheres_the_honey_lebowski
+Which came first?	blazeandcave:animal/which_came_first
+Winnie the Pooh	blazeandcave:animal/winnie_the_pooh
+Wooly!	blazeandcave:animal/wooly
+Ya like jazz?	blazeandcave:animal/ya_like_jazz
+You Lead, I'll Follow	blazeandcave:animal/you_lead_ill_follow
+Advancement Legend	blazeandcave:bacap/advancement_legend
+Adventure Milestone	blazeandcave:bacap/adventure_milestone
+Animal Milestone	blazeandcave:bacap/animal_milestone
+Biomes Milestone	blazeandcave:bacap/biomes_milestone
+Building Milestone	blazeandcave:bacap/building_milestone
+Super Challenges Milestone	blazeandcave:bacap/challenges_milestone
+Enchanting Milestone	blazeandcave:bacap/enchanting_milestone
+End Milestone	blazeandcave:bacap/end_milestone
+Farming Milestone	blazeandcave:bacap/farming_milestone
+Getting Wood	blazeandcave:bacap/getting_wood
+Mining Milestone	blazeandcave:bacap/mining_milestone
+Monsters Milestone	blazeandcave:bacap/monsters_milestone
+Nether Milestone	blazeandcave:bacap/nether_milestone
+Potions Milestone	blazeandcave:bacap/potion_milestone
+Redstone Milestone	blazeandcave:bacap/redstone_milestone
+BlazeandCave's Advancements	blazeandcave:bacap/root
+Statistics Milestone	blazeandcave:bacap/statistics_milestone
+Time to Chop!	blazeandcave:bacap/time_to_chop
+Time to Dig!	blazeandcave:bacap/time_to_dig
+Time to Farm!	blazeandcave:bacap/time_to_farm
+Time to Mine!	blazeandcave:bacap/time_to_mine
+Time to Strike!	blazeandcave:bacap/time_to_strike
+Weaponry Milestone	blazeandcave:bacap/weaponry_milestone
+Ahoy!	blazeandcave:biomes/ahoy
+Atlantis?	blazeandcave:biomes/atlantis
+Bamboom!	blazeandcave:biomes/bamboom
+Barbearian	blazeandcave:biomes/barbearian
+Boatception	blazeandcave:biomes/boatception
+Boaty McBoatface	blazeandcave:biomes/boaty_mcboatface
+Captain America	blazeandcave:biomes/captain_america
+Cargo Carrier	blazeandcave:biomes/cargo_carrier
+Cold Feet	blazeandcave:biomes/cold_feet
+Construction Worker	blazeandcave:biomes/construction_worker
+Dive Bomb	blazeandcave:biomes/dive_bomb
+Dolphin Dasher	blazeandcave:biomes/dolphin_dasher
+Echolocation	blazeandcave:biomes/echolocation
+Edge of the Jungle	blazeandcave:biomes/edge_of_the_jungle
+Enchanted Forest	blazeandcave:biomes/enchanted_forest
+Everybody Loves Ice!	blazeandcave:biomes/everybody_loves_ice
+Flipper	blazeandcave:biomes/flipper
+Flower Power	blazeandcave:biomes/flower_power
+For you, my sweet	blazeandcave:biomes/for_you_my_sweet
+Free Diver	blazeandcave:biomes/free_diver
+High Feet	blazeandcave:biomes/high_feet
+In a Pickle	blazeandcave:biomes/in_a_pickle
+Just a sample	blazeandcave:biomes/just_a_sample
+Just Keep Swimming	blazeandcave:biomes/just_keep_swimming
+Kilometre Walk	blazeandcave:biomes/kilometre_walk
+Kung Fu Panda!	blazeandcave:biomes/kung_fu_panda
+Lion Hunter	blazeandcave:biomes/lion_hunter
+Moskstraumen	blazeandcave:biomes/moskstraumen
+No Reefing!	blazeandcave:biomes/no_reefing
+One with the forest	blazeandcave:biomes/one_with_the_forest
+Overgrown!	blazeandcave:biomes/overgrown
+Pandamonium	blazeandcave:biomes/pandamonium
+Powder-full	blazeandcave:biomes/powder_full
+Pretty in Pink	blazeandcave:biomes/pretty_in_pink
+Pushed Around	blazeandcave:biomes/pushed_around
+Qinling	blazeandcave:biomes/qinling
+Biomes	blazeandcave:biomes/root
+Simba	blazeandcave:biomes/simba
+Sleep with the Fishes	blazeandcave:biomes/sleep_with_the_fishes
+Smooth Operator	blazeandcave:biomes/smooth_operator
+So Long & Thanks For The Fish	blazeandcave:biomes/so_long_and_thanks_for_all_the_fish
+Spike Ice!	blazeandcave:biomes/spike_ice
+Tarzan	blazeandcave:biomes/tarzan
+Ten Thousand Blocks	blazeandcave:biomes/ten_thousand_blocks
+There's a zombie on the lawn	blazeandcave:biomes/theres_a_zombie_on_the_lawn
+The Great Blocky Reef	blazeandcave:biomes/the_great_blocky_reef
+The Mighty Jungle	blazeandcave:biomes/the_mighty_jungle
+The sea calls you...	blazeandcave:biomes/the_sea_calls_you
+Thick Ice!	blazeandcave:biomes/thick_ice
+Thin Ice!	blazeandcave:biomes/thin_ice
+This Snow is Snowier	blazeandcave:biomes/this_snow_is_snowier
+Titanic	blazeandcave:biomes/titanic
+Top of the World	blazeandcave:biomes/top_of_the_world
+Voyage	blazeandcave:biomes/voyage
+Warm Feet	blazeandcave:biomes/warm_feet
+We’re Going on a Bear Hunt	blazeandcave:biomes/were_going_on_a_bear_hunt
+Wet Feet	blazeandcave:biomes/wet_feet
+X Marks the Spot	blazeandcave:biomes/x_marks_the_spot
+Zoologist	blazeandcave:biomes/zoologist
+Agent Smithing Table	blazeandcave:building/agent_smithing_table
+Ah, My Old Enemy...	blazeandcave:building/ah_my_old_enemy
+Aaaaaand... OPEN!	blazeandcave:building/and_open
+Armor Display	blazeandcave:building/armor_display
+Art Gallery	blazeandcave:building/art_gallery
+A Good Start	blazeandcave:building/a_good_start
+A Masterpiece!	blazeandcave:building/a_masterpiece
+Bamboozled	blazeandcave:building/bamboozled
+Barking Mad	blazeandcave:building/barking_mad
+Barrel Rider	blazeandcave:building/barrel_rider
+Blackstonehenge	blazeandcave:building/blackstonehenge
+Blast it!	blazeandcave:building/blast_it
+Bricks!	blazeandcave:building/bricks
+Bubble, Bubble, Toil and Trouble!	blazeandcave:building/bubble_bubble_toil_and_trouble
+Built on Sand, Set in Stone	blazeandcave:building/built_on_sand_set_in_stone
+Camping Out	blazeandcave:building/camping_out
+Cerulean!	blazeandcave:building/cerulean
+Change of Sheets	blazeandcave:building/change_of_sheets
+Cherry Bomb	blazeandcave:building/cherry_bomb
+Classic Pocket Edition Block	blazeandcave:building/classic_pocket_edition_block
+Classy Glassy	blazeandcave:building/classy_glassy
+Clay-Dough!	blazeandcave:building/clay_dough
+Colors of the Wind	blazeandcave:building/colors_of_the_wind
+Concrete Evidence	blazeandcave:building/concrete_evidence
+Crazy Walls	blazeandcave:building/crazy_walls
+Creepers and Withers	blazeandcave:building/creepers_and_withers
+Cut In Half	blazeandcave:building/cut_in_half
+Deepslate Conspiracy	blazeandcave:building/deepslate_conspiracy
+Delicious, Hot Schmoes!	blazeandcave:building/delicious_hot_schmoes
+Electric!	blazeandcave:building/electric
+Elmer Mudd	blazeandcave:building/elmer_mudd
+En Garde	blazeandcave:building/en_garde
+Expensive!	blazeandcave:building/expensive
+Fake fortress	blazeandcave:building/fake_fortress
+Fake monument	blazeandcave:building/fake_monument
+Fake stronghold	blazeandcave:building/fake_stronghold
+Festival of Lights	blazeandcave:building/festival_of_lights
+Fluorescent!	blazeandcave:building/fluorescent
+Fruit of the Looms	blazeandcave:building/fruit_of_the_looms
+Glowing!	blazeandcave:building/glowing
+Grass Type	blazeandcave:building/grass_type
+Greek Art Decor	blazeandcave:building/greek_art_decor
+Halloween!	blazeandcave:building/halloween
+Hanging Around	blazeandcave:building/hanging_around
+Happy Birthday!	blazeandcave:building/happy_birthday
+Harry Potter	blazeandcave:building/harry_potter
+Help! I've been framed!	blazeandcave:building/help_ive_been_framed
+Hot Tub	blazeandcave:building/hot_tub
+Insomniac	blazeandcave:building/insomniac
+It's a Sign!	blazeandcave:building/its_a_sign
+It's a Trap!	blazeandcave:building/its_a_trap
+Its original form	blazeandcave:building/its_original_form
+I don't like sand	blazeandcave:building/i_dont_like_sand
+Jailhouse Block	blazeandcave:building/jailhouse_block
+Ladder Climbers Inc.	blazeandcave:building/ladder_climbers_inc
+Let There Be Light!	blazeandcave:building/let_there_be_light
+Living Dummy	blazeandcave:building/living_dummy
+Lost Its Bark	blazeandcave:building/lost_its_bark
+Mangrove Master	blazeandcave:building/mangrove_master
+Mannequin	blazeandcave:building/mannequin
+Master Logger	blazeandcave:building/master_logger
+No Banner, Only Color!	blazeandcave:building/no_banner_only_color
+No Chain, No Gain	blazeandcave:building/no_chain_no_gain
+One Pickle, Two Pickle, Sea Pickle, Four	blazeandcave:building/one_pickle_two_pickle_sea_pickle_four
+Pane in the Glass	blazeandcave:building/pane_in_the_glass
+Pathways	blazeandcave:building/pathways
+Pot Planter	blazeandcave:building/pot_planter
+Prepare to meet your Loom!	blazeandcave:building/prepare_to_meet_your_loom
+Professor Birch	blazeandcave:building/professor_birch
+Professor Dark Oak	blazeandcave:building/professor_dark_oak
+Professor Oak	blazeandcave:building/professor_oak
+Rainbow Dreams	blazeandcave:building/rainbow_dreams
+Rainbow Sand	blazeandcave:building/rainbow_sand
+Raise the flag!	blazeandcave:building/raise_the_flag
+Rock Collection	blazeandcave:building/rock_collection
+Rock Polish	blazeandcave:building/rock_polish
+Building	blazeandcave:building/root
+Setting up the mood	blazeandcave:building/setting_up_the_mood
+Sharpening Station	blazeandcave:building/sharpening_station
+Shelf Expression	blazeandcave:building/shelf_expression
+Shroom Lightyear	blazeandcave:building/shroom_lightyear
+Sign Off	blazeandcave:building/sign_off
+Skyblock	blazeandcave:building/skyblock
+Slabs For Days	blazeandcave:building/slabs_for_days
+Smooth, dude!	blazeandcave:building/smooth_dude
+Spawn Camping	blazeandcave:building/spawn_camping
+Spruce Lee	blazeandcave:building/spruce_lee
+Stairs? NOOOOO!	blazeandcave:building/stairs_no
+Stationary Storage	blazeandcave:building/stationary_storage
+Stripper	blazeandcave:building/stripper
+Stuck in the Mud	blazeandcave:building/stuck_in_the_mud
+The Acacia King	blazeandcave:building/the_acacia_king
+The Glazed Terracotta Army	blazeandcave:building/the_glazed_terracotta_army
+The Jungler	blazeandcave:building/the_jungler
+The Rainbow You Always Wanted	blazeandcave:building/the_rainbow_you_always_wanted
+The Ritual Begins	blazeandcave:building/the_ritual_begins
+The Terracotta Army	blazeandcave:building/the_terracotta_army
+The Walls	blazeandcave:building/the_walls
+Torched!	blazeandcave:building/torched
+Translucence	blazeandcave:building/translucence
+Washing Machine	blazeandcave:building/washing_machine
+What a pane	blazeandcave:building/what_a_pane
+Writer's Block	blazeandcave:building/writers_block
+Yay! I got my wood!	blazeandcave:building/yay_i_got_my_wood
+Your Door Was Locked	blazeandcave:building/your_door_was_locked
+Abyss Lord	blazeandcave:challenges/abyss_lord
+Ad Astra	blazeandcave:challenges/ad_astra
+All the Blocks!	blazeandcave:challenges/all_the_blocks
+All the Items!	blazeandcave:challenges/all_the_items
+A Million Blocks Away	blazeandcave:challenges/a_million_blocks_away
+Biological Warfare	blazeandcave:challenges/biological_warfare
+Constellation	blazeandcave:challenges/constellation
+Creepergeddon	blazeandcave:challenges/creepergeddon
+Death From All	blazeandcave:challenges/death_from_all
+Dragon Army	blazeandcave:challenges/dragon_army
+Dragon vs Dragon II	blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo
+Dragon vs Wither: Pre-Sequel	blazeandcave:challenges/dragon_vs_wither_the_pre_sequel
+Endergeddon	blazeandcave:challenges/endergeddon
+Explorer of Worlds	blazeandcave:challenges/explorer_of_worlds
+Farlander	blazeandcave:challenges/farlander
+Global Vaccination	blazeandcave:challenges/global_vaccination
+Hearts of the Stack	blazeandcave:challenges/hearts_of_the_stack
+Highway to Hell	blazeandcave:challenges/highway_to_hell
+Immortal	blazeandcave:challenges/immortal
+I'm in Space!	blazeandcave:challenges/im_in_space
+I am Loot!	blazeandcave:challenges/i_am_loot
+Nuclear Fusion	blazeandcave:challenges/nuclear_fusion
+Poglin!	blazeandcave:challenges/poglin
+Potion Master	blazeandcave:challenges/potion_master
+Riddle Me This	blazeandcave:challenges/riddle_me_this
+Rise of the Skeletons	blazeandcave:challenges/rise_of_the_skeletons
+Super Challenges	blazeandcave:challenges/root
+Stack All the Blocks!	blazeandcave:challenges/stack_all_the_blocks
+Stack All the Items!	blazeandcave:challenges/stack_all_the_items
+Stockbroker	blazeandcave:challenges/stockbroker
+Telescopic	blazeandcave:challenges/telescopic
+The Devil's Distance	blazeandcave:challenges/the_devils_distance
+The Perfect Run	blazeandcave:challenges/the_perfect_run
+The World Is Ending	blazeandcave:challenges/the_world_is_ending
+Ultimate Enchanter	blazeandcave:challenges/ultimate_enchanter
+Warlock	blazeandcave:challenges/warlock
+We're in the endgame now	blazeandcave:challenges/were_in_the_endgame_now
+Zombie Apocalypse	blazeandcave:challenges/zombie_apocalypse
+Armor for the masses	blazeandcave:enchanting/armor_for_the_masses
+A rather pointy fence post	blazeandcave:enchanting/a_rather_pointy_fence_post
+Bane of one-shotting spiders	blazeandcave:enchanting/bane_of_one_shotting_spiders
+Baron of Blacksmiths	blazeandcave:enchanting/baron_of_blacksmiths
+Boomerang	blazeandcave:enchanting/boomerang
+Bow down to me!	blazeandcave:enchanting/bow_down_to_me
+Complete Enchanter	blazeandcave:enchanting/complete_enchanter
+Curses!	blazeandcave:enchanting/curses
+Do A Barrel Roll!	blazeandcave:enchanting/do_a_barrel_roll
+Fiery	blazeandcave:enchanting/fiery
+Fortunate Son	blazeandcave:enchanting/fortunate_son
+God of Thunder	blazeandcave:enchanting/god_of_thunder
+Gotta Go Fast!	blazeandcave:enchanting/gotta_go_fast
+Handmade Blinding	blazeandcave:enchanting/handmade_blinding
+Heavy Metal	blazeandcave:enchanting/heavy_metal
+I'll be back	blazeandcave:enchanting/ill_be_back
+Knocking Your Socks Off	blazeandcave:enchanting/knocking_your_socks_off
+Let It Go!	blazeandcave:enchanting/let_it_go
+Librarian	blazeandcave:enchanting/librarian
+Like a Cat	blazeandcave:enchanting/like_a_cat
+Like a Ninja	blazeandcave:enchanting/like_a_ninja
+Machine Bow	blazeandcave:enchanting/machine_bow
+Magical Stockpile	blazeandcave:enchanting/magical_stockpile
+Master Arbalist	blazeandcave:enchanting/master_arbalist
+Master Armorer	blazeandcave:enchanting/master_armorer
+Master Axeman	blazeandcave:enchanting/master_axeman
+Master Digger	blazeandcave:enchanting/master_digger
+Master Enchanter	blazeandcave:enchanting/master_enchanter
+Master Farmer	blazeandcave:enchanting/master_farmer
+Master Fisher	blazeandcave:enchanting/master_fisher
+Master Knight	blazeandcave:enchanting/master_knight
+Master Miner	blazeandcave:enchanting/master_miner
+Master Sniper	blazeandcave:enchanting/master_sniper
+Master Tridenteer	blazeandcave:enchanting/master_tridenteer
+Needle Sharp	blazeandcave:enchanting/needle_sharp
+Newton's Flaming Laser Sword	blazeandcave:enchanting/newtons_flaming_laser_sword
+Overkill	blazeandcave:enchanting/overkill
+Over-Overkill	blazeandcave:enchanting/over_overkill
+Pick Like Silk	blazeandcave:enchanting/pick_like_silk
+Enchanting	blazeandcave:enchanting/root
+Scuba Gear	blazeandcave:enchanting/scuba_gear
+Shotbow	blazeandcave:enchanting/shotbow
+Silent But Deadly	blazeandcave:enchanting/silent_but_deadly
+Super Efficient	blazeandcave:enchanting/super_efficient
+This name sounds cooler	blazeandcave:enchanting/this_name_sounds_cooler
+To Infinity And Beyond!	blazeandcave:enchanting/to_infinity_and_beyond
+Unbreakable	blazeandcave:enchanting/unbreakable
+Undead Slayer	blazeandcave:enchanting/undead_slayer
+Zeus	blazeandcave:enchanting/zeus
+Anti-Gravity Generator	blazeandcave:end/anti_gravity_generator
+A Wizard’s Breakfast	blazeandcave:end/a_wizards_breakfast
+Cow Jumped Over The Moon	blazeandcave:end/cow_jumped_over_the_moon
+Dogfight	blazeandcave:end/dogfight
+Dragon Shield	blazeandcave:end/dragon_shield
+Dragon vs Dragon	blazeandcave:end/dragon_vs_dragon
+End Bricks!	blazeandcave:end/end_bricks
+Event Horizon	blazeandcave:end/event_horizon
+Extrabiologist	blazeandcave:end/extrabiologist
+For Mother, Clarence	blazeandcave:end/for_mother_clarence
+Getting Chorus	blazeandcave:end/getting_chorus
+Good Luck Getting This One	blazeandcave:end/good_luck_getting_this_one
+I'm Coming Back, Murph!	blazeandcave:end/im_coming_back_murph
+In Your Face, Neil Armstrong	blazeandcave:end/in_your_face_neil_armstrong
+No! Don't let me leave, Murph!	blazeandcave:end/no_dont_let_me_leave_murph
+Off With His Head!	blazeandcave:end/off_with_his_head
+Organizational Wizard	blazeandcave:end/organizational_wizard
+Portable Storage	blazeandcave:end/portable_storage
+Purpurfect!	blazeandcave:end/purpurfect
+Ring of the End	blazeandcave:end/ring_of_the_end
+Rocketman	blazeandcave:end/rocketman
+Shouldn't my shield levitate too?	blazeandcave:end/shouldnt_my_shield_levitate_too
+Shulker Breaker	blazeandcave:end/shulker_breaker
+Sky High	blazeandcave:end/sky_high
+Somewhere Over The Rainbow...	blazeandcave:end/somewhere_over_the_rainbow
+Some Breakthrough	blazeandcave:end/some_breakthrough
+The Actual End	blazeandcave:end/the_actual_end
+The Beginning	blazeandcave:end/the_beginning
+The Point of No Return	blazeandcave:end/the_point_of_no_return
+The Start of Something	blazeandcave:end/the_start_of_something
+The Void Frogs	blazeandcave:end/the_void_frogs
+Uh, Houston? We have a problem	blazeandcave:end/uh_houston_we_have_a_problem
+Unending Hell	blazeandcave:end/unending_hell
+Void Walker	blazeandcave:end/void_walker
+What For?	blazeandcave:end/what_for
+24 Carrot Gold	blazeandcave:farming/24_carrot_gold
+An amazing story!	blazeandcave:farming/an_amazing_story
+An Apple a Day	blazeandcave:farming/an_apple_a_day
+Aquatic Biofuel	blazeandcave:farming/aquatic_biofuel
+A Gluttonous Diet	blazeandcave:farming/a_gluttonous_diet
+A Mangrove Grove	blazeandcave:farming/a_mangrove_grove
+Bake Bread	blazeandcave:farming/bake_bread
+Bapple!	blazeandcave:farming/bapple
+Berry Nice!	blazeandcave:farming/berry_nice
+Care For the Environment	blazeandcave:farming/care_for_the_environment
+Castaway	blazeandcave:farming/castaway
+Combine Harvester	blazeandcave:farming/combine_harvester
+Come to the countryside!	blazeandcave:farming/come_to_the_countryside
+Die, Potato!	blazeandcave:farming/die_potato
+Disen Berry Berry Bad!	blazeandcave:farming/disen_berry_berry_bad
+Ecologist	blazeandcave:farming/ecologist
+Foliage	blazeandcave:farming/foliage
+Full Stomach	blazeandcave:farming/full_stomach
+Hay there!	blazeandcave:farming/hay_there
+Hot Chocolate	blazeandcave:farming/hot_chocolate
+I'm gonna be sick!	blazeandcave:farming/im_gonna_be_sick
+It's a cactus!	blazeandcave:farming/its_a_cactus
+It's full of ink	blazeandcave:farming/its_full_of_ink
+It's where nutella comes from	blazeandcave:farming/its_where_nutella_comes_from
+Kelp me!	blazeandcave:farming/kelp_me
+Meat Lovers	blazeandcave:farming/meat_lovers
+Mega Mushroom	blazeandcave:farming/mega_mushroom
+Me Love Cookie	blazeandcave:farming/me_love_cookie
+Mushroom, Mushroom!	blazeandcave:farming/mushroom_mushroom
+Must be your birthday	blazeandcave:farming/must_be_your_birthday
+Naturally Carved	blazeandcave:farming/naturally_carved
+Natural Fertiliser	blazeandcave:farming/natural_fertiliser
+Not Today!	blazeandcave:farming/not_today
+Olaf	blazeandcave:farming/olaf
+One-course meal	blazeandcave:farming/one_course_meal
+Pumpa kungen!	blazeandcave:farming/pumpa_kungen
+Farming	blazeandcave:farming/root
+Scientific Inaccuracy	blazeandcave:farming/scientific_inaccuracy
+Shrooms	blazeandcave:farming/shrooms
+Souperman	blazeandcave:farming/souperman
+Spikey!	blazeandcave:farming/spikey
+Squid Game	blazeandcave:farming/squid_game
+Sugar, Sugar	blazeandcave:farming/sugar_sugar
+Suspicious Looking Stew	blazeandcave:farming/suspicious_looking_stew
+The garbage will do!	blazeandcave:farming/the_garbage_will_do
+The Lie	blazeandcave:farming/the_lie
+The Meloncholy Dane	blazeandcave:farming/the_meloncholy_dane
+The Melon! The Melon! The Melon!	blazeandcave:farming/the_melon_the_melon_the_melon
+The Pie	blazeandcave:farming/the_pie
+Trimming the Treetops	blazeandcave:farming/trimming_the_treetops
+Ultra Hardcore	blazeandcave:farming/ultra_hardcore
+Undersea Gardener	blazeandcave:farming/undersea_gardener
+Unmasked	blazeandcave:farming/unmasked
+Vegetarian	blazeandcave:farming/vegetarian
+What's new with composting?	blazeandcave:farming/whats_new_with_composting
+Write your thoughts	blazeandcave:farming/write_your_thoughts
+Yay! Deadbush!	blazeandcave:farming/yay_deadbush
+9 to 5	blazeandcave:mining/9_to_5
+Amethyst Miner	blazeandcave:mining/amethyst_miner
+Aww it broke!	blazeandcave:mining/aww_it_broke
+A Shiny Treat	blazeandcave:mining/a_shiny_treat
+Blackout	blazeandcave:mining/blackout
+Blind as a Bat	blazeandcave:mining/blind_as_a_bat
+Bling Bling Gone	blazeandcave:mining/bling_bling_gone
+Bonfire Night	blazeandcave:mining/bonfire_night
+Bottom to Top	blazeandcave:mining/bottom_to_top
+Budget Channeling	blazeandcave:mining/budget_channeling
+Bulldozer	blazeandcave:mining/bulldozer
+Called Shot	blazeandcave:mining/called_shot
+Chestful of Cobblestone	blazeandcave:mining/chestful_of_cobblestone
+Coal Miner	blazeandcave:mining/coal_miner
+Copper Miner	blazeandcave:mining/copper_miner
+Death Pointer	blazeandcave:mining/death_pointer
+Deep Slate Nine	blazeandcave:mining/deep_slate_nine
+Diamonds to you!	blazeandcave:mining/diamonds_to_you
+Diamond Clad	blazeandcave:mining/diamond_clad
+Diamond Miner	blazeandcave:mining/diamond_miner
+DIAM- oh, wait, no.	blazeandcave:mining/diam_oh_wait_no
+Don’t Come a Copper!	blazeandcave:mining/dont_come_a_copper
+Dripstone Drop	blazeandcave:mining/dripstone_drop
+Dungeons and Spawners	blazeandcave:mining/dungeons_and_spawners
+Echonomy	blazeandcave:mining/echonomy
+Eeuuwww!	blazeandcave:mining/eeuuwww
+Emerald Miner	blazeandcave:mining/emerald_miner
+Even MOAR Tools	blazeandcave:mining/even_moar_tools
+Fallen Kingdom	blazeandcave:mining/fallen_kingdom
+Flint Miner	blazeandcave:mining/flint_miner
+Fossil Fuel	blazeandcave:mining/fossil_fuel
+Frigid Diversions	blazeandcave:mining/frigid_diversions
+Galileo Figaro	blazeandcave:mining/galileo_figaro
+G.I. Geode	blazeandcave:mining/gi_geode
+Gold Mine!	blazeandcave:mining/gold_mine
+Gold Miner	blazeandcave:mining/gold_miner
+Gold Rush	blazeandcave:mining/gold_rush
+Good For Your Bones	blazeandcave:mining/good_for_your_bones
+Heart of Darkness	blazeandcave:mining/heart_of_darkness
+Hot Topic	blazeandcave:mining/hot_topic
+Iconic Merchandising Prop	blazeandcave:mining/iconic_merchandising_prop
+Iggy	blazeandcave:mining/iggy
+Iron Man	blazeandcave:mining/iron_man
+Iron Miner	blazeandcave:mining/iron_miner
+Lapis Lazuli Miner	blazeandcave:mining/lapis_lazuli_miner
+Leaflet Drop	blazeandcave:mining/leaflet_drop
+Lichen Subscribe	blazeandcave:mining/lichen_subscribe
+Living Like Kings	blazeandcave:mining/living_like_kings
+Lucky Break	blazeandcave:mining/lucky_break
+Lush Hour	blazeandcave:mining/lush_hour
+Master Coal Miner	blazeandcave:mining/master_coal_miner
+Master Copper Miner	blazeandcave:mining/master_copper_miner
+Master Diamond Miner	blazeandcave:mining/master_diamond_miner
+Master Gold Miner	blazeandcave:mining/master_gold_miner
+Master Iron Miner	blazeandcave:mining/master_iron_miner
+Meet The Flintstones	blazeandcave:mining/meet_the_flintstones
+Mineral Collection	blazeandcave:mining/mineral_collection
+MOAR Broken Tools	blazeandcave:mining/moar_broken_tools
+MOAR Tools	blazeandcave:mining/moar_tools
+Moss Maker	blazeandcave:mining/moss_maker
+Mr. Bean	blazeandcave:mining/mr_bean
+My work here is done	blazeandcave:mining/my_work_here_is_done
+Nananananananana...	blazeandcave:mining/nananananananana
+Not Chicken McNuggets?	blazeandcave:mining/not_chicken_mcnuggets
+Obsidian Miner	blazeandcave:mining/obsidian_miner
+Oresome!	blazeandcave:mining/oresome
+Particle Fan	blazeandcave:mining/particle_fan
+Pixel Perfect	blazeandcave:mining/pixel_perfect
+Redstone Miner	blazeandcave:mining/redstone_miner
+Renewable Energy	blazeandcave:mining/renewable_energy
+Rest in Pickaxes	blazeandcave:mining/rest_in_pickaxes
+Rock Bottom	blazeandcave:mining/rock_bottom
+Mining	blazeandcave:mining/root
+Seeing Red	blazeandcave:mining/seeing_red
+Shriek Forever After	blazeandcave:mining/shriek_forever_after
+Sly Copper: The Copper Heist	blazeandcave:mining/sly_copper_the_copper_heist
+Smokin' Hot	blazeandcave:mining/smokin_hot
+Spelunker	blazeandcave:mining/spelunker
+Stabcraft	blazeandcave:mining/stabcraft
+Steals on Wheels	blazeandcave:mining/steals_on_wheels
+Strike a Light	blazeandcave:mining/strike_a_light
+That's the point!	blazeandcave:mining/thats_the_point
+The Mistake!	blazeandcave:mining/the_mistake
+The Statue of Liberty	blazeandcave:mining/the_statue_of_liberty
+The way to spawn	blazeandcave:mining/the_way_to_spawn
+This Dirt is Dirtier	blazeandcave:mining/this_dirt_is_dirtier
+This is Mine Now!	blazeandcave:mining/this_is_mine_now
+Tuff Stuff	blazeandcave:mining/tuff_stuff
+We've broken our last shovel	blazeandcave:mining/weve_broken_our_last_shovel
+What's the time, Mr Wolf?	blazeandcave:mining/whats_the_time_mr_wolf
+Where are all your clothes?	blazeandcave:mining/where_are_all_your_clothes
+Coppers and Robbers	blazeandcave:mining/youll_never_take_me_alive_copper
+Anti-Air	blazeandcave:monsters/anti_air
+Aww man!	blazeandcave:monsters/aww_man
+A Watery Grave	blazeandcave:monsters/a_watery_grave
+Baby, baby, baby noo!!	blazeandcave:monsters/baby_baby_baby_noo
+Basketblock Championship	blazeandcave:monsters/basketblock_championship
+Because I'm Aquaman!	blazeandcave:monsters/because_im_aquaman
+Blast Shield	blazeandcave:monsters/blast_shield
+Blind Stare	blazeandcave:monsters/blind_stare
+Boned	blazeandcave:monsters/boned
+Bone-to-party	blazeandcave:monsters/bone_to_party
+Camouflage	blazeandcave:monsters/camouflage
+Captain Etho	blazeandcave:monsters/captain_etho
+Controlled Detonation	blazeandcave:monsters/controlled_detonation
+Creeper Killer	blazeandcave:monsters/creeper_killer
+Creepy Heads	blazeandcave:monsters/creepy_heads
+Custom Boss Fight!	blazeandcave:monsters/custom_boss_fight
+Dead Don't Die	blazeandcave:monsters/dead_dont_die
+Dead Really Don’t Die	blazeandcave:monsters/dead_really_dont_die
+Desert Nomad	blazeandcave:monsters/desert_nomad
+Dungeon Crawler	blazeandcave:monsters/dungeon_crawler
+Enderman Destroyer	blazeandcave:monsters/enderman_destroyer
+Ender Worm	blazeandcave:monsters/ender_worm
+Ew Ew Ew!	blazeandcave:monsters/ew_ew_ew
+Family Reunion	blazeandcave:monsters/family_reunion
+Freezing	blazeandcave:monsters/freezing
+Frosty	blazeandcave:monsters/frosty
+Gelatinous Cube	blazeandcave:monsters/gelatinous_cube
+Handsome Jack	blazeandcave:monsters/handsome_jack
+Hell Hunter	blazeandcave:monsters/hell_hunter
+House of Freaks	blazeandcave:monsters/house_of_freaks
+Impossible...	blazeandcave:monsters/impossible
+Iron Belly	blazeandcave:monsters/iron_belly
+Iskallium Collector	blazeandcave:monsters/iskallium_collector
+Keep Your Distance	blazeandcave:monsters/keep_your_distance
+Maximum Resistance	blazeandcave:monsters/maximum_resistance
+Melting	blazeandcave:monsters/melting
+Miracle Drink	blazeandcave:monsters/miracle_drink
+Mollusc Man	blazeandcave:monsters/mollusc_man
+Night Runner	blazeandcave:monsters/night_runner
+Not Afraid of Heights	blazeandcave:monsters/not_afraid_of_heights
+Now that's a lot of damage	blazeandcave:monsters/now_thats_a_lot_of_damage
+Ooh, Baby!	blazeandcave:monsters/ooh_baby
+Paleontologist	blazeandcave:monsters/paleontologist
+Phantom Slayer	blazeandcave:monsters/phantom_slayer
+Plane Walker	blazeandcave:monsters/plane_walker
+Poisonous Ew	blazeandcave:monsters/poisonous_ew
+Poultry Boy	blazeandcave:monsters/poultry_boy
+Pupil Poppers	blazeandcave:monsters/pupil_poppers
+Ricochet Swoop	blazeandcave:monsters/ricochet_swoop
+Monsters	blazeandcave:monsters/root
+Skeleton Smiter	blazeandcave:monsters/skeleton_smiter
+Slime Squisher	blazeandcave:monsters/slime_squisher
+Spider-skeleton	blazeandcave:monsters/spider_skeleton
+Spider Smasher	blazeandcave:monsters/spider_smasher
+Spooky Skeleton	blazeandcave:monsters/spooky_skeleton
+Spooky Skulls	blazeandcave:monsters/spooky_skulls
+Stealth is Optional	blazeandcave:monsters/stealth_is_optional
+Still Talking!	blazeandcave:monsters/still_talking
+Taste of your own medicine	blazeandcave:monsters/taste_of_your_own_medicine
+Tele-Morph	blazeandcave:monsters/tele_morph
+Termite Control	blazeandcave:monsters/termite_control
+There has to be another way...	blazeandcave:monsters/there_has_to_be_another_way
+The ender of ender	blazeandcave:monsters/the_ender_of_ender
+The Ghastly Eyes	blazeandcave:monsters/the_ghastly_eyes
+The Phantom Menace	blazeandcave:monsters/the_phantom_menace
+The Undead Cavalry	blazeandcave:monsters/the_undead_cavalry
+Trampoline	blazeandcave:monsters/trampoline
+Trick or Treat!	blazeandcave:monsters/trick_or_treat
+Tridented Shield	blazeandcave:monsters/tridented_shield
+Void Ender	blazeandcave:monsters/void_ender
+Warden Frostbite	blazeandcave:monsters/warden_frostbite
+We'll handle this	blazeandcave:monsters/well_handle_this
+What a creep!	blazeandcave:monsters/what_a_creep
+Witch!	blazeandcave:monsters/witch
+Zombie Slayer	blazeandcave:monsters/zombie_slayer
+Anchorman	blazeandcave:nether/anchorman
+Ancient Restoration	blazeandcave:nether/ancient_restoration
+Astrobrute	blazeandcave:nether/astrobrute
+A Piglin's Best Friend	blazeandcave:nether/a_piglins_best_friend
+A Soul For A Soul	blazeandcave:nether/a_soul_for_a_soul
+Basis of Brewing	blazeandcave:nether/basis_of_brewing
+Beacon Overlord	blazeandcave:nether/beacon_overlord
+Blaze Extinguisher	blazeandcave:nether/blaze_extinguisher
+Bobbleheads	blazeandcave:nether/bobbleheads
+Bring Down The Beast	blazeandcave:nether/bring_down_the_beast
+Brute Force	blazeandcave:nether/brute_force
+Burnt Right Into Your Soul	blazeandcave:nether/burnt_right_into_your_soul
+Cultural Misunderstandings	blazeandcave:nether/cultural_misunderstandings
+Dark Ages	blazeandcave:nether/dark_ages
+Decaying Beauty	blazeandcave:nether/decaying_beauty
+Diamonds Are Not Forever	blazeandcave:nether/diamonds_are_not_forever
+Don't Blink	blazeandcave:nether/dont_blink
+Electrifying Alliance	blazeandcave:nether/electrifying_alliance
+Ender's Chest	blazeandcave:nether/enders_chest
+Et tu, Brute?	blazeandcave:nether/et_tu_brute
+Fire Blast Shield	blazeandcave:nether/fire_blast_shield
+Fool Me Twice	blazeandcave:nether/fool_me_twice
+From Whence It Came!	blazeandcave:nether/from_whence_it_came
+Get a Lode Of This!	blazeandcave:nether/get_a_lode_of_this
+Ghast Slayer	blazeandcave:nether/ghast_slayer
+Giant Floating Jellyfish	blazeandcave:nether/giant_floating_jellyfish
+Giddy Up!	blazeandcave:nether/giddy_up
+Gilded Miner	blazeandcave:nether/gilded_miner
+Gilty!	blazeandcave:nether/gilty
+Glowstone Miner	blazeandcave:nether/glowstone_miner
+Glows in the Dark	blazeandcave:nether/glows_in_the_dark
+Hell's Bells	blazeandcave:nether/hells_bells
+Hell Botanist	blazeandcave:nether/hell_botanist
+High Temperature Fluid Monster	blazeandcave:nether/high_temperature_fluid_monster
+Holy Scrap!	blazeandcave:nether/holy_scrap
+Hot Reels!	blazeandcave:nether/hot_reels
+Hot Spring	blazeandcave:nether/hot_spring
+Hung, Drawn and Bartered	blazeandcave:nether/hung_drawn_and_bartered
+I'm in Lava With You	blazeandcave:nether/im_in_lava_with_you
+Inception	blazeandcave:nether/inception
+Instant Mining	blazeandcave:nether/instant_mining
+I am Root	blazeandcave:nether/i_am_root
+Jenga	blazeandcave:nether/jenga
+Legend of Hell Chicken Riders	blazeandcave:nether/legend_of_hell_chicken_riders
+Let Me Out!	blazeandcave:nether/let_me_out
+Limbo Walker	blazeandcave:nether/limbo_walker
+Lodes of Applications	blazeandcave:nether/lodes_of_applications
+Ludicrous Speed!	blazeandcave:nether/ludicrous_speed
+Magma Cube Squisher	blazeandcave:nether/magma_cube_squisher
+Master Netherite Miner	blazeandcave:nether/master_netherite_miner
+MOAR Upgraded Tools	blazeandcave:nether/moar_upgraded_tools
+Netherite Mad Lad	blazeandcave:nether/netherite_mad_lad
+Netherite Miner	blazeandcave:nether/netherite_miner
+Nether Rock Collection	blazeandcave:nether/nether_rock_collection
+Nugget in a Biscuit	blazeandcave:nether/nugget_in_a_biscuit
+Piglin Peril	blazeandcave:nether/piglin_peril
+Polar Opposites	blazeandcave:nether/polar_opposites
+Quicksand	blazeandcave:nether/quicksand
+Roadhog	blazeandcave:nether/roadhog
+Seeing Stars	blazeandcave:nether/seeing_stars
+Soul Runnings!	blazeandcave:nether/soul_runnings
+Spreading Corruption	blazeandcave:nether/spreading_corruption
+Stem Research	blazeandcave:nether/stem_research
+Stepping on Legos	blazeandcave:nether/stepping_on_legos
+The Descent	blazeandcave:nether/the_descent
+The Hunt Begins	blazeandcave:nether/the_hunt_begins
+The Nether's Shield	blazeandcave:nether/the_nethers_shield
+The Struggle Nether Ends	blazeandcave:nether/the_struggle_nether_ends
+The Tribal Snouts	blazeandcave:nether/the_tribal_snouts
+This One’s Mine!	blazeandcave:nether/this_ones_mine
+Time to Fire Back	blazeandcave:nether/time_to_fire_back
+Time to Upgrade!	blazeandcave:nether/time_to_upgrade
+Twisted	blazeandcave:nether/twisted
+Welcome to Warp Zone!	blazeandcave:nether/welcome_to_warp_zone
+We Got a Live One!	blazeandcave:nether/we_got_a_live_one
+What about Corruption Planks?	blazeandcave:nether/what_about_corruption_planks
+What a Fungi!	blazeandcave:nether/what_a_fungi
+When Hoglins Breed	blazeandcave:nether/when_hoglins_breed
+When Piglins Fly	blazeandcave:nether/when_piglins_fly
+Whole Hog	blazeandcave:nether/whole_hog
+Wub wub wub!	blazeandcave:nether/wub_wub_wub
+Zork Chop	blazeandcave:nether/zork_chop
+A Furious Test Subject	blazeandcave:potion/a_furious_test_subject
+A Much More Doable Challenge	blazeandcave:potion/a_much_more_doable_challenge
+A Weak Brew	blazeandcave:potion/a_weak_brew
+Death by Magic	blazeandcave:potion/death_by_magic
+Failed Concoctions	blazeandcave:potion/failed_concoctions
+Furious Ammunition	blazeandcave:potion/furious_ammunition
+Gas!	blazeandcave:potion/gas
+Gas Bomb	blazeandcave:potion/gas_bomb
+Hopping Mad	blazeandcave:potion/hopping_mad
+Hyper-Healing	blazeandcave:potion/hyper_healing
+Mad Scientist	blazeandcave:potion/mad_scientist
+Marine Marauder	blazeandcave:potion/marine_marauder
+Medic!	blazeandcave:potion/medic
+Nocturnal	blazeandcave:potion/nocturnal
+Noxious Fumes	blazeandcave:potion/noxious_fumes
+Performance-Enhancing Drugs	blazeandcave:potion/performance_enhancing_drugs
+Poison Dart	blazeandcave:potion/poison_dart
+Potions	blazeandcave:potion/root
+Stayin' Frosty	blazeandcave:potion/stayin_frosty
+Stealth Takedown	blazeandcave:potion/stealth_takedown
+Super Strength	blazeandcave:potion/super_strength
+Tank	blazeandcave:potion/tank
+The Invisible Player	blazeandcave:potion/the_invisible_player
+True Feather Falling	blazeandcave:potion/true_feather_falling
+All Aboard!	blazeandcave:redstone/all_aboard
+Bling Plate	blazeandcave:redstone/bling_plate
+Calibration Sensation	blazeandcave:redstone/calibration_sensation
+Cataclyst	blazeandcave:redstone/cataclyst
+Click!	blazeandcave:redstone/click
+Comparing Comparator	blazeandcave:redstone/comparing_comparator
+Dispense With This	blazeandcave:redstone/dispense_with_this
+Electric Rails	blazeandcave:redstone/electric_rails
+Engineer	blazeandcave:redstone/engineer
+Fuel Engine	blazeandcave:redstone/fuel_engine
+Leveraging Synergy	blazeandcave:redstone/leveraging_synergy
+Master Engineer	blazeandcave:redstone/master_engineer
+Metal Plate	blazeandcave:redstone/metal_plate
+Mobile Explosion	blazeandcave:redstone/mobile_explosion
+Monstrous Music	blazeandcave:redstone/monstrous_music
+Monstrous Sacrifices	blazeandcave:redstone/monstrous_sacrifices
+Moving Moving Storage	blazeandcave:redstone/moving_moving_storage
+Moving Parts	blazeandcave:redstone/moving_parts
+Moving Storage	blazeandcave:redstone/moving_storage
+Mozart	blazeandcave:redstone/mozart
+Noteworthy	blazeandcave:redstone/noteworthy
+Observer Buddy	blazeandcave:redstone/observer_buddy
+On A Rail	blazeandcave:redstone/on_a_rail
+Powerful Light	blazeandcave:redstone/powerful_light
+Pressure Detector	blazeandcave:redstone/pressure_detector
+Quartz Miner	blazeandcave:redstone/quartz_miner
+Quirky Quartz	blazeandcave:redstone/quirky_quartz
+Railwayman	blazeandcave:redstone/railwayman
+Repeating Repeater	blazeandcave:redstone/repeating_repeater
+Redstone	blazeandcave:redstone/root
+Sculker Box	blazeandcave:redstone/sculker_box
+Solar Power	blazeandcave:redstone/solar_power
+Space Dropper	blazeandcave:redstone/space_dropper
+Space Hopper	blazeandcave:redstone/space_hopper
+Sticky Parts	blazeandcave:redstone/sticky_parts
+Take Notes	blazeandcave:redstone/take_notes
+Target Acquired	blazeandcave:redstone/target_acquired
+Target Practise	blazeandcave:redstone/target_practise
+The Block of Eternal Screaming	blazeandcave:redstone/the_block_of_eternal_screaming
+The Incredible Sculk	blazeandcave:redstone/the_incredible_sculk
+Travelling Bard	blazeandcave:redstone/travelling_bard
+Tripping Over	blazeandcave:redstone/tripping_over
+Troll Chest	blazeandcave:redstone/troll_chest
+Under Pressure	blazeandcave:redstone/under_pressure
+Vibe Check	blazeandcave:redstone/vibe_check
+65	blazeandcave:statistics/65_hours_of_walking
+Ancient Kung Fu Master	blazeandcave:statistics/ancient_kung_fu_master
+Big Spender	blazeandcave:statistics/big_spender
+Black Belt Ninja	blazeandcave:statistics/black_belt_ninja
+Bloodthirsty	blazeandcave:statistics/bloodthirsty
+Boing, Boing	blazeandcave:statistics/boing_boing
+Cupid	blazeandcave:statistics/cupid
+Elderly Enchanter	blazeandcave:statistics/elderly_enchanter
+Food, Glorious Food!	blazeandcave:statistics/food_glorious_food
+Frequent Flyer	blazeandcave:statistics/frequent_flyer
+Giga XP Grinder	blazeandcave:statistics/giga_xp_grinder
+Global Railway Network	blazeandcave:statistics/global_railway_network
+Happy New Year!	blazeandcave:statistics/happy_new_year
+Horse Training	blazeandcave:statistics/horse_training
+I enjoy long walks & playing MC	blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft
+I <3 Chests	blazeandcave:statistics/i_heart_chests
+I Like Trains	blazeandcave:statistics/i_like_trains
+Journeyman Enchanter	blazeandcave:statistics/journeyman_enchanter
+Jumping Jacks	blazeandcave:statistics/jumping_jacks
+Kill or be Killed	blazeandcave:statistics/kill_or_be_killed
+Laps in the pool	blazeandcave:statistics/laps_in_the_pool
+Level Up	blazeandcave:statistics/level_up
+Lightning McPig	blazeandcave:statistics/lightning_mcpig
+Loot ‘Em!	blazeandcave:statistics/loot_em
+Luxury Cruise	blazeandcave:statistics/luxury_cruise
+Marathon	blazeandcave:statistics/marathon
+Minecart Rider	blazeandcave:statistics/minecart_rider
+Mob Hunter	blazeandcave:statistics/mob_hunter
+More For Me	blazeandcave:statistics/more_for_me
+Natural Sprinter	blazeandcave:statistics/natural_sprinter
+Novice Enchanter	blazeandcave:statistics/novice_enchanter
+Olympic Athlete	blazeandcave:statistics/olympic_athlete
+Olympic Gold Medallist	blazeandcave:statistics/olympic_gold_medallist
+Om Nom Nom	blazeandcave:statistics/om_nom_nom
+Out for a stroll	blazeandcave:statistics/out_for_a_stroll
+Overlevelling	blazeandcave:statistics/overlevelling
+Passing the Time	blazeandcave:statistics/passing_the_time
+Pig Training	blazeandcave:statistics/pig_training
+Pirate Captain	blazeandcave:statistics/pirate_captain
+Statistics	blazeandcave:statistics/root
+Sailor of the Seven Seas	blazeandcave:statistics/sailor_of_the_seven_seas
+Scourge of the West	blazeandcave:statistics/scourge_of_the_west
+Sheriff Firearm	blazeandcave:statistics/sheriff_firearm
+Sneaky Snitch	blazeandcave:statistics/sneaky_snitch
+Snout 500	blazeandcave:statistics/snout_500
+Spring in your step	blazeandcave:statistics/spring_in_your_step
+STONKS!	blazeandcave:statistics/stonks
+Supersonic	blazeandcave:statistics/supersonic
+Take to the Skies	blazeandcave:statistics/take_to_the_skies
+Taking It In Stride	blazeandcave:statistics/taking_it_in_stride
+The First Night	blazeandcave:statistics/the_first_night
+The Haggler	blazeandcave:statistics/the_haggler
+The Parrots and the Bats	blazeandcave:statistics/the_parrots_and_the_bats
+This Ride Is Lit, Yo!	blazeandcave:statistics/this_ride_is_lit_yo
+Two By Two	blazeandcave:statistics/two_by_two
+Who Needs Boats?	blazeandcave:statistics/who_needs_boats
+Who needs cars?	blazeandcave:statistics/who_needs_cars
+XP Grinder	blazeandcave:statistics/xp_grinder
+Your legs must be tired	blazeandcave:statistics/your_legs_must_be_tired
+Yum Yum Yummo	blazeandcave:statistics/yum_yum_yummo
+NOT AN ADVANCEMENT	blazeandcave:technical/a_wizards_breakfast
+NOT AN ADVANCEMENT	blazeandcave:technical/a_wizards_breakfast_fail
+NOT AN ADVANCEMENT	blazeandcave:technical/bacap_branch_end
+NOT AN ADVANCEMENT	blazeandcave:technical/below_void
+You are a big cheater!	blazeandcave:technical/big_cheater
+NOT AN ADVANCEMENT	blazeandcave:technical/branch1_end
+NOT AN ADVANCEMENT	blazeandcave:technical/branch2_end
+NOT AN ADVANCEMENT	blazeandcave:technical/branch3_end
+NOT AN ADVANCEMENT	blazeandcave:technical/branch4_end
+NOT AN ADVANCEMENT	blazeandcave:technical/branch5_end
+NOT AN ADVANCEMENT	blazeandcave:technical/branch6_end
+NOT AN ADVANCEMENT	blazeandcave:technical/branch7_end
+NOT AN ADVANCEMENT	blazeandcave:technical/branch8_end
+NOT AN ADVANCEMENT	blazeandcave:technical/castaway_fail
+NOT AN ADVANCEMENT	blazeandcave:technical/castaway_start
+You are a big cheater!	blazeandcave:technical/cheater2
+You are a big cheater!	blazeandcave:technical/cheater3
+NOT AN ADVANCEMENT	blazeandcave:technical/consume_food
+NOT AN ADVANCEMENT	blazeandcave:technical/consume_food_null
+NOT AN ADVANCEMENT	blazeandcave:technical/fail_dragon_vs
+NOT AN ADVANCEMENT	blazeandcave:technical/feed_parrot_cookie
+NOT AN ADVANCEMENT	blazeandcave:technical/give_piglin_gold
+NOT AN ADVANCEMENT	blazeandcave:technical/goat_horn_use
+NOT AN ADVANCEMENT	blazeandcave:technical/just_keeps_going_fail
+NOT AN ADVANCEMENT	blazeandcave:technical/just_keeps_going_start
+NOT AN ADVANCEMENT	blazeandcave:technical/kill_dragon
+NOT AN ADVANCEMENT	blazeandcave:technical/kill_wither
+NOT AN ADVANCEMENT	blazeandcave:technical/lucky_break_check
+NOT AN ADVANCEMENT	blazeandcave:technical/on_a_rail_start
+NOT AN ADVANCEMENT	blazeandcave:technical/open_loot_chest
+NOT AN ADVANCEMENT	blazeandcave:technical/place_painting
+NOT AN ADVANCEMENT	blazeandcave:technical/respawn_dragon
+NOT AN ADVANCEMENT	blazeandcave:technical/respawn_wither
+NOT AN ADVANCEMENT	blazeandcave:technical/return_from_void
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_eighth_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_fifth_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_first_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_fourth_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_ninth_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_second_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_seventh_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_sixth_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_tenth_line
+NOT AN ADVANCEMENT	blazeandcave:technical/riddle_third_line
+NOT AN ADVANCEMENT	blazeandcave:technical/sound_the_alarm_check
+NOT AN ADVANCEMENT	blazeandcave:technical/spawn_perfect_all
+NOT AN ADVANCEMENT	blazeandcave:technical/spawn_perfect_one
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch1_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch2_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch3_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch4_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch5_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch6_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch7_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch8_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/stat_branch9_mid
+NOT AN ADVANCEMENT	blazeandcave:technical/unending_hell_end
+You are a big cheater!	blazeandcave:technical/you_are_a_big_cheater
+Artillery	blazeandcave:weaponry/artillery
+Axeman	blazeandcave:weaponry/axeman
+A snowball's chance in hell	blazeandcave:weaponry/a_snowballs_chance_in_hell
+Backfire	blazeandcave:weaponry/backfire
+Bombs Away!	blazeandcave:weaponry/bombs_away
+Bow Spammer	blazeandcave:weaponry/bow_spammer
+Demolitions Expert	blazeandcave:weaponry/demolitions_expert
+Diemonds!	blazeandcave:weaponry/diemonds
+Egging, Dude!	blazeandcave:weaponry/egging_dude
+Expelliarmus!	blazeandcave:weaponry/expelliarmus
+Explosive Fire	blazeandcave:weaponry/explosive_fire
+Fireworks Display	blazeandcave:weaponry/fireworks_display
+Flying Colors	blazeandcave:weaponry/flying_colors
+Half Heart Life	blazeandcave:weaponry/half_heart_life
+Indiana Jones	blazeandcave:weaponry/indiana_jones
+Inspector Gadget	blazeandcave:weaponry/inspector_gadget
+It's time consuming	blazeandcave:weaponry/its_time_consuming
+King of the Sea	blazeandcave:weaponry/king_of_the_sea
+Loser!	blazeandcave:weaponry/loser
+Master Shieldsman	blazeandcave:weaponry/master_shieldsman
+Multiclassed	blazeandcave:weaponry/multiclassed
+My eyes!	blazeandcave:weaponry/my_eyes
+Pig Fishing Tournament	blazeandcave:weaponry/pig_fishing_tournament
+Point Blank	blazeandcave:weaponry/point_blank
+Poseidon vs. Hades	blazeandcave:weaponry/poseidon_vs_hades
+Pyrotechnic	blazeandcave:weaponry/pyrotechnic
+Revenge!	blazeandcave:weaponry/revenge
+Rock, Paper, Shears!	blazeandcave:weaponry/rock_paper_shears
+Weaponry	blazeandcave:weaponry/root
+Shield Luck	blazeandcave:weaponry/shield_luck
+Shovel Knight	blazeandcave:weaponry/shovel_knight
+Sir Knight	blazeandcave:weaponry/sir_knight
+Slapfish	blazeandcave:weaponry/slapfish
+Snowball Fight	blazeandcave:weaponry/snowball_fight
+Spleaf	blazeandcave:weaponry/spleaf
+That is so fletch!	blazeandcave:weaponry/that_is_so_fletch
+There's yolk on my head	blazeandcave:weaponry/theres_yolk_on_my_head
+There it goes…	blazeandcave:weaponry/there_it_goes
+The Aquatic Hunter	blazeandcave:weaponry/the_aquatic_hunter
+The Mighty Hunter	blazeandcave:weaponry/the_mighty_hunter
+Viking	blazeandcave:weaponry/viking
+When Pigs Finally Fly	blazeandcave:weaponry/when_pigs_finally_fly
+Who ya gonna call?	blazeandcave:weaponry/who_ya_gonna_call
+X-Bow	blazeandcave:weaponry/x_bow
