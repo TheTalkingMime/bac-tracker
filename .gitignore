@@ -4,3 +4,4 @@
 credentials.json
 settings.json
 src/__pycache__
+scripts/parse.ipynb
