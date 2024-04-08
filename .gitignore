@@ -3,3 +3,4 @@
 /logs/
 credentials.json
 settings.json
+src/__pycache__
