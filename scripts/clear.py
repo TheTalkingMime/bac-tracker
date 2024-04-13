@@ -1,13 +1,16 @@
-import json, gspread
+import json, gspread, os
+from pathlib import Path
 from itertools import chain
 
 ADV_RANGE = "E2:E"
 ITEMS_RANGE = "C2:C"
 
-with open('settings.json') as f:
+cwd = Path(__file__).resolve().parent.parent
+
+with open(os.path.join(cwd, "settings", "settings.json")) as f:
     settings = json.load(f)
     
-gc = gspread.service_account(filename="credentials.json")
+gc = gspread.service_account(filename=os.path.join(cwd, "settings", "credentials.json"))
 sh = gc.open_by_url(settings['spreadsheet-link'])
 
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
