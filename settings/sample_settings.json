@@ -1,0 +1,20 @@
+{
+    "spreadsheet-link": "Link to your google spreadsheet",
+    "path_to_advs": "Path to your advancement folder (e.g. ../world)",
+    "spreadsheet-format": {
+        "ADVANCEMENTS_SHEET": {
+            "name": "Sheet Name on Google Sheets (e.g. Advancements)",
+            "id_range": "Range of cells with the full path of the advancement (e.g. D2:D)",
+            "status_range": "Range of cells with the true/false progress of the advancement (e.g. H2:H)",
+            "who_range": "Range of cells where the player who did the advancement is listed (e.g. F2:F)",
+            "when_range": "Range of cells for the timestamp (e.g. E2:E)",
+            "progress_range": "Range of cells where the sub-progress is tracked (e.g. G2:G)"
+        },
+        "ITEMS_SHEET": {
+            "name": "Sheet Name on Google Sheets (e.g. All Items/Blocks)",
+            "id_range": "Range of cells with the full path of the item (e.g. E2:E)",
+            "status_range": "Range of cells with the true/false progress of the advancement (e.g. C2:C)",
+            "who_range":"Range of cells where the player who did the advancement is listed (e.g. A2:A)"
+        }
+    }
+}
