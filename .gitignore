@@ -4,3 +4,5 @@
 credentials.json
 settings.json
 src/__pycache__
+/scripts/
+bac_tracker.code-workspace
