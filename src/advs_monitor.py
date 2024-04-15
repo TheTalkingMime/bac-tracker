@@ -4,8 +4,8 @@ class AdvMonitor:
     def __init__(self, adv_folder, cwd):
         self.adv_folder = adv_folder
         self.cwd = cwd
-        self.advancements_list = self.get_data(filename='advname_to_path.csv')
-        self.items_list = self.get_data(filename='item_to_adv.csv')
+        self.advancements_list = self.get_data('advname_to_path.csv')
+        self.items_list = self.get_data('item_to_adv.csv')
 
     def check_advancements(self, curr):
         """
@@ -48,19 +48,12 @@ class AdvMonitor:
 
         return (max_completed_advs, max_completed_items)
 
-    # def get_data(self, filename='advname_to_path.csv'):
-    #     advancements_list = []
-    #     with open(os.path.join(self.cwd, 'data', filename), mode='r') as f:
-    #         reader = csv.reader(f, delimiter='\t')
-    #         for row in reader:
-    #             advancements_list.append(row[1])
-    #     return advancements_list
-    
-    def get_data(self, filename='item_to_adv.csv'):
-        items_list = []
-        with open(os.path.join(self.cwd, 'data', filename), mode='r') as f:
+   
+    def get_data(self, filename):
+        data_list = []
+        with open(os.path.join(self.cwd, 'data', filename), mode='r', encoding='utf-8') as f:
             reader = csv.reader(f, delimiter='\t')
             for row in reader:
-                items_list.append(row)
-        return items_list
+                data_list.append(row)
+        return data_list
     
