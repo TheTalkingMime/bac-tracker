@@ -1,28 +1,29 @@
 import json, csv, os, time
 import datetime
 import traceback
-import sheets
 from advs_monitor import AdvMonitor
 from sheets import SheetsManager
+from log_monitor import LogMonitor
 from pathlib import Path
 
 
 def main():
     settings = load_settings()
-    cwd = settings['cwd']
+    cwd = settings['cwd'] 
 
     sheets_manager = SheetsManager(settings)
     adv_tracker = AdvMonitor(os.path.join(cwd.parent, 'world', 'advancements'), cwd)
+    log_tracker = LogMonitor('E:\\MultiMC\\instances\\1.20.4\\.minecraft\\logs\\latest.log', adv_tracker.advancements_list)
 
     while True:
         adv_data, item_data = adv_tracker.check_adv_directory()     
 
-        sheets_manager.push_to_gsheet(adv_data, 'ADVANCEMENTS_SHEET')
-        sheets_manager.push_to_gsheet(item_data, 'ITEMS_SHEET')
-
+        sheets_manager.update_progress(adv_data, 'ADVANCEMENTS_SHEET')
+        sheets_manager.update_progress(item_data, 'ITEMS_SHEET')
+        sheets_manager.update_first_completions(log_tracker.check())
         print("Updated sheet")
 
-        time.sleep(300)
+        time.sleep(10)
 
 
 
