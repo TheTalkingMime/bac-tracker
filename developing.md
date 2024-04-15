@@ -19,6 +19,14 @@
    - [x] track the completer
    - [x] track timestamp
    - [x] Add spreadsheet support
+ - [ ] Add a setup on script startup
+   - [ ] Populate path
+   - [ ] UI/NoUI options
+ - [ ] Make a generalized parsing script for building the needed csvs
+   - [ ] Fix parsing for 65 hours of walking
+ - [ ] Make API calls asynchronous
+ - [ ] Push player heads to spreadsheet instead of player names
+   - [ ] Add UUID mappings to player names and vice versa
 
 
 ## Bugs
