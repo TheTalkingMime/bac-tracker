@@ -36,5 +36,8 @@ class Players():
         self.name_to_uuid[name] = uuid
 
     def get_face_url(self, name):
-        uuid = self.get_uuid(name)
+        if len(name) <= 16:
+            uuid = self.get_uuid(name)
+        else:
+            uuid = name
         return f"https://crafatar.com/avatars/{uuid}?size=16&overlay"
