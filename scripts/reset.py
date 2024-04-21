@@ -59,7 +59,15 @@ adv_vals = [{
                 'range': adv_sheet_format['incomplete_range'],
                 'values': [[""] for x in range(adv_len)]
             }]
-item_vals = [[False] for _ in range(item_len)]
+
+item_vals = [{
+                'range': items_sheet_format['status_range'],
+                'values': [[False] for x in range(adv_len)]
+            },
+            {
+                'range': items_sheet_format['who_range'],
+                'values': [[""] for x in range(adv_len)]
+            }]
 
 advancementsSheet.batch_update(adv_vals)
-itemsSheet.update(item_vals, items_sheet_format['id_range'])
+itemsSheet.batch_update(item_vals)
