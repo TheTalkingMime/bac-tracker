@@ -1,36 +1,89 @@
 import gspread, os, re
 from itertools import chain
-
+from player_data import Players
 class SheetsManager:
     def __init__(self, settings):
         gc = gspread.service_account(filename= os.path.join(settings['cwd'], 'settings', 'credentials.json'))
         self.conn = gc.open_by_url(settings['spreadsheet-link'])
         self.spreadsheet_format = settings['spreadsheet-format']
         self.sheets_info = {}
+        self.player_data = Players()
+        
+        # Frontload API call to get sheet info and mappings
+        self.get_sheet_info('ADVANCEMENTS_SHEET')
+        self.get_sheet_info('ITEMS_SHEET')
 
     def format_to_spreadsheet(self, completed_objs, sheet_type):
         sheet_info = self.get_sheet_info(sheet_type)
-        range = sheet_info['format']['status_range']
+        sheets_range = sheet_info['format']['status_range']
         mapping = sheet_info['mapping']
 
-        data = []
+        print(f"Mapping length is {len(mapping)}")
+        values = [[False] for _ in range(len(sheet_info['mapping']))]
         for adv in list(completed_objs):
-            if adv not in sheet_info['mapping']:
+            if adv not in mapping:
                 continue
-            data.append({
-                'range': self.get_cell(range, mapping[adv]),
-                'values': [[True]]
-            })
-        return data
+            idx = mapping[adv]
+            values[idx] = [True]
+        return {
+                'range': sheets_range,
+                'values': values
+            }
     
-    """
-    Handles log data. Updates the who, when, and progress column.
-    """
+    def update_advancement_progress(self, adv_progress):
+        """
+        Formats the adv_progress dict for gspread.
+
+        adv_progress format:
+        [key] : adv_path (str)
+        [0] : % complete (float)
+        [1] : Fraction representation of progress (str)
+        [2] : Incomplete criteria, if applicable (str)
+        [3] : Is adv complete (bool)
+        [4] : Player UUID (str)
+        """
+        sheet_info = self.get_sheet_info('ADVANCEMENTS_SHEET')
+        sheet_format = sheet_info['format']
+        mapping = sheet_info['mapping']
+
+        sheet_data = []
+        for adv in adv_progress:
+            info = adv_progress[adv]
+            index = mapping[adv]            
+            
+            row_data = [{
+                'range': self.get_cell(sheet_format['progress_range'], index),
+                'values': [[info[1]]]
+            },
+            {
+                'range': self.get_cell(sheet_format['incomplete_range'], index),
+                'values': [[info[2]]]
+            },
+            {
+                'range': self.get_cell(sheet_format['status_range'], index),
+                'values': [[info[3]]]
+            }]
+            if info[4] is not None:
+                row_data.extend([{
+                    'range': self.get_cell(sheet_format['who_range'], index),
+                    'values': [[self.get_face(info[4])]]
+                }])
+            sheet_data.extend(row_data)
+            
+        sheet_info['worksheet'].batch_update(sheet_data, value_input_option='USER_ENTERED')
+        return sheet_data
+
+
+    
+   
     def update_first_completions(self, log_data):
+        """
+        Handles log data. Updates the who, when, and progress column and formats it to gspread.
+        """
         sheet_info = self.get_sheet_info('ADVANCEMENTS_SHEET')
         sheet_format = sheet_info['format']
 
-        data = []
+        sheet_data = []
         for completion in log_data:
             timestamp = completion['timestamp']
             player = completion['player']
@@ -40,37 +93,42 @@ class SheetsManager:
                 print(f"Unmapped advancement: {advancement}")
                 continue
             index = mapping[advancement]
+            player_face = self.get_face(player)
 
-            data.extend([{
+            sheet_data.extend([{
                 'range': self.get_cell(sheet_format['status_range'], index),
                 'values': [[True]]
             },
             {
                 'range': self.get_cell(sheet_format['who_range'], index),
-                'values': [[player]]
+                'values': [[player_face]]
             },
             {
                 'range': self.get_cell(sheet_format['when_range'], index),
                 'values': [[timestamp]]
             }])
-        print(f"Updating spreadsheet... adding {int(len(data)/3)} amounts of data")
-        sheet_info['worksheet'].batch_update(data)
-        return data
+        print(f"Updating spreadsheet... adding {int(len(sheet_data)/3)} amounts of data")
+        sheet_info['worksheet'].batch_update(sheet_data, value_input_option='USER_ENTERED')
+        return sheet_data
 
 
     def update_progress(self, completed_objs, sheet_type):
         sheet_info = self.get_sheet_info(sheet_type)
         data = self.format_to_spreadsheet(completed_objs, sheet_type)
-        sheet_info['worksheet'].batch_update(data)
+        sheet_info['worksheet'].update(data['range'], data['values'])
 
     def get_mapping(self, worksheet, sheet_format):
         ordering = list(chain.from_iterable(worksheet.get(sheet_format['id_range'])))
         mapping = {item: i for i, item in enumerate(ordering)}
         return mapping
     
-    def get_cell(self, range, index):
+    def get_cell(self, range, index:int):
         col, row = re.match("^([A-Za-z]+)(\d+)", range).groups()
-        return f"{col}{row+index}"
+        return f"{col}{str(int(row)+index)}"
+
+    def get_face(self, player_name):
+        face_url = self.player_data.get_face_url(player_name)
+        return f'=IMAGE("{face_url}")'
 
     def get_sheet_info(self, sheet_type):
         if sheet_type in self.sheets_info:
@@ -86,3 +144,10 @@ class SheetsManager:
             'mapping': mapping
         }
         return self.sheets_info[sheet_type]
+    
+    def get_adv_list(self):
+        if 'ADVANCEMENTS_SHEET' not in self.sheets_info:
+            return self.conn.worksheet()
+        sheet_mapping = self.sheets_info['ADVANCEMENTS_SHEET']['mapping']
+        return list(sheet_mapping.keys())
+        
