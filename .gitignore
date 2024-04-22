@@ -1,8 +1,6 @@
 /advancements/
 /bac_datapack/
-/logs/
 credentials.json
 settings.json
-src/__pycache__
-/scripts/
+src/__pycache__ 
 bac_tracker.code-workspace

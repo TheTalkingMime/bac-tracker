@@ -12,15 +12,18 @@ def main():
     cwd = settings['cwd'] 
 
     sheets_manager = SheetsManager(settings)
-    adv_tracker = AdvMonitor(os.path.join(cwd.parent, 'world', 'advancements'), cwd)
-    log_tracker = LogMonitor('E:\\MultiMC\\instances\\1.20.4\\.minecraft\\logs\\latest.log', adv_tracker.advancements_list)
+    required_advs = sheets_manager.get_adv_list()
+
+    adv_tracker = AdvMonitor('E:\\MultiMC\\instances\\1.20.4\.minecraft\\saves\\world (29)\\advancements', cwd, required_advs)
+    log_tracker = LogMonitor('E:\\MultiMC\\instances\\1.20.4\\.minecraft\\logs\\latest.log', adv_tracker.get_data('advname_to_path.csv'))
 
     refresh_rate = 10
     time_passed = 0
     while True:
-        if time_passed % 300 == 0:
-            adv_data, item_data = adv_tracker.check_adv_directory()     
-            sheets_manager.update_progress(adv_data, 'ADVANCEMENTS_SHEET')
+        if time_passed % 30 == 0:
+            time_passed = 0
+            adv_data, item_data = adv_tracker.check_adv_directory()
+            sheets_manager.update_advancement_progress(adv_data)
             sheets_manager.update_progress(item_data, 'ITEMS_SHEET')
         
         sheets_manager.update_first_completions(log_tracker.check())
