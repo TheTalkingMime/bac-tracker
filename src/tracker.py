@@ -14,22 +14,19 @@ def main():
     sheets_manager = SheetsManager(settings)
     required_advs = sheets_manager.get_adv_list()
 
-    adv_tracker = AdvMonitor(os.path.join(cwd.parent, 'world', 'advancements'), cwd, required_advs)
-
-    # required_advs_list = {k: adv_tracker.advancements_list[k] for k in required_advs}
-
-    # log_tracker = LogMonitor('E:\\MultiMC\\instances\\1.20.4\\.minecraft\\logs\\latest.log', required_advs_list)
+    adv_tracker = AdvMonitor('E:\\MultiMC\\instances\\1.20.4\.minecraft\\saves\\world (29)\\advancements', cwd, required_advs)
+    log_tracker = LogMonitor('E:\\MultiMC\\instances\\1.20.4\\.minecraft\\logs\\latest.log', adv_tracker.get_data('advname_to_path.csv'))
 
     refresh_rate = 10
     time_passed = 0
     while True:
         if time_passed % 30 == 0:
             time_passed = 0
-            adv_data, item_data = adv_tracker.check_adv_directory()     
-            sheets_manager.update_advancement_progress(adv_data, 'ADVANCEMENTS_SHEET')
+            adv_data, item_data = adv_tracker.check_adv_directory()
+            sheets_manager.update_advancement_progress(adv_data)
             sheets_manager.update_progress(item_data, 'ITEMS_SHEET')
         
-        # sheets_manager.update_first_completions(log_tracker.check())
+        sheets_manager.update_first_completions(log_tracker.check())
 
         time_passed += refresh_rate
         time.sleep(refresh_rate)
