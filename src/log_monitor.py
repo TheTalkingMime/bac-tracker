@@ -1,5 +1,7 @@
 import re
+import logging
 
+logging.basicConfig(level=logging.DEBUG)
 
 class LogMonitor:
     def __init__(self, filepath, adv_list):
@@ -51,7 +53,6 @@ class LogMonitor:
         pattern = rf"\[(\d{{2}}:\d{{2}}:\d{{2}})\] \[Render thread\/INFO\]: \[System\] \[CHAT\] (?:(\w+) has (?:{phrases}) \[(.+?)\]"\
             "|(\w+) have unlocked the root of the (.*?) tab"\
             "|Thank (\w+) for downloading\\\\n(.*?) Pack!)"
-
         pattern = re.compile(pattern)
         oddities = {
             "End": "The End",
@@ -62,12 +63,14 @@ class LogMonitor:
 
         for line in log_lines:
             match = pattern.search(line)
+            
+
             if match:
                 timestamp = match.group(1)
-                if match.group(2):
+                if match.group(3) is not None:
                     player_name = match.group(2)
                     advancement_name = match.group(3)
-                elif match.group(4):
+                elif match.group(4) is not None:
                     player_name = None
                     advancement_name = match.group(5)
                 else:
@@ -78,7 +81,7 @@ class LogMonitor:
                     advancement_name = oddities[advancement_name]
 
                 if advancement_name not in self.adv_mapping:
-                    print(f"{advancement_name} not found in our mappings")
+                    logging.warning(f"{advancement_name} not found in our mappings")
                     continue
 
                 advancements.append(
@@ -88,9 +91,8 @@ class LogMonitor:
                         "advancement": self.adv_mapping[advancement_name],
                     }
                 )
-            else:
-                with open("temp.log", "a", encoding="utf-8") as f:
-                    f.write(f"{line}\n")
+                if player_name is None:
+                    logging.warning(f"No name found: {line}")
         return advancements
 
     def check(self):

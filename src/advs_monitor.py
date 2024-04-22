@@ -1,5 +1,7 @@
 import os, csv, json
+import logging
 
+logging.basicConfig(level=logging.DEBUG)
 
 class AdvMonitor:
     def __init__(self, adv_folder, cwd, required_advs):
@@ -106,7 +108,6 @@ class AdvMonitor:
         Reads through a list of player progress from check_progress
         Builds a list of all the players and how much they have completed
         """
-        print("Getting max adv progression")
         max_progress = {}
         for adv_path in self.advancements_list:
             for uuid in player_progress:
