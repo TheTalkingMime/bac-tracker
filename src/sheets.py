@@ -1,6 +1,11 @@
 import gspread, os, re
 from itertools import chain
 from player_data import Players
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+logging.getLogger('urllib3').setLevel(logging.WARNING)
+logging.getLogger('google.auth').setLevel(logging.WARNING)
 class SheetsManager:
     def __init__(self, settings):
         gc = gspread.service_account(filename= os.path.join(settings['cwd'], 'settings', 'credentials.json'))
@@ -17,8 +22,8 @@ class SheetsManager:
         sheet_info = self.get_sheet_info(sheet_type)
         sheets_range = sheet_info['format']['status_range']
         mapping = sheet_info['mapping']
+        logging.debug(f"Mapping length is {len(mapping)}")
 
-        print(f"Mapping length is {len(mapping)}")
         values = [[False] for _ in range(len(sheet_info['mapping']))]
         for adv in list(completed_objs):
             if adv not in mapping:
@@ -90,24 +95,27 @@ class SheetsManager:
             advancement = completion['advancement']
             mapping = sheet_info['mapping']
             if advancement not in mapping:
-                print(f"Unmapped advancement: {advancement}")
+                logging.warning(f"Unmapped advancement: {advancement}")
                 continue
             index = mapping[advancement]
-            player_face = self.get_face(player)
 
-            sheet_data.extend([{
+            row_data = [{
                 'range': self.get_cell(sheet_format['status_range'], index),
                 'values': [[True]]
             },
             {
-                'range': self.get_cell(sheet_format['who_range'], index),
-                'values': [[player_face]]
-            },
-            {
                 'range': self.get_cell(sheet_format['when_range'], index),
                 'values': [[timestamp]]
-            }])
-        print(f"Updating spreadsheet... adding {int(len(sheet_data)/3)} amounts of data")
+            }]
+            if player is None:
+                logging.warning(f"No player data found for {advancement}")
+            else:
+                row_data.append({
+                    'range': self.get_cell(sheet_format['who_range'], index),
+                    'values': [[self.get_face(player)]]
+                })
+            sheet_data.extend(row_data)
+        logging.debug(f"Updating spreadsheet... adding {int(len(sheet_data)/3)} amounts of data")
         sheet_info['worksheet'].batch_update(sheet_data, value_input_option='USER_ENTERED')
         return sheet_data
 
@@ -146,8 +154,6 @@ class SheetsManager:
         return self.sheets_info[sheet_type]
     
     def get_adv_list(self):
-        if 'ADVANCEMENTS_SHEET' not in self.sheets_info:
-            return self.conn.worksheet()
         sheet_mapping = self.sheets_info['ADVANCEMENTS_SHEET']['mapping']
         return list(sheet_mapping.keys())
         
