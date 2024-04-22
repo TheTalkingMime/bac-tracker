@@ -1,4 +1,7 @@
 import requests
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
 
 class Players():
     def __init__(self):
@@ -14,7 +17,6 @@ class Players():
 
         if response.status_code == 200:
             data = response.json()
-
             return data['name']
         else:
             return None
@@ -23,17 +25,23 @@ class Players():
         if name in self.name_to_uuid:
             return self.name_to_uuid[name]
         url = f"https://api.mojang.com/users/profiles/minecraft/{name}"
+
+        logging.debug(f"Performing API Call... {name}")
         response = requests.get(url)
 
         if response.status_code == 200:
             data = response.json()
-            return data['id']
+            uuid = data['id']
+            self.update_dicts(name, uuid)
+            logging.debug(f"Updating dicts for {name}")
+            return uuid
         else:
             return None
         
     def update_dicts(self, name, uuid):
         self.uuid_to_name[uuid] = name
         self.name_to_uuid[name] = uuid
+        return
 
     def get_face_url(self, name):
         if len(name) <= 16:
