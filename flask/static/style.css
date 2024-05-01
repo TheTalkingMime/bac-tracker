@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Minecraft Regular';
+    src: local('Minecraft Regular'), url('MinecraftRegular.otf') format('opentype');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.overlay {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-family: 'Minecraft Regular';
+    background: transparent;
+    line-height: 0.9;
+    /* color: white; */
+}
+
+#timer {
+    font-size: 200px;
+}
+
+#adv-count {
+    font-size: 150px
+}
+
+#warning {
+    font-size: 50px
+}
