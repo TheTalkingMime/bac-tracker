@@ -47,11 +47,17 @@ class SheetsManager:
         [3] : Is adv complete (bool)
         [4] : Player UUID (str)
         """
+
+        
         sheet_info = self.get_sheet_info('ADVANCEMENTS_SHEET')
         sheet_format = sheet_info['format']
         mapping = sheet_info['mapping']
 
         sheet_data = []
+        count = 0
+        
+        print(len(adv_progress))
+
         for adv in adv_progress:
             info = adv_progress[adv]
             index = mapping[adv]            
@@ -73,10 +79,13 @@ class SheetsManager:
                     'range': self.get_cell(sheet_format['who_range'], index),
                     'values': [[self.get_face(info[4])]]
                 }])
+            
+            if info[3]:
+                count += 1
             sheet_data.extend(row_data)
             
         sheet_info['worksheet'].batch_update(sheet_data, value_input_option='USER_ENTERED')
-        return sheet_data
+        return count
 
 
     
@@ -115,12 +124,22 @@ class SheetsManager:
                     'values': [[self.get_face(player)]]
                 })
             sheet_data.extend(row_data)
-        logging.debug(f"Updating spreadsheet... adding {int(len(sheet_data)/3)} amounts of data")
+        new_advs = int(len(sheet_data)/3)
+        logging.debug(f"Updating spreadsheet... adding {new_advs} amounts of data")
         sheet_info['worksheet'].batch_update(sheet_data, value_input_option='USER_ENTERED')
-        return sheet_data
+        return new_advs
 
+    def get_adv_count(self):
+        sheet_info = self.get_sheet_info('ADVANCEMENTS_SHEET')
+        worksheet = sheet_info['worksheet']
+        statuses = worksheet.get(sheet_info['format']['status_range'])
+        count = 0
+        for x in statuses:
+            if x == ['TRUE']:
+                count += 1
+        return count
 
-    def update_progress(self, completed_objs, sheet_type):
+    def update_item_progress(self, completed_objs, sheet_type):
         sheet_info = self.get_sheet_info(sheet_type)
         data = self.format_to_spreadsheet(completed_objs, sheet_type)
         sheet_info['worksheet'].update(data['range'], data['values'])
