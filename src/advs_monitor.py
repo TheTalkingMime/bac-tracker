@@ -121,20 +121,8 @@ class AdvMonitor:
                     else:
                         info = info + (None,)
                     max_progress[adv_path] = info
-        # print(max_progress)
-        # with open(os.path.join(self.cwd, 'data', 'output.csv'), 'w', newline='') as f:
-        #     writer = csv.writer(f)
-        #     for k, v in max_progress.items():
-        #         writer.writerow((k,) + v)
-
-        # for uuid in player_progress:
-        #     with open(os.path.join(self.cwd, 'data', f'{uuid}.csv'), 'w', newline='') as f:
-        #         writer = csv.writer(f)
-        #         for k, v in player_progress[uuid].items():
-        #             writer.writerow((k,) + v)
-
         return max_progress
-
+    
     def check_adv_directory(self):
         """
         Reads through advancements directory and manages all the data.
@@ -169,3 +157,9 @@ class AdvMonitor:
             for row in reader:
                 data_list.append(row)
         return data_list
+    
+    # Probably useless unless advancement folder is updated more frequently
+    def get_AL_progress(self, progress, adv="blazeandcave:bacap/advancement_legend"):
+        if adv in progress:
+            return progress[adv][1]
+        return f"0/{self.criteria[adv]}"
