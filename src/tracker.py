@@ -15,7 +15,7 @@ def main():
     sheets_manager = SheetsManager(settings)
     required_advs = sheets_manager.get_adv_list()
 
-    world_dir = 'E:\\MultiMC\\instances\\1.20.4\.minecraft\\saves\\world (32)\\'
+    world_dir = 'E:\\MultiMC\\instances\\1.20.4\.minecraft\\saves\\world (35)\\'
 
     adv_path = os.path.join(world_dir, 'advancements')
     log_path = os.path.join(world_dir, '..', '..', 'logs', 'latest.log')
@@ -37,11 +37,13 @@ def main():
         force_refresh = False
         warning = None
         new_advs = sheets_manager.update_first_completions(log_tracker.check())
-        if time_passed % 30 == 0:
+        if time_passed % 300 == 0:
+            print("Checking Advancement file")
             time_passed = 0
             adv_data, item_data = adv_tracker.check_adv_directory()
+            print(item_data)
             sheets_manager.update_advancement_progress(adv_data)
-            sheets_manager.update_item_progress(item_data, 'ITEMS_SHEET')
+            sheets_manager.update_item_progress(item_data)
             force_refresh = True
             warning = scoreboard.check()
         # warnings = scoreboard.check()
