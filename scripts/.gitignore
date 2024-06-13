@@ -1,2 +1,9 @@
 log_testing.py
 timeline.py
+data/
+advancements.json
+adv_col.csv
+adv_criteria_requirements.json
+advname_to_path.csv
+item_adv_stacksize.csv
+item_to_adv.csv

@@ -29,6 +29,7 @@ Angler Pottery Sherd	angler_pottery_sherd	blazeandcave:challenges/all_the_items	
 Anvil	anvil	blazeandcave:challenges/stack_all_the_blocks	64
 Apple	apple	blazeandcave:challenges/stack_all_the_items	64
 Archer Pottery Sherd	archer_pottery_sherd	blazeandcave:challenges/all_the_items	1
+Armadillo Scute	armadillo_scute	blazeandcave:challenges/stack_all_the_items	64
 Armor Stand	armor_stand	blazeandcave:challenges/stack_all_the_items	16
 Arms Up Pottery Sherd	arms_up_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Arrow	arrow	blazeandcave:challenges/stack_all_the_items	64
@@ -119,6 +120,7 @@ Blue Stained Glass	blue_stained_glass	blazeandcave:challenges/stack_all_the_bloc
 Blue Stained Glass Pane	blue_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Terracotta	blue_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Wool	blue_wool	blazeandcave:challenges/stack_all_the_blocks	64
+Bolt Armor Trim Smithing Template	bolt_armor_trim_smithing_template	blazeandcave:challenges/all_the_items	1
 Bone	bone	blazeandcave:challenges/stack_all_the_items	64
 Bone Block	bone_block	blazeandcave:challenges/stack_all_the_blocks	64
 Bone Meal	bone_meal	blazeandcave:challenges/stack_all_the_items	64
@@ -130,6 +132,7 @@ Brain Coral	brain_coral	blazeandcave:challenges/stack_all_the_blocks	64
 Brain Coral Block	brain_coral_block	blazeandcave:challenges/stack_all_the_blocks	64
 Brain Coral Fan	brain_coral_fan	blazeandcave:challenges/stack_all_the_blocks	64
 Bread	bread	blazeandcave:challenges/stack_all_the_items	64
+Breeze Rod	breeze_rod	blazeandcave:challenges/stack_all_the_items	64
 Brewer Pottery Sherd	brewer_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Brewing Stand	brewing_stand	blazeandcave:challenges/stack_all_the_blocks	64
 Brick	brick	blazeandcave:challenges/stack_all_the_items	64
@@ -197,6 +200,7 @@ Chest Minecart	chest_minecart	blazeandcave:challenges/stack_all_the_items	1
 Chicken	chicken	blazeandcave:challenges/stack_all_the_items	64
 Chipped Anvil	chipped_anvil	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Bookshelf	chiseled_bookshelf	blazeandcave:challenges/stack_all_the_blocks	64
+Chiseled Copper	chiseled_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Deepslate	chiseled_deepslate	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Nether Bricks	chiseled_nether_bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Polished Blackstone	chiseled_polished_blackstone	blazeandcave:challenges/stack_all_the_blocks	64
@@ -204,6 +208,8 @@ Chiseled Quartz Block	chiseled_quartz_block	blazeandcave:challenges/stack_all_th
 Chiseled Red Sandstone	chiseled_red_sandstone	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Sandstone	chiseled_sandstone	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Stone Bricks	chiseled_stone_bricks	blazeandcave:challenges/stack_all_the_blocks	64
+Chiseled Tuff	chiseled_tuff	blazeandcave:challenges/stack_all_the_blocks	64
+Chiseled Tuff Bricks	chiseled_tuff_bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Chorus Flower	chorus_flower	blazeandcave:challenges/stack_all_the_blocks	64
 Chorus Fruit	chorus_fruit	blazeandcave:challenges/stack_all_the_items	64
 Clay	clay	blazeandcave:challenges/stack_all_the_blocks	64
@@ -239,14 +245,19 @@ Cooked Rabbit	cooked_rabbit	blazeandcave:challenges/stack_all_the_items	64
 Cooked Salmon	cooked_salmon	blazeandcave:challenges/stack_all_the_items	64
 Cookie	cookie	blazeandcave:challenges/stack_all_the_items	64
 Copper Block	copper_block	blazeandcave:challenges/stack_all_the_blocks	64
+Copper Bulb	copper_bulb	blazeandcave:challenges/stack_all_the_blocks	64
+Copper Door	copper_door	blazeandcave:challenges/stack_all_the_blocks	64
+Copper Grate	copper_grate	blazeandcave:challenges/stack_all_the_blocks	64
 Copper Ingot	copper_ingot	blazeandcave:challenges/stack_all_the_items	64
 Copper Ore	copper_ore	blazeandcave:challenges/stack_all_the_blocks	64
+Copper Trapdoor	copper_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Cornflower	cornflower	blazeandcave:challenges/stack_all_the_blocks	64
 Cracked Deepslate Bricks	cracked_deepslate_bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Cracked Deepslate Tiles	cracked_deepslate_tiles	blazeandcave:challenges/stack_all_the_blocks	64
 Cracked Nether Bricks	cracked_nether_bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Cracked Polished Blackstone Bricks	cracked_polished_blackstone_bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Cracked Stone Bricks	cracked_stone_bricks	blazeandcave:challenges/stack_all_the_blocks	64
+Crafter	crafter	blazeandcave:challenges/stack_all_the_blocks	64
 Crafting Table	crafting_table	blazeandcave:challenges/stack_all_the_blocks	64
 Creeper Banner Pattern	creeper_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
 Creeper Head	creeper_head	blazeandcave:challenges/stack_all_the_blocks	64
@@ -396,7 +407,12 @@ Ender Eye	ender_eye	blazeandcave:challenges/stack_all_the_items	64
 Ender Pearl	ender_pearl	blazeandcave:challenges/stack_all_the_items	16
 Experience Bottle	experience_bottle	blazeandcave:challenges/stack_all_the_items	64
 Explorer Pottery Sherd	explorer_pottery_sherd	blazeandcave:challenges/all_the_items	1
+Exposed Chiseled Copper	exposed_chiseled_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Exposed Copper	exposed_copper	blazeandcave:challenges/stack_all_the_blocks	64
+Exposed Copper Bulb	exposed_copper_bulb	blazeandcave:challenges/stack_all_the_blocks	64
+Exposed Copper Door	exposed_copper_door	blazeandcave:challenges/stack_all_the_blocks	64
+Exposed Copper Grate	exposed_copper_grate	blazeandcave:challenges/stack_all_the_blocks	64
+Exposed Copper Trapdoor	exposed_copper_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Exposed Cut Copper	exposed_cut_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Exposed Cut Copper Slab	exposed_cut_copper_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Exposed Cut Copper Stairs	exposed_cut_copper_stairs	blazeandcave:challenges/stack_all_the_blocks	64
@@ -415,6 +431,9 @@ Fishing Rod	fishing_rod	blazeandcave:challenges/stack_all_the_items	1
 Fletching Table	fletching_table	blazeandcave:challenges/stack_all_the_blocks	64
 Flint	flint	blazeandcave:challenges/stack_all_the_items	64
 Flint And Steel	flint_and_steel	blazeandcave:challenges/stack_all_the_items	1
+Flow Armor Trim Smithing Template	flow_armor_trim_smithing_template	blazeandcave:challenges/all_the_items	1
+Flow Banner Pattern	flow_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
+Flow Pottery Sherd	flow_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Flower Banner Pattern	flower_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
 Flower Pot	flower_pot	blazeandcave:challenges/stack_all_the_blocks	64
 Flowering Azalea	flowering_azalea	blazeandcave:challenges/stack_all_the_blocks	64
@@ -487,11 +506,14 @@ Green Terracotta	green_terracotta	blazeandcave:challenges/stack_all_the_blocks	6
 Green Wool	green_wool	blazeandcave:challenges/stack_all_the_blocks	64
 Grindstone	grindstone	blazeandcave:challenges/stack_all_the_blocks	64
 Gunpowder	gunpowder	blazeandcave:challenges/stack_all_the_items	64
+Guster Banner Pattern	guster_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
+Guster Pottery Sherd	guster_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Hanging Roots	hanging_roots	blazeandcave:challenges/stack_all_the_blocks	64
 Hay Block	hay_block	blazeandcave:challenges/stack_all_the_blocks	64
 Heart Of The Sea	heart_of_the_sea	blazeandcave:challenges/stack_all_the_items	64
 Heart Pottery Sherd	heart_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Heartbreak Pottery Sherd	heartbreak_pottery_sherd	blazeandcave:challenges/all_the_items	1
+Heavy Core	heavy_core	blazeandcave:challenges/all_the_blocks	1
 Heavy Weighted Pressure Plate	heavy_weighted_pressure_plate	blazeandcave:challenges/stack_all_the_blocks	64
 Honey Block	honey_block	blazeandcave:challenges/stack_all_the_blocks	64
 Honey Bottle	honey_bottle	blazeandcave:challenges/stack_all_the_items	16
@@ -608,6 +630,7 @@ Lime Wool	lime_wool	blazeandcave:challenges/stack_all_the_blocks	64
 Lingering Potion	lingering_potion	blazeandcave:challenges/stack_all_the_items	1
 Lodestone	lodestone	blazeandcave:challenges/stack_all_the_blocks	64
 Loom	loom	blazeandcave:challenges/stack_all_the_blocks	64
+Mace	mace	blazeandcave:challenges/stack_all_the_items	1
 Magenta Banner	magenta_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Magenta Bed	magenta_bed	blazeandcave:challenges/stack_all_the_blocks	1
 Magenta Candle	magenta_candle	blazeandcave:challenges/stack_all_the_blocks	64
@@ -675,11 +698,14 @@ Music Disc 5	music_disc_5	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Blocks	music_disc_blocks	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Cat	music_disc_cat	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Chirp	music_disc_chirp	blazeandcave:challenges/stack_all_the_items	1
+Music Disc Creator	music_disc_creator	blazeandcave:challenges/stack_all_the_items	1
+Music Disc Creator Music Box	music_disc_creator_music_box	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Far	music_disc_far	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Mall	music_disc_mall	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Mellohi	music_disc_mellohi	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Otherside	music_disc_otherside	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Pigstep	music_disc_pigstep	blazeandcave:challenges/stack_all_the_items	1
+Music Disc Precipice	music_disc_precipice	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Relic	music_disc_relic	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Stal	music_disc_stal	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Strad	music_disc_strad	blazeandcave:challenges/stack_all_the_items	1
@@ -736,6 +762,8 @@ Oak Wood	oak_wood	blazeandcave:challenges/stack_all_the_blocks	64
 Observer	observer	blazeandcave:challenges/stack_all_the_blocks	64
 Obsidian	obsidian	blazeandcave:challenges/stack_all_the_blocks	64
 Ochre Froglight	ochre_froglight	blazeandcave:challenges/stack_all_the_blocks	64
+Ominous Bottle	ominous_bottle	blazeandcave:challenges/stack_all_the_items	64
+Ominous Trial Key	ominous_trial_key	blazeandcave:challenges/stack_all_the_items	64
 Orange Banner	orange_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Orange Bed	orange_bed	blazeandcave:challenges/stack_all_the_blocks	1
 Orange Candle	orange_candle	blazeandcave:challenges/stack_all_the_blocks	64
@@ -751,7 +779,12 @@ Orange Terracotta	orange_terracotta	blazeandcave:challenges/stack_all_the_blocks
 Orange Tulip	orange_tulip	blazeandcave:challenges/stack_all_the_blocks	64
 Orange Wool	orange_wool	blazeandcave:challenges/stack_all_the_blocks	64
 Oxeye Daisy	oxeye_daisy	blazeandcave:challenges/stack_all_the_blocks	64
+Oxidized Chiseled Copper	oxidized_chiseled_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Oxidized Copper	oxidized_copper	blazeandcave:challenges/stack_all_the_blocks	64
+Oxidized Copper Bulb	oxidized_copper_bulb	blazeandcave:challenges/stack_all_the_blocks	64
+Oxidized Copper Door	oxidized_copper_door	blazeandcave:challenges/stack_all_the_blocks	64
+Oxidized Copper Grate	oxidized_copper_grate	blazeandcave:challenges/stack_all_the_blocks	64
+Oxidized Copper Trapdoor	oxidized_copper_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Oxidized Cut Copper	oxidized_cut_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Oxidized Cut Copper Slab	oxidized_cut_copper_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Oxidized Cut Copper Stairs	oxidized_cut_copper_stairs	blazeandcave:challenges/stack_all_the_blocks	64
@@ -810,6 +843,10 @@ Polished Diorite Stairs	polished_diorite_stairs	blazeandcave:challenges/stack_al
 Polished Granite	polished_granite	blazeandcave:challenges/stack_all_the_blocks	64
 Polished Granite Slab	polished_granite_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Polished Granite Stairs	polished_granite_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Polished Tuff	polished_tuff	blazeandcave:challenges/stack_all_the_blocks	64
+Polished Tuff Slab	polished_tuff_slab	blazeandcave:challenges/stack_all_the_blocks	64
+Polished Tuff Stairs	polished_tuff_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Polished Tuff Wall	polished_tuff_wall	blazeandcave:challenges/stack_all_the_blocks	64
 Popped Chorus Fruit	popped_chorus_fruit	blazeandcave:challenges/stack_all_the_items	64
 Poppy	poppy	blazeandcave:challenges/stack_all_the_blocks	64
 Porkchop	porkchop	blazeandcave:challenges/stack_all_the_items	64
@@ -913,6 +950,7 @@ Sandstone Slab	sandstone_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Sandstone Stairs	sandstone_stairs	blazeandcave:challenges/stack_all_the_blocks	64
 Sandstone Wall	sandstone_wall	blazeandcave:challenges/stack_all_the_blocks	64
 Scaffolding	scaffolding	blazeandcave:challenges/stack_all_the_blocks	64
+Scrape Pottery Sherd	scrape_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Sculk	sculk	blazeandcave:challenges/stack_all_the_blocks	64
 Sculk Catalyst	sculk_catalyst	blazeandcave:challenges/stack_all_the_blocks	64
 Sculk Sensor	sculk_sensor	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1031,6 +1069,8 @@ Stripped Warped Stem	stripped_warped_stem	blazeandcave:challenges/stack_all_the_
 Sugar	sugar	blazeandcave:challenges/stack_all_the_items	64
 Sugar Cane	sugar_cane	blazeandcave:challenges/stack_all_the_items	64
 Sunflower	sunflower	blazeandcave:challenges/stack_all_the_blocks	64
+Suspicious Gravel	suspicious_gravel	blazeandcave:challenges/all_the_blocks	1
+Suspicious Sand	suspicious_sand	blazeandcave:challenges/all_the_blocks	1
 Suspicious Stew	suspicious_stew	blazeandcave:challenges/stack_all_the_items	1
 Sweet Berries	sweet_berries	blazeandcave:challenges/stack_all_the_items	64
 Tadpole Bucket	tadpole_bucket	blazeandcave:challenges/stack_all_the_items	1
@@ -1047,6 +1087,7 @@ Torchflower	torchflower	blazeandcave:challenges/stack_all_the_blocks	64
 Torchflower Seeds	torchflower_seeds	blazeandcave:challenges/stack_all_the_items	64
 Totem Of Undying	totem_of_undying	blazeandcave:challenges/stack_all_the_items	1
 Trapped Chest	trapped_chest	blazeandcave:challenges/stack_all_the_blocks	64
+Trial Key	trial_key	blazeandcave:challenges/stack_all_the_items	64
 Trident	trident	blazeandcave:challenges/stack_all_the_items	1
 Tripwire Hook	tripwire_hook	blazeandcave:challenges/stack_all_the_blocks	64
 Tropical Fish	tropical_fish	blazeandcave:challenges/stack_all_the_items	64
@@ -1055,6 +1096,13 @@ Tube Coral	tube_coral	blazeandcave:challenges/stack_all_the_blocks	64
 Tube Coral Block	tube_coral_block	blazeandcave:challenges/stack_all_the_blocks	64
 Tube Coral Fan	tube_coral_fan	blazeandcave:challenges/stack_all_the_blocks	64
 Tuff	tuff	blazeandcave:challenges/stack_all_the_blocks	64
+Tuff Brick Slab	tuff_brick_slab	blazeandcave:challenges/stack_all_the_blocks	64
+Tuff Brick Stairs	tuff_brick_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Tuff Brick Wall	tuff_brick_wall	blazeandcave:challenges/stack_all_the_blocks	64
+Tuff Bricks	tuff_bricks	blazeandcave:challenges/stack_all_the_blocks	64
+Tuff Slab	tuff_slab	blazeandcave:challenges/stack_all_the_blocks	64
+Tuff Stairs	tuff_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Tuff Wall	tuff_wall	blazeandcave:challenges/stack_all_the_blocks	64
 Turtle Egg	turtle_egg	blazeandcave:challenges/stack_all_the_blocks	64
 Turtle Helmet	turtle_helmet	blazeandcave:challenges/stack_all_the_items	1
 Twisting Vines	twisting_vines	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1081,24 +1129,49 @@ Warped Stem	warped_stem	blazeandcave:challenges/stack_all_the_blocks	64
 Warped Trapdoor	warped_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Warped Wart Block	warped_wart_block	blazeandcave:challenges/stack_all_the_blocks	64
 Water Bucket	water_bucket	blazeandcave:challenges/stack_all_the_items	1
+Waxed Chiseled Copper	waxed_chiseled_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Copper Block	waxed_copper_block	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Copper Bulb	waxed_copper_bulb	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Copper Door	waxed_copper_door	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Copper Grate	waxed_copper_grate	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Copper Trapdoor	waxed_copper_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Cut Copper	waxed_cut_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Cut Copper Slab	waxed_cut_copper_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Cut Copper Stairs	waxed_cut_copper_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Exposed Chiseled Copper	waxed_exposed_chiseled_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Exposed Copper	waxed_exposed_copper	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Exposed Copper Bulb	waxed_exposed_copper_bulb	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Exposed Copper Door	waxed_exposed_copper_door	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Exposed Copper Grate	waxed_exposed_copper_grate	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Exposed Copper Trapdoor	waxed_exposed_copper_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Exposed Cut Copper	waxed_exposed_cut_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Exposed Cut Copper Slab	waxed_exposed_cut_copper_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Exposed Cut Copper Stairs	waxed_exposed_cut_copper_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Oxidized Chiseled Copper	waxed_oxidized_chiseled_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Oxidized Copper	waxed_oxidized_copper	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Oxidized Copper Bulb	waxed_oxidized_copper_bulb	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Oxidized Copper Door	waxed_oxidized_copper_door	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Oxidized Copper Grate	waxed_oxidized_copper_grate	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Oxidized Copper Trapdoor	waxed_oxidized_copper_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Oxidized Cut Copper	waxed_oxidized_cut_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Oxidized Cut Copper Slab	waxed_oxidized_cut_copper_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Oxidized Cut Copper Stairs	waxed_oxidized_cut_copper_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Weathered Chiseled Copper	waxed_weathered_chiseled_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Weathered Copper	waxed_weathered_copper	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Weathered Copper Bulb	waxed_weathered_copper_bulb	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Weathered Copper Door	waxed_weathered_copper_door	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Weathered Copper Grate	waxed_weathered_copper_grate	blazeandcave:challenges/stack_all_the_blocks	64
+Waxed Weathered Copper Trapdoor	waxed_weathered_copper_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Weathered Cut Copper	waxed_weathered_cut_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Weathered Cut Copper Slab	waxed_weathered_cut_copper_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Waxed Weathered Cut Copper Stairs	waxed_weathered_cut_copper_stairs	blazeandcave:challenges/stack_all_the_blocks	64
 Wayfinder Armor Trim	wayfinder_armor_trim	blazeandcave:challenges/all_the_items	1
+Weathered Chiseled Copper	weathered_chiseled_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Weathered Copper	weathered_copper	blazeandcave:challenges/stack_all_the_blocks	64
+Weathered Copper Bulb	weathered_copper_bulb	blazeandcave:challenges/stack_all_the_blocks	64
+Weathered Copper Door	weathered_copper_door	blazeandcave:challenges/stack_all_the_blocks	64
+Weathered Copper Grate	weathered_copper_grate	blazeandcave:challenges/stack_all_the_blocks	64
+Weathered Copper Trapdoor	weathered_copper_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Weathered Cut Copper	weathered_cut_copper	blazeandcave:challenges/stack_all_the_blocks	64
 Weathered Cut Copper Slab	weathered_cut_copper_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Weathered Cut Copper Stairs	weathered_cut_copper_stairs	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1121,8 +1194,10 @@ White Terracotta	white_terracotta	blazeandcave:challenges/stack_all_the_blocks	6
 White Tulip	white_tulip	blazeandcave:challenges/stack_all_the_blocks	64
 White Wool	white_wool	blazeandcave:challenges/stack_all_the_blocks	64
 Wild Armor Trim	wild_armor_trim	blazeandcave:challenges/all_the_items	1
+Wind Charge	wind_charge	blazeandcave:challenges/stack_all_the_items	64
 Wither Rose	wither_rose	blazeandcave:challenges/stack_all_the_blocks	64
 Wither Skeleton Skull	wither_skeleton_skull	blazeandcave:challenges/stack_all_the_blocks	64
+Wolf Armor	wolf_armor	blazeandcave:challenges/stack_all_the_items	1
 Wooden Axe	wooden_axe	blazeandcave:challenges/stack_all_the_items	1
 Wooden Hoe	wooden_hoe	blazeandcave:challenges/stack_all_the_items	1
 Wooden Pickaxe	wooden_pickaxe	blazeandcave:challenges/stack_all_the_items	1
