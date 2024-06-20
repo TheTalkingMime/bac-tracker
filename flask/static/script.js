@@ -1,4 +1,4 @@
-const futureDate = new Date('2024-05-24T12:00:00').getTime();
+const futureDate = new Date('2024-05-20T18:00:00Z').getTime();
 
 setInterval(() => {
     const now = new Date().getTime();
@@ -39,13 +39,14 @@ eventSource.onmessage = function(event) {
     if (eventData[1] == 'None') {
         return
     } 
-
-    if (eventData[1] != '') {
-        warningElement = document.getElementById('warning');
-        warningElement.innerHTML = '';
-        warningElement.appendChild(img);
-        warningElement.appendChild(document.createTextNode(eventData[1]))
-    } else {
-        document.getElementById('warning').innerHTML = '';
+    if (eventData[1] != '-1') {
+        if (eventData[1] != '') {
+            warningElement = document.getElementById('warning');
+            warningElement.innerHTML = '';
+            warningElement.appendChild(img);
+            warningElement.appendChild(document.createTextNode(eventData[1]))
+        } else {
+            document.getElementById('warning').innerHTML = '';
+        }
     }
 };

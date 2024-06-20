@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
 <html>
 <head>
     <title>SSE Test</title>
@@ -9,7 +11,6 @@
 
     <script>
         var eventSource = new EventSource("/events");
-
         eventSource.onmessage = function(event) {
             document.getElementById('sse-data').innerHTML = event.data + '<br>';
         };
