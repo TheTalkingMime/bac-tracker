@@ -18,22 +18,6 @@ class SheetsManager:
         self.get_sheet_info('ADVANCEMENTS_SHEET')
         self.get_sheet_info('ITEMS_SHEET')
 
-    def format_to_spreadsheet(self, completed_objs, sheet_type):
-        sheet_info = self.get_sheet_info(sheet_type)
-        sheets_range = sheet_info['format']['status_range']
-        mapping = sheet_info['mapping']
-        logging.debug(f"Mapping length is {len(mapping)}")
-
-        values = [[False] for _ in range(len(sheet_info['mapping']))]
-        for adv in list(completed_objs):
-            if adv not in mapping:
-                continue
-            idx = mapping[adv]
-            values[idx] = [True]
-        return {
-                'range': sheets_range,
-                'values': values
-            }
     
     def update_advancement_progress(self, adv_progress):
         """
@@ -47,36 +31,40 @@ class SheetsManager:
         [3] : Is adv complete (bool)
         [4] : Player UUID (str)
         """
+
+        
         sheet_info = self.get_sheet_info('ADVANCEMENTS_SHEET')
         sheet_format = sheet_info['format']
         mapping = sheet_info['mapping']
 
         sheet_data = []
+        count = 0
+        
+        print(len(adv_progress))
+
         for adv in adv_progress:
             info = adv_progress[adv]
             index = mapping[adv]            
             
             row_data = [{
-                'range': self.get_cell(sheet_format['progress_range'], index),
+                'range': self.calc_cell(sheet_format['progress_range'], index),
                 'values': [[info[1]]]
             },
             {
-                'range': self.get_cell(sheet_format['incomplete_range'], index),
+                'range': self.calc_cell(sheet_format['incomplete_range'], index),
                 'values': [[info[2]]]
             },
             {
-                'range': self.get_cell(sheet_format['status_range'], index),
+                'range': self.calc_cell(sheet_format['status_range'], index),
                 'values': [[info[3]]]
             }]
             if info[4] is not None:
                 row_data.extend([{
-                    'range': self.get_cell(sheet_format['who_range'], index),
+                    'range': self.calc_cell(sheet_format['who_range'], index),
                     'values': [[self.get_face(info[4])]]
-                }])
+                }]) 
             sheet_data.extend(row_data)
-            
         sheet_info['worksheet'].batch_update(sheet_data, value_input_option='USER_ENTERED')
-        return sheet_data
 
 
     
@@ -100,37 +88,70 @@ class SheetsManager:
             index = mapping[advancement]
 
             row_data = [{
-                'range': self.get_cell(sheet_format['status_range'], index),
+                'range': self.calc_cell(sheet_format['status_range'], index),
                 'values': [[True]]
             },
             {
-                'range': self.get_cell(sheet_format['when_range'], index),
+                'range': self.calc_cell(sheet_format['when_range'], index),
                 'values': [[timestamp]]
             }]
             if player is None:
                 logging.warning(f"No player data found for {advancement}")
             else:
                 row_data.append({
-                    'range': self.get_cell(sheet_format['who_range'], index),
+                    'range': self.calc_cell(sheet_format['who_range'], index),
                     'values': [[self.get_face(player)]]
                 })
             sheet_data.extend(row_data)
-        logging.debug(f"Updating spreadsheet... adding {int(len(sheet_data)/3)} amounts of data")
+        new_advs = int(len(sheet_data)/3)
+        logging.debug(f"Updating spreadsheet... adding {new_advs} amounts of data")
         sheet_info['worksheet'].batch_update(sheet_data, value_input_option='USER_ENTERED')
-        return sheet_data
+        return new_advs
+
+    
+
+    def update_item_progress(self, item_progress):
+        max_uuid, overall_progress = item_progress
+        sheet_info = self.get_sheet_info('ITEMS_SHEET')
+        sheet_format = sheet_info['format']
+        mapping = sheet_info['mapping']
 
 
-    def update_progress(self, completed_objs, sheet_type):
-        sheet_info = self.get_sheet_info(sheet_type)
-        data = self.format_to_spreadsheet(completed_objs, sheet_type)
-        sheet_info['worksheet'].update(data['range'], data['values'])
+        sheet_data = []
+        for item, uuid in overall_progress.items():
+            completed = (uuid == max_uuid)
+            index = mapping[item]
 
+            row_data = [{
+                'range': self.calc_cell(sheet_format['status_range'], index),
+                'values': [[completed]]
+            },
+            {
+                'range': self.calc_cell(sheet_format['who_range'], index),
+                'values': [[self.get_face(uuid)]]
+            }]
+            sheet_data.extend(row_data)
+        sheet_info['worksheet'].batch_update(sheet_data, value_input_option='USER_ENTERED')
+
+
+
+
+    def get_adv_count(self):
+        sheet_info = self.get_sheet_info('ADVANCEMENTS_SHEET')
+        worksheet = sheet_info['worksheet']
+        statuses = worksheet.get(sheet_info['format']['status_range'])
+        count = 0
+        for x in statuses:
+            if x == ['TRUE']:
+                count += 1
+        return count
+    
     def get_mapping(self, worksheet, sheet_format):
         ordering = list(chain.from_iterable(worksheet.get(sheet_format['id_range'])))
         mapping = {item: i for i, item in enumerate(ordering)}
         return mapping
     
-    def get_cell(self, range, index:int):
+    def calc_cell(self, range, index:int):
         col, row = re.match("^([A-Za-z]+)(\d+)", range).groups()
         return f"{col}{str(int(row)+index)}"
 

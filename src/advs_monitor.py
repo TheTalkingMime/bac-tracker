@@ -10,32 +10,31 @@ class AdvMonitor:
         self.advancements_list = required_advs
         self.items_list = self.get_data("item_to_adv.csv")
         self.criteria = self.get_data("adv_criteria_requirements.json")
-
-    def check_advancements(self, curr):
-        """
-        Reads through advancements json to identify which advancements are completed.
-        """
-        completed_advs = set()
-        for adv_path in self.advancements_list:
-            if adv_path not in curr:
+    def check_item_progress(self, curr_advancements):
+        completed_items = []
+        for item, adv_path in self.items_list:
+            if adv_path not in curr_advancements:
                 continue
-            if curr[adv_path]["done"] == True:
-                completed_advs.add(adv_path)
-        return completed_advs
+            if item in curr_advancements[adv_path]["criteria"]:
+                completed_items.append(item)
+        return set(completed_items) # NEEDS TO BE TESTED
+    
+    def get_max_item_progress(self, curr_items):
+        max_item_uuid = max(curr_items, key=lambda k: len(curr_items[k]))
+        
+        super_set = curr_items[max_item_uuid]
+        item_to_uuid = {item: max_item_uuid for item in curr_items[max_item_uuid]}
 
-    def check_items(self, curr_advancements):
-        """
-        Reads through advancements json to identify which items are completed.
-        """
-        completed_items = set()
-        for item, adv in self.items_list:
-            if adv not in curr_advancements:
-                continue
-            if item in curr_advancements[adv]["criteria"]:
-                completed_items.add(item)
-        return completed_items
+        
+        for uuid, item_set in curr_items.items():
+            super_set = super_set.union(item_set)
+            for item in item_set:
+                if item not in item_to_uuid:
+                    item_to_uuid[item] = uuid
+        return (max_item_uuid, item_to_uuid)
 
-    def check_progress(self, curr_advancements):
+
+    def check_adv_progress(self, curr_advancements):
         """
         Reads through advancements json to measure progress towards goal.
         """
@@ -106,7 +105,9 @@ class AdvMonitor:
     def get_max_progression(self, player_progress):
         """
         Reads through a list of player progress from check_progress
-        Builds a list of all the players and how much they have completed
+        Builds a list of all the players and returns the players data with the most progress
+        for each individual advancement
+        Returns adv progress tuple with a uuid appended
         """
         max_progress = {}
         for adv_path in self.advancements_list:
@@ -121,42 +122,31 @@ class AdvMonitor:
                     else:
                         info = info + (None,)
                     max_progress[adv_path] = info
-        # print(max_progress)
-        # with open(os.path.join(self.cwd, 'data', 'output.csv'), 'w', newline='') as f:
-        #     writer = csv.writer(f)
-        #     for k, v in max_progress.items():
-        #         writer.writerow((k,) + v)
-
-        # for uuid in player_progress:
-        #     with open(os.path.join(self.cwd, 'data', f'{uuid}.csv'), 'w', newline='') as f:
-        #         writer = csv.writer(f)
-        #         for k, v in player_progress[uuid].items():
-        #             writer.writerow((k,) + v)
-
+                    
         return max_progress
-
+    
     def check_adv_directory(self):
         """
         Reads through advancements directory and manages all the data.
         """
-        # max_completed_advs = set()
-        max_completed_items = set()
-        player_progress = {}
+        player_adv_progress = {}
+        player_item_progress = {}
         for filename in os.listdir(self.adv_folder):
             if not filename.endswith(".json"):
                 continue
             with open(os.path.join(self.adv_folder, filename)) as f:
                 data = json.load(f)
+            uuid = filename[:-5]
 
-            # completed_adv = self.check_advancements(data)
-            adv_progress = self.check_progress(data)
-            completed_items = self.check_items(data)
+            adv_progress = self.check_adv_progress(data)
+            item_progress = self.check_item_progress(data)
 
-            player_progress[filename[:-5]] = adv_progress
-            # max_completed_advs = max(max_completed_advs, completed_adv, key=len)
-            max_completed_items = max(max_completed_items, completed_items, key=len)
-        max_progression = self.get_max_progression(player_progress)
-        return (max_progression, max_completed_items)
+            player_item_progress[uuid] = item_progress
+            player_adv_progress[uuid] = adv_progress
+        max_item_progress = self.get_max_item_progress(player_item_progress)
+        max_adv_progress = self.get_max_progression(player_adv_progress)
+        
+        return (max_adv_progress, max_item_progress)
 
     def get_data(self, filename):
         data_list = []
@@ -169,3 +159,9 @@ class AdvMonitor:
             for row in reader:
                 data_list.append(row)
         return data_list
+    
+    # Probably useless unless advancement folder is updated more frequently
+    def get_AL_progress(self, progress, adv="blazeandcave:bacap/advancement_legend"):
+        if adv in progress:
+            return progress[adv][1]
+        return f"0/{self.criteria[adv]}"

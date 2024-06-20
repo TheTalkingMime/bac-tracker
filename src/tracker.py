@@ -4,8 +4,9 @@ import traceback
 from advs_monitor import AdvMonitor
 from sheets import SheetsManager
 from log_monitor import LogMonitor
+from website import Website
 from pathlib import Path
-
+from scoreboard import Scoreboard
 
 def main():
     settings = load_settings()
@@ -14,22 +15,50 @@ def main():
     sheets_manager = SheetsManager(settings)
     required_advs = sheets_manager.get_adv_list()
 
-    adv_tracker = AdvMonitor('E:\\MultiMC\\instances\\1.20.4\.minecraft\\saves\\world (29)\\advancements', cwd, required_advs)
-    log_tracker = LogMonitor('E:\\MultiMC\\instances\\1.20.4\\.minecraft\\logs\\latest.log', adv_tracker.get_data('advname_to_path.csv'))
+    world_dir = 'E:\\MultiMC\\instances\\1.20.4\.minecraft\\saves\\world (35)\\'
+
+    adv_path = os.path.join(world_dir, 'advancements')
+    log_path = os.path.join(world_dir, '..', '..', 'logs', 'latest.log')
+
+    print(f"Tracking: {adv_path}")
+    print(f"Tracking: {log_path}")
+
+    adv_tracker = AdvMonitor(adv_path, cwd, required_advs)
+    log_tracker = LogMonitor(log_path, adv_tracker.get_data('advname_to_path.csv'))
+    scoreboard = Scoreboard(world_dir)
+    website = Website(settings)
 
     refresh_rate = 10
     time_passed = 0
+    max_advs = len(adv_tracker.advancements_list)
+
+    start_time = datetime.datetime.now()
     while True:
-        if time_passed % 30 == 0:
+        force_refresh = False
+        warning = '-1'
+        log_output = log_tracker.check()
+        new_advs = sheets_manager.update_first_completions(log_output)
+        if time_passed % 300 == 0:
+            print("Checking Advancement file")
             time_passed = 0
             adv_data, item_data = adv_tracker.check_adv_directory()
-            sheets_manager.update_advancement_progress(adv_data)
-            sheets_manager.update_progress(item_data, 'ITEMS_SHEET')
-        
-        sheets_manager.update_first_completions(log_tracker.check())
 
+            sheets_manager.update_advancement_progress(adv_data)
+            sheets_manager.update_item_progress(item_data)
+            force_refresh = True
+            warning = scoreboard.check()
+        warnings = scoreboard.check()
+        if force_refresh or new_advs > 0:
+            adv_count = sheets_manager.get_adv_count()
+            website.update(f"{adv_count}/{max_advs}", warning)
+            
+        # Ensures loop is running on a consistent refresh rate regardless of execution speed
         time_passed += refresh_rate
-        time.sleep(refresh_rate)
+        next_run = (start_time + datetime.timedelta(seconds=refresh_rate) - datetime.datetime.now()).total_seconds()
+        next_run = max(next_run, 0)
+
+        time.sleep(next_run)
+        start_time = datetime.datetime.now()
 
 
 
