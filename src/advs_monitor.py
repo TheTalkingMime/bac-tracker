@@ -10,7 +10,6 @@ class AdvMonitor:
         self.advancements_list = required_advs
         self.items_list = self.get_data("item_to_adv.csv")
         self.criteria = self.get_data("adv_criteria_requirements.json")
-
     def check_item_progress(self, curr_advancements):
         completed_items = []
         for item, adv_path in self.items_list:
