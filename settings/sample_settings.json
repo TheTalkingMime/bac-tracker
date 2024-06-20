@@ -1,6 +1,8 @@
 {
     "spreadsheet-link": "Link to your google spreadsheet",
     "path_to_advs": "Path to your world folder (e.g. ../world)",
+    "URL": "http://127.0.0.1/",
+    "API_KEY": "password",
     "spreadsheet-format": {
         "ADVANCEMENTS_SHEET": {
             "name": "Sheet Name on Google Sheets (e.g. Advancements)",
