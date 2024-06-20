@@ -35,18 +35,19 @@ def main():
     start_time = datetime.datetime.now()
     while True:
         force_refresh = False
-        warning = None
-        new_advs = sheets_manager.update_first_completions(log_tracker.check())
+        warning = '-1'
+        log_output = log_tracker.check()
+        new_advs = sheets_manager.update_first_completions(log_output)
         if time_passed % 300 == 0:
             print("Checking Advancement file")
             time_passed = 0
             adv_data, item_data = adv_tracker.check_adv_directory()
-            print(item_data)
+
             sheets_manager.update_advancement_progress(adv_data)
             sheets_manager.update_item_progress(item_data)
             force_refresh = True
             warning = scoreboard.check()
-        # warnings = scoreboard.check()
+        warnings = scoreboard.check()
         if force_refresh or new_advs > 0:
             adv_count = sheets_manager.get_adv_count()
             website.update(f"{adv_count}/{max_advs}", warning)
