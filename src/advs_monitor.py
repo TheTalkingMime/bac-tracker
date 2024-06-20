@@ -11,18 +11,6 @@ class AdvMonitor:
         self.items_list = self.get_data("item_to_adv.csv")
         self.criteria = self.get_data("adv_criteria_requirements.json")
 
-    def check_items(self, curr_advancements):
-        """
-        Reads through advancements json to identify which items are completed.
-        """
-        completed_items = set()
-        for item, adv in self.items_list:
-            if adv not in curr_advancements:
-                continue
-            if item in curr_advancements[adv]["criteria"]:
-                completed_items.add(item)
-        return completed_items
-
     def check_item_progress(self, curr_advancements):
         completed_items = []
         for item, adv_path in self.items_list:
