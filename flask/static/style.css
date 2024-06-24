@@ -16,7 +16,8 @@ body, html {
     font-family: 'Minecraft Regular';
     background: transparent;
     line-height: 0.9;
-    /* color: white; */
+    color: white;
+    text-shadow: 2px 2px 10px gray;
 }
 
 #timer {

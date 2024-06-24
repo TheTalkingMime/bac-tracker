@@ -1,12 +1,25 @@
-const futureDate = new Date('2024-05-20T18:00:00Z').getTime();
+// date of timer start or end in UTC timezone
+const futureDate = new Date('2024-06-24T07:00:00Z').getTime();
 
 setInterval(() => {
     const now = new Date().getTime();
-    const distance = futureDate - now;
 
-    const hours = Math.floor(distance / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    // countdown or count up from futureDate set, default count up
+    var countdown = false;
+
+    var distance;
+    if (countdown){
+        distance = futureDate - now;
+    } else {
+        distance = now - futureDate;
+    }
+
+    var hours = Math.floor(distance / (1000 * 60 * 60));
+    if (hours < 0) {hours+=1} // scuffed flooring for negative numbers
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    if (minutes < 0) {minutes = Math.abs(minutes+1)} // scuffed flooring for negative numbers
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    if (seconds < 0) {seconds = Math.abs(seconds+1)} // scuffed flooring for negative numbers
 
     const timerDisplay = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 

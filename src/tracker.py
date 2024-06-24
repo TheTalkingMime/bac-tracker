@@ -15,20 +15,20 @@ def main():
     sheets_manager = SheetsManager(settings)
     required_advs = sheets_manager.get_adv_list()
 
-    world_dir = 'E:\\MultiMC\\instances\\1.20.4\.minecraft\\saves\\world (35)\\'
+    world_dir = '/root/fabric-server/world'
 
     adv_path = os.path.join(world_dir, 'advancements')
-    log_path = os.path.join(world_dir, '..', '..', 'logs', 'latest.log')
+    # log_path = os.path.join(world_dir, '..', '..', 'logs', 'latest.log')
 
     print(f"Tracking: {adv_path}")
-    print(f"Tracking: {log_path}")
+    # print(f"Tracking: {log_path}")
 
     adv_tracker = AdvMonitor(adv_path, cwd, required_advs)
-    log_tracker = LogMonitor(log_path, adv_tracker.get_data('advname_to_path.csv'))
+    # log_tracker = LogMonitor(log_path, adv_tracker.get_data('advname_to_path.csv'))
     scoreboard = Scoreboard(world_dir)
     website = Website(settings)
 
-    refresh_rate = 10
+    refresh_rate = 300
     time_passed = 0
     max_advs = len(adv_tracker.advancements_list)
 
@@ -36,8 +36,8 @@ def main():
     while True:
         force_refresh = False
         warning = '-1'
-        log_output = log_tracker.check()
-        new_advs = sheets_manager.update_first_completions(log_output)
+        # log_output = log_tracker.check()
+        # new_advs = sheets_manager.update_first_completions(log_output)
         if time_passed % 300 == 0:
             print("Checking Advancement file")
             time_passed = 0
@@ -47,8 +47,8 @@ def main():
             sheets_manager.update_item_progress(item_data)
             force_refresh = True
             warning = scoreboard.check()
-        warnings = scoreboard.check()
-        if force_refresh or new_advs > 0:
+        # warnings = scoreboard.check()
+        if force_refresh:
             adv_count = sheets_manager.get_adv_count()
             website.update(f"{adv_count}/{max_advs}", warning)
             
