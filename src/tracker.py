@@ -15,7 +15,7 @@ def main():
     sheets_manager = SheetsManager(settings)
     required_advs = sheets_manager.get_adv_list()
 
-    world_dir = '/root/fabric-server/world'
+    world_dir = settings["path_to_advs"]
 
     adv_path = os.path.join(world_dir, 'advancements')
     # log_path = os.path.join(world_dir, '..', '..', 'logs', 'latest.log')
@@ -28,7 +28,7 @@ def main():
     scoreboard = Scoreboard(world_dir)
     website = Website(settings)
 
-    refresh_rate = 300
+    refresh_rate = settings["refresh_rate"]
     time_passed = 0
     max_advs = len(adv_tracker.advancements_list)
 
