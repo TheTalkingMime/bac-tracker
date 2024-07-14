@@ -1,30 +1,29 @@
-Statistic	Minimum
-used.firework_rocket	
-used.totem_of_undying	
-used.spider_eye	
-used.golden_apple	
-used.ominous_trial_key	
-custom.deaths	
-mined.diamond_ore	
-mined.deepslate_coal_ore	
-mined.emerald_ore	
-mined.bee_nest	
-mined:small_amethyst_bud	
-mined:medium_amethyst_bud	
-mined:large_amethyst_bud	
-mined:amethyst_cluster	
-custom.aviate_one_cm	100,000,000
-custom.walk_one_cm	25,000,000
-custom.sprint_one_cm	25,000,000
-custom.jump	100,000
-custom.crouch_one_cm	1,000,000
-custom.swim_one_cm	5,000,000
-custom.minecart_one_cm	5,000,000
-custom.pig_one_cm	1,000,000
-custom.horse_one_cm	5,000,000
-custom.boat_one_cm	5,000,000
-custom.strider_one_cm	1,000,000
-custom.mob_kills	25,000
-custom.animals_bred	2,500
-custom.enchant_item	250
-custom.traded_with_villager	2,500
+used.firework_rocket,sum
+used.totem_of_undying,sum
+used.spider_eye,sum
+used.golden_apple,sum
+used.ominous_trial_key,sum
+custom.deaths,sum
+mined.diamond_ore,sum
+mined.deepslate_coal_ore,sum
+mined.emerald_ore,sum
+mined.bee_nest,sum
+mined.small_amethyst_bud,sum
+mined.medium_amethyst_bud,sum
+mined.large_amethyst_bud,sum
+mined.amethyst_cluster,sum
+custom.aviate_one_cm,max
+custom.walk_one_cm,max
+custom.sprint_one_cm,max
+custom.jump,max
+custom.crouch_one_cm,max
+custom.swim_one_cm,max
+custom.minecart_one_cm,max
+custom.pig_one_cm,max
+custom.horse_one_cm,max
+custom.boat_one_cm,max
+custom.strider_one_cm,max
+custom.mob_kills,max
+custom.animals_bred,max
+custom.enchant_item,max
+custom.traded_with_villager,max

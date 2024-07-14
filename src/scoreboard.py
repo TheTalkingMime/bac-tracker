@@ -1,7 +1,6 @@
 import nbtlib
 import csv
 import os
-from collections import defaultdict
 
 class Scoreboard:
     def __init__(self, world_dir, cwd):
@@ -14,21 +13,22 @@ class Scoreboard:
             scoreboard, mode = row
             self.scoreboards[scoreboard] = mode
 
-    def check_time(self):
+    def check(self):
         scores = {}
 
         for scoreboard in self.scoreboards:
-            scores[scoreboard] = 0
+            scores[scoreboard] = {"value": 0}
 
         with nbtlib.load(self.scoreboard_path) as file:
             objectives_tag = file['data']['PlayerScores']
 
             for objective in objectives_tag:
                 if objective['Objective'] in self.scoreboards:
-                    if self.scoreboards[objective['Objective']] == "max" and scores[objective['Objective']] < objective['Score']:
-                        scores[objective['Objective']] = int(objective['Score'])
+                    if self.scoreboards[objective['Objective']] == "max" and scores[objective['Objective']]["value"] < objective['Score']:
+                        scores[objective['Objective']]["value"] = int(objective['Score'])
+                        scores[objective['Objective']]["player"] = str(objective['Name'])
                     if self.scoreboards[objective['Objective']] == "sum":
-                        scores[objective['Objective']] += int(objective['Score'])
+                        scores[objective['Objective']]["value"] += int(objective['Score'])
                 
                 if objective['Objective'] == 'bac_current_time' and objective['Name'] == 'time':
                     current_time = objective['Score']
