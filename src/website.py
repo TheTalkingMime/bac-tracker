@@ -2,8 +2,8 @@ import requests
 
 class Website:
     def __init__(self, settings):
-        self.API_KEY = settings['API_KEY']
-        self.url = f"{settings['URL']}/send"
+        self.API_KEY = settings['obs-display-capture']['API_KEY']
+        self.url = f"{settings['obs-display-capture']['URL']}/send"
         self.headers = {'Content-Type': 'application/x-www-form-urlencoded'}
 
 

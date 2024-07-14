@@ -11,6 +11,7 @@ from scoreboard import Scoreboard
 def main():
     settings = load_settings()
     cwd = settings['cwd'] 
+    obs = settings['obs-display-capture']['ON']
 
     sheets_manager = SheetsManager(settings)
     required_advs = sheets_manager.get_adv_list()
@@ -25,7 +26,7 @@ def main():
 
     adv_tracker = AdvMonitor(adv_path, cwd, required_advs)
     # log_tracker = LogMonitor(log_path, adv_tracker.get_data('advname_to_path.csv'))
-    scoreboard = Scoreboard(world_dir)
+    scoreboard = Scoreboard(world_dir, cwd)
     website = Website(settings)
 
     refresh_rate = settings["refresh_rate"]
@@ -34,7 +35,7 @@ def main():
 
     start_time = datetime.datetime.now()
     while True:
-        force_refresh = False
+        force_refresh = obs & False 
         warning = '-1'
         # log_output = log_tracker.check()
         # new_advs = sheets_manager.update_first_completions(log_output)
@@ -42,11 +43,13 @@ def main():
             print("Checking Advancement file")
             time_passed = 0
             adv_data, item_data = adv_tracker.check_adv_directory()
+            warning, scores_data = scoreboard.check()
 
             sheets_manager.update_advancement_progress(adv_data)
             sheets_manager.update_item_progress(item_data)
-            force_refresh = True
-            warning = scoreboard.check()
+
+            force_refresh = obs & True
+            
         # warnings = scoreboard.check()
         if force_refresh:
             adv_count = sheets_manager.get_adv_count()
