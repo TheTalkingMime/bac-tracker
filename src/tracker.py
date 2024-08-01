@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 def main():
     settings = load_settings()
     cwd = settings['cwd'] 
-
+    obs = settings['obs-display-capture']['ON']
 
     world_dir = settings['path_to_world']
 
@@ -35,7 +35,7 @@ def main():
 
     start_time = datetime.datetime.now()
     while True:
-        force_refresh = False
+        force_refresh = obs & False 
         warning = '-1'
         log_output = utils.check_logs(log_tracker)
         new_advs = utils.update_first_completions(sheets_manager, log_output)
@@ -52,6 +52,7 @@ def main():
         if force_refresh or (new_advs is not None and new_advs > 0):
             adv_count = utils.get_adv_count(sheets_manager)
             utils.update_overlay(overlay, f"{adv_count}/{max_advs}", warning)
+
             
         # Ensures loop is running on a consistent refresh rate regardless of execution speed
         time_passed += refresh_rate

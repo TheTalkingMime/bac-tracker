@@ -3,6 +3,7 @@
     "path_to_world": "Path to your world folder (e.g. C:/.minecraft/saves/world)",
     "URL": "http://127.0.0.1/",
     "API_KEY": "password",
+
     "spreadsheet-format": {
         "ADVANCEMENTS_SHEET": {
             "name": "Sheet Name on Google Sheets (e.g. Advancements)",
