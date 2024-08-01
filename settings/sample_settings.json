@@ -1,6 +1,6 @@
 {
     "spreadsheet-link": "Link to your google spreadsheet",
-    "path_to_advs": "Path to your world folder (e.g. ../world)",
+    "path_to_world": "Path to your world folder (e.g. C:/.minecraft/saves/world)",
     "URL": "http://127.0.0.1/",
     "API_KEY": "password",
     "spreadsheet-format": {
