@@ -1,5 +1,7 @@
 import logging
 import logging.config
+from functools import wraps
+
 
 
 LOGGING_CONFIG = {
@@ -26,8 +28,20 @@ LOGGING_CONFIG = {
     "loggers": {
         "": {
             "handlers": ["console", "file"],
-            "level": "DEBUG",
+            "level": "INFO",
             "propagate": True,
         },
     },
 }
+
+logging.config.dictConfig(LOGGING_CONFIG)
+logger = logging.getLogger(__name__)
+
+def log_function_call(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        logger.debug(f'Calling function: {func.__name__}')
+        result = func(*args, **kwargs)
+        logger.debug(f'Function {func.__name__} finished')
+        return result
+    return wrapper

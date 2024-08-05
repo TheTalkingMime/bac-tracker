@@ -1,7 +1,11 @@
 import nbtlib
 import csv
 import os
+from logging_config import LOGGING_CONFIG, log_function_call
+import logging
 
+logging.config.dictConfig(LOGGING_CONFIG)
+logger = logging.getLogger(__name__)
 class Scoreboard:
     def __init__(self, world_dir, cwd):
         self.scoreboard_path = os.path.join(world_dir, "data", "scoreboard.dat")
@@ -34,9 +38,9 @@ class Scoreboard:
         output = ""
         
         for score in scores:
-            print(f"{score}: {scores[score]}")
+            logger.debug(f"{score}: {scores[score]}")
         
-        print(f"Current time: {int(current_time)}, {current_time == self.prev_time}")
+        logger.info(f"Current time: {int(current_time)}, {current_time == self.prev_time}")
         if current_time == self.prev_time:
             output = "Warning: bac_current_time hasn't updated"
         self.prev_time = int(current_time)

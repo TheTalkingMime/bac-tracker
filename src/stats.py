@@ -2,18 +2,20 @@ import nbtlib
 import csv
 import json
 import os
+from logging_config import LOGGING_CONFIG, log_function_call
+import logging
 
+logging.config.dictConfig(LOGGING_CONFIG)
+logger = logging.getLogger(__name__)
 class Statistics:
     def __init__(self, world_dir, cwd):
         self.statistics_path = os.path.join(world_dir, "stats")
         self.statistics = {}
         reader = csv.reader(open(os.path.join(cwd, "data", "stats.csv"), 'r'))
         for row in reader:
-            #print(row)
             statistic, mode = row
             self.statistics[statistic] = mode
-            #split = statistic.split(".")
-            #print(f"minecraft:{split[0]} minecraft:{split[1]}")
+
 
     def check(self):
         stats = {}
@@ -39,5 +41,5 @@ class Statistics:
                             stats[statistic]["value"] += current_file[s[0]][s[1]][s[2]]
 
         for stat in stats:
-                print(f"{stat}: {stats[stat]}")
+            logger.debug(f"{stat}: {stats[stat]}")
         return stats

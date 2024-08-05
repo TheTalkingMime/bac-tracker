@@ -9,9 +9,10 @@ logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 def main():
+    logger.info("\n\n\nProgram Started!\n\n\n")
+
     settings = load_settings()
     cwd = settings['cwd'] 
-    obs = settings['obs-display-capture']['ON']
 
     world_dir = settings['path_to_world']
 
@@ -23,31 +24,35 @@ def main():
 
     adv_tracker = utils.get_AdvMonitor(settings, adv_path, cwd, required_advs)
     log_tracker = utils.get_LogMonitor(settings, log_path, adv_tracker.get_data('advname_to_path.csv'))
-    scoreboard = utils.get_Scoreboard(settings)
+    scoreboard = utils.get_Scoreboard(settings, cwd)
+    statistics = utils.get_Statistics(settings, cwd)
     overlay = utils.get_Overlay(settings)
 
-    
-
-    refresh_rate = 300
-    save_time = 300
+    refresh_rate = 60
+    save_rate = 60
     time_passed = 0
     max_advs = len(adv_tracker.advancements_list)
 
+    logger.info(f"Refresh Rate: {refresh_rate}\nSave Time: {save_rate}\nMax Advs: {max_advs}" )
+
     start_time = datetime.datetime.now()
+    logger.info("Setup complete, entering main loop")
     while True:
-        force_refresh = obs & False 
+        force_refresh = False 
         warning = '-1'
         log_output = utils.check_logs(log_tracker)
         new_advs = utils.update_first_completions(sheets_manager, log_output)
-        if time_passed / save_time >= 0:
+        if time_passed / save_rate >= 0:
             logger.info("Checking Advancement file")
             time_passed = 0
             adv_data, item_data = utils.check_adv_directory(adv_tracker)
+            stats_data = utils.check_stats(statistics)
+            warning, scoreboard_data = utils.check_scoreboard(scoreboard)
             
             utils.update_advancement_progress(sheets_manager, adv_data)
             utils.update_item_progress(sheets_manager, item_data)
+            utils.update_stat_progress(sheets_manager, stats_data, scoreboard_data)
             force_refresh = True
-            warning = scoreboard.check()
 
         if force_refresh or (new_advs is not None and new_advs > 0):
             adv_count = utils.get_adv_count(sheets_manager)
@@ -75,5 +80,5 @@ def load_settings():
 try:
     main()
 except Exception as e:
-    with open(f'logs/{datetime.datetime.now().strftime("%Y%m%d_%H%M%S")}.log', 'w') as f:
-        f.write(str(traceback.format_exc()))
+    print("Send latest.log for debugging")
+    logger.error(e, exc_info=True)
