@@ -28,8 +28,8 @@ def main():
     statistics = utils.get_Statistics(settings, cwd)
     overlay = utils.get_Overlay(settings)
 
-    refresh_rate = 60
-    save_rate = 60
+    refresh_rate = 300
+    save_rate = 300
     time_passed = 0
     max_advs = len(adv_tracker.advancements_list)
 
