@@ -7,7 +7,7 @@
     "refresh_rate":300,
 
     "adv_enabled": true,
-    "log_enabled": true,
+    "log_enabled": false,
     "scoreboard_enabled": true,
     "statistics_enabled": true,
     "sheets_enabled": true,
