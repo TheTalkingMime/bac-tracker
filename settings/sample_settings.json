@@ -4,21 +4,36 @@
     "URL": "http://127.0.0.1/",
     "API_KEY": "password",
 
+    "refresh_rate":300,
+
+    "adv_enabled": true,
+    "log_enabled": true,
+    "scoreboard_enabled": true,
+    "statistics_enabled": true,
+    "sheets_enabled": true,
+    "overlay_enabled": false,
+
     "spreadsheet-format": {
         "ADVANCEMENTS_SHEET": {
             "name": "Sheet Name on Google Sheets (e.g. Advancements)",
-            "id_range": "Range of cells with the full path of the advancement (e.g. D2:D)",
-            "status_range": "Range of cells with the true/false progress of the advancement (e.g. H2:H)",
-            "who_range": "Range of cells where the player who did the advancement is listed (e.g. F2:F)",
-            "when_range": "Range of cells for the timestamp (e.g. E2:E)",
-            "progress_range": "Range of cells where the sub-progress is tracked (e.g. G2:G)",
-            "incomplete_range": "Range of cells where the incomplete criteria is listed (e.g. H2:H)"
+            "id_range": "Range of cells with the full path of the advancement (e.g. Q2:Q)",
+            "status_range": "Range of cells with the true/false progress of the advancement (e.g. G2:G)",
+            "who_range": "Range of cells where the player who did the advancement is listed (e.g. C2:C)",
+            "when_range": "Range of cells for the timestamp (e.g. R2:R)",
+            "progress_range": "Range of cells where the sub-progress is tracked (e.g. D2:D)",
+            "incomplete_range": "Range of cells where the incomplete criteria is listed (e.g. L2:L)"
         },
         "ITEMS_SHEET": {
-            "name": "Sheet Name on Google Sheets (e.g. All Items/Blocks)",
-            "id_range": "Range of cells with the full path of the item (e.g. E2:E)",
+            "name": "Sheet Name on Google Sheets (e.g. Items/Blocks)",
+            "id_range": "Range of cells with the full path of the item (e.g. G2:G)",
             "status_range": "Range of cells with the true/false progress of the advancement (e.g. C2:C)",
             "who_range":"Range of cells where the player who did the advancement is listed (e.g. A2:A)"
+        },
+        "STATS_SHEET": {
+            "name": "Sheet Name on Google Sheets (e.g. Stats)",
+            "id_range": "Range of cells with the name of the statistic (e.g. A2:A)",
+            "status_range": "Range of cells with the true/false progress of the advancement (e.g. D2:D)",
+            "who_range":"Range of cells where the player who did the advancement is listed (e.g. C2:C)"
         }
     }
 }
