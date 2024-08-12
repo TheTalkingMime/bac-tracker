@@ -2,8 +2,6 @@ import logging
 import logging.config
 from functools import wraps
 
-
-
 LOGGING_CONFIG = {
     "version": 1,
     "disable_existing_loggers": False,
