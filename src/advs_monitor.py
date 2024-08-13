@@ -1,7 +1,9 @@
 import os, csv, json
+from logging_config import LOGGING_CONFIG
 import logging
 
-logging.basicConfig(level=logging.DEBUG)
+logging.config.dictConfig(LOGGING_CONFIG)
+logger = logging.getLogger(__name__)
 
 class AdvMonitor:
     def __init__(self, adv_folder, cwd, required_advs):
@@ -10,6 +12,8 @@ class AdvMonitor:
         self.advancements_list = required_advs
         self.items_list = self.get_data("item_to_adv.csv")
         self.criteria = self.get_data("adv_criteria_requirements.json")
+
+
     def check_item_progress(self, curr_advancements):
         completed_items = []
         for item, adv_path in self.items_list:
@@ -17,8 +21,9 @@ class AdvMonitor:
                 continue
             if item in curr_advancements[adv_path]["criteria"]:
                 completed_items.append(item)
-        return set(completed_items) # NEEDS TO BE TESTED
+        return set(completed_items)
     
+
     def get_max_item_progress(self, curr_items):
         max_item_uuid = max(curr_items, key=lambda k: len(curr_items[k]))
         
@@ -38,6 +43,7 @@ class AdvMonitor:
         """
         Reads through advancements json to measure progress towards goal.
         """
+
         adv_progress = {}
         for adv_path in self.advancements_list:
             if adv_path not in curr_advancements:

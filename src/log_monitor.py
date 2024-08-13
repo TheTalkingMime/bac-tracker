@@ -1,7 +1,9 @@
 import re
+from logging_config import LOGGING_CONFIG
 import logging
 
-logging.basicConfig(level=logging.DEBUG)
+logging.config.dictConfig(LOGGING_CONFIG)
+logger = logging.getLogger(__name__)
 
 class LogMonitor:
     def __init__(self, filepath, adv_list):

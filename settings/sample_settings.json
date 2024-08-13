@@ -1,23 +1,39 @@
 {
-    "spreadsheet-link": "Link to your google spreadsheet",
-    "path_to_advs": "Path to your world folder (e.g. ../world)",
+    "spreadsheet-link": "",
+    "path_to_world": "",
     "URL": "http://127.0.0.1/",
     "API_KEY": "password",
+
+    "refresh_rate":300,
+
+    "adv_enabled": true,
+    "log_enabled": false,
+    "scoreboard_enabled": true,
+    "statistics_enabled": true,
+    "sheets_enabled": true,
+    "overlay_enabled": false,
+
     "spreadsheet-format": {
         "ADVANCEMENTS_SHEET": {
-            "name": "Sheet Name on Google Sheets (e.g. Advancements)",
-            "id_range": "Range of cells with the full path of the advancement (e.g. D2:D)",
-            "status_range": "Range of cells with the true/false progress of the advancement (e.g. H2:H)",
-            "who_range": "Range of cells where the player who did the advancement is listed (e.g. F2:F)",
-            "when_range": "Range of cells for the timestamp (e.g. E2:E)",
-            "progress_range": "Range of cells where the sub-progress is tracked (e.g. G2:G)",
-            "incomplete_range": "Range of cells where the incomplete criteria is listed (e.g. H2:H)"
+            "name": "Advancements",
+            "id_range": "Q2:Q",
+            "status_range": "G2:G",
+            "who_range": "C2:C",
+            "when_range": "R2:R",
+            "progress_range": "D2:D",
+            "incomplete_range": "L2:L"
         },
         "ITEMS_SHEET": {
-            "name": "Sheet Name on Google Sheets (e.g. All Items/Blocks)",
-            "id_range": "Range of cells with the full path of the item (e.g. E2:E)",
-            "status_range": "Range of cells with the true/false progress of the advancement (e.g. C2:C)",
-            "who_range":"Range of cells where the player who did the advancement is listed (e.g. A2:A)"
+            "name": "Items/Blocks",
+            "id_range": "G2:G",
+            "status_range": "C2:C",
+            "who_range":"A2:A"
+        },
+        "STATS_SHEET": {
+            "name": "Stats",
+            "id_range": "A2:A",
+            "status_range": "D2:D",
+            "who_range":"C2:C"
         }
     }
 }

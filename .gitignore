@@ -5,3 +5,8 @@ settings.json
 src/__pycache__ 
 bac_tracker.code-workspace
 .venv
+latest.log
+build
+dist
+tracker.exe
+tracker.spec
