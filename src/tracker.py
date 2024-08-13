@@ -1,5 +1,4 @@
-import json, os, time, datetime, traceback
-from sheets import SheetsManager
+import json, os, time, datetime
 from pathlib import Path
 import tracker_utils as utils
 from logging_config import LOGGING_CONFIG

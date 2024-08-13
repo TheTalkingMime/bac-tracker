@@ -1,7 +1,7 @@
 import gspread, os, re
 from itertools import chain
 from player_data import Players
-from logging_config import LOGGING_CONFIG, log_function_call
+from logging_config import LOGGING_CONFIG
 import logging
 
 logging.config.dictConfig(LOGGING_CONFIG)

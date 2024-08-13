@@ -1,11 +1,12 @@
 import nbtlib
 import csv
 import os
-from logging_config import LOGGING_CONFIG, log_function_call
+from logging_config import LOGGING_CONFIG
 import logging
 
 logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
+
 class Scoreboard:
     def __init__(self, world_dir, cwd):
         self.scoreboard_path = os.path.join(world_dir, "data", "scoreboard.dat")
