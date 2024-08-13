@@ -136,7 +136,6 @@ class SheetsManager:
         for item, uuid in overall_progress.items():
             completed = uuid == max_uuid
             index = mapping[item]
-
             row_data = [
                 {
                     "range": self.calc_cell(sheet_format["status_range"], index),
