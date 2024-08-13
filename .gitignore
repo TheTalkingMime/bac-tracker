@@ -8,3 +8,5 @@ bac_tracker.code-workspace
 latest.log
 build
 dist
+tracker.exe
+tracker.spec
