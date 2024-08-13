@@ -1,4 +1,4 @@
-import json, os, time, datetime
+import json, os, time, datetime, sys
 from pathlib import Path
 import tracker_utils as utils
 from logging_config import LOGGING_CONFIG
@@ -8,7 +8,7 @@ logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 def main():
-    logger.info("\n\n\nProgram Started!\n\n\n")
+    logger.info("Program Started!")
 
     settings = load_settings()
     cwd = settings['cwd'] 
@@ -69,7 +69,13 @@ def main():
 
 
 def load_settings():
-    cwd = Path(__file__).resolve().parent.parent
+    if getattr(sys, 'frozen', False):
+        logging.debug("Executable")
+        cwd = Path(sys.argv[0]).resolve().parent
+    else:
+        logging.debug("Normal env")
+        cwd = Path(__file__).resolve().parent.parent
+    logger.debug(f"CWD is {cwd}")
     with open(os.path.join(cwd, 'settings', 'settings.json')) as f:
         settings = json.load(f)
     settings['cwd'] = cwd
