@@ -85,5 +85,5 @@ def load_settings():
 try:
     main()
 except Exception as e:
-    print("Send latest.log for debugging")
     logger.error(e, exc_info=True)
+    input("Send latest.log for debugging")

@@ -152,7 +152,6 @@ class AdvMonitor:
         max_item_progress = self.get_max_item_progress(player_item_progress)
         max_adv_progress = self.get_max_progression(player_adv_progress)
         
-        print(f"Max_adv_progress {max_adv_progress}")
         return (max_adv_progress, max_item_progress)
 
     def get_data(self, filename):
