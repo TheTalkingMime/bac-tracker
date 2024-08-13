@@ -51,7 +51,7 @@
  - [x] Incorrect values being pushed for All Items/Blocks
    - [x] Happening because the sheet doesn't reset progress when it switches players
  - [x] Not pushing final update at end of HBG run
- - [ ] Not tracking trims
+ - [ ] Not tracking trims correctly
 
 
 ## Misc
