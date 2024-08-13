@@ -120,7 +120,7 @@ Blue Stained Glass	blue_stained_glass	blazeandcave:challenges/stack_all_the_bloc
 Blue Stained Glass Pane	blue_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Terracotta	blue_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Wool	blue_wool	blazeandcave:challenges/stack_all_the_blocks	64
-Bolt Armor Trim Smithing Template	bolt_armor_trim_smithing_template	blazeandcave:challenges/all_the_items	1
+Bolt Armor Trim Smithing Template	bolt_armor_trim	blazeandcave:challenges/all_the_items	1
 Bone	bone	blazeandcave:challenges/stack_all_the_items	64
 Bone Block	bone_block	blazeandcave:challenges/stack_all_the_blocks	64
 Bone Meal	bone_meal	blazeandcave:challenges/stack_all_the_items	64
@@ -431,7 +431,7 @@ Fishing Rod	fishing_rod	blazeandcave:challenges/stack_all_the_items	1
 Fletching Table	fletching_table	blazeandcave:challenges/stack_all_the_blocks	64
 Flint	flint	blazeandcave:challenges/stack_all_the_items	64
 Flint And Steel	flint_and_steel	blazeandcave:challenges/stack_all_the_items	1
-Flow Armor Trim Smithing Template	flow_armor_trim_smithing_template	blazeandcave:challenges/all_the_items	1
+Flow Armor Trim Smithing Template	flow_armor_trim	blazeandcave:challenges/all_the_items	1
 Flow Banner Pattern	flow_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
 Flow Pottery Sherd	flow_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Flower Banner Pattern	flower_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
