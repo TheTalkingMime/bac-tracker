@@ -24,18 +24,22 @@ class Scoreboard:
         for scoreboard in self.scoreboards:
             scores[scoreboard] = {"value": 0}
 
-        with nbtlib.load(self.scoreboard_path) as file:
-            objectives_tag = file['data']['PlayerScores']
-            for objective in objectives_tag:
-                if objective['Objective'] in self.scoreboards:
-                    if self.scoreboards[objective['Objective']] == "max" and scores[objective['Objective']]["value"] < objective['Score']:
-                        scores[objective['Objective']]["value"] = int(objective['Score'])
-                        scores[objective['Objective']]["player"] = str(objective['Name'])
-                    if self.scoreboards[objective['Objective']] == "sum":
-                        scores[objective['Objective']]["value"] += int(objective['Score'])
-                
-                if objective['Objective'] == 'bac_current_time' and objective['Name'] == 'time':
-                    current_time = objective['Score']
+        try:
+            with nbtlib.load(self.scoreboard_path) as file:
+                objectives_tag = file['data']['PlayerScores']
+        except TypeError as e:
+            logger.error(f"Error reading scoerboard.dat {e}")
+
+        for objective in objectives_tag:
+            if objective['Objective'] in self.scoreboards:
+                if self.scoreboards[objective['Objective']] == "max" and scores[objective['Objective']]["value"] < objective['Score']:
+                    scores[objective['Objective']]["value"] = int(objective['Score'])
+                    scores[objective['Objective']]["player"] = str(objective['Name'])
+                if self.scoreboards[objective['Objective']] == "sum":
+                    scores[objective['Objective']]["value"] += int(objective['Score'])
+            
+            if objective['Objective'] == 'bac_current_time' and objective['Name'] == 'time':
+                current_time = objective['Score']
         output = ""
         
         for score in scores:
