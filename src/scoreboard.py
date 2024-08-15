@@ -3,6 +3,8 @@ import csv
 import os
 from logging_config import LOGGING_CONFIG
 import logging
+from utils import retry_on_exception
+from gzip import BadGzipFile
 
 logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
@@ -24,11 +26,7 @@ class Scoreboard:
         for scoreboard in self.scoreboards:
             scores[scoreboard] = {"value": 0}
 
-        try:
-            with nbtlib.load(self.scoreboard_path) as file:
-                objectives_tag = file['data']['PlayerScores']
-        except TypeError as e:
-            logger.error(f"Error reading scoerboard.dat {e}")
+        objectives_tag = self.read_dat()
 
         for objective in objectives_tag:
             if objective['Objective'] in self.scoreboards:
@@ -50,3 +48,10 @@ class Scoreboard:
             output = "Warning: bac_current_time hasn't updated"
         self.prev_time = int(current_time)
         return output, scores
+
+    @retry_on_exception((TypeError, KeyError, BadGzipFile), retries=3, delay=2)
+    def read_dat(self):
+        with nbtlib.load(self.scoreboard_path) as file:
+            objectives_tag = file['data']['PlayerScores']
+        return objectives_tag
+    
