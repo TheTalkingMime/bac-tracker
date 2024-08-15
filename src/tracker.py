@@ -1,6 +1,6 @@
 import json, os, time, datetime, sys
 from pathlib import Path
-import tracker_utils as utils
+import tracker_utils
 from logging_config import LOGGING_CONFIG
 import logging
 
@@ -18,14 +18,14 @@ def main():
     adv_path = os.path.join(world_dir, 'advancements')
     log_path = os.path.join(world_dir, '..', '..', 'logs', 'latest.log')
 
-    sheets_manager = utils.get_SheetsManager(settings)
+    sheets_manager = tracker_utils.get_SheetsManager(settings)
     required_advs = sheets_manager.get_adv_list()
 
-    adv_tracker = utils.get_AdvMonitor(settings, adv_path, cwd, required_advs)
-    log_tracker = utils.get_LogMonitor(settings, log_path, adv_tracker.get_data('advname_to_path.csv'))
-    scoreboard = utils.get_Scoreboard(settings, cwd)
-    statistics = utils.get_Statistics(settings, cwd)
-    overlay = utils.get_Overlay(settings)
+    adv_tracker = tracker_utils.get_AdvMonitor(settings, adv_path, cwd, required_advs)
+    log_tracker = tracker_utils.get_LogMonitor(settings, log_path, adv_tracker.get_data('advname_to_path.csv'))
+    scoreboard = tracker_utils.get_Scoreboard(settings, cwd)
+    statistics = tracker_utils.get_Statistics(settings, cwd)
+    overlay = tracker_utils.get_Overlay(settings)
 
     refresh_rate = settings['refresh_rate']
     save_rate = 300
@@ -39,23 +39,23 @@ def main():
     while True:
         force_refresh = False 
         warning = '-1'
-        log_output = utils.check_logs(log_tracker)
-        new_advs = utils.update_first_completions(sheets_manager, log_output)
+        log_output = tracker_utils.check_logs(log_tracker)
+        new_advs = tracker_utils.update_first_completions(sheets_manager, log_output)
         if time_passed / save_rate >= 0:
             logger.info("Checking Advancement file")
             time_passed = 0
-            adv_data, item_data = utils.check_adv_directory(adv_tracker)
-            stats_data = utils.check_stats(statistics)
-            warning, scoreboard_data = utils.check_scoreboard(scoreboard)
+            adv_data, item_data = tracker_utils.check_adv_directory(adv_tracker)
+            stats_data = tracker_utils.check_stats(statistics)
+            warning, scoreboard_data = tracker_utils.check_scoreboard(scoreboard)
             
-            utils.update_advancement_progress(sheets_manager, adv_data)
-            utils.update_item_progress(sheets_manager, item_data)
-            utils.update_stat_progress(sheets_manager, stats_data, scoreboard_data)
+            tracker_utils.update_advancement_progress(sheets_manager, adv_data)
+            tracker_utils.update_item_progress(sheets_manager, item_data)
+            tracker_utils.update_stat_progress(sheets_manager, stats_data, scoreboard_data)
             force_refresh = True
 
         if force_refresh or (new_advs is not None and new_advs > 0):
-            adv_count = utils.get_adv_count(sheets_manager)
-            utils.update_overlay(overlay, f"{adv_count}/{max_advs}", warning)
+            adv_count = tracker_utils.get_adv_count(sheets_manager)
+            tracker_utils.update_overlay(overlay, f"{adv_count}/{max_advs}", warning)
 
             
         # Ensures loop is running on a consistent refresh rate regardless of execution speed
