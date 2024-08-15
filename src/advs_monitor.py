@@ -1,8 +1,7 @@
 import os, csv, json
-from logging_config import LOGGING_CONFIG
 import logging
+from utils import retry_on_exception
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 class AdvMonitor:
@@ -140,8 +139,7 @@ class AdvMonitor:
         for filename in os.listdir(self.adv_folder):
             if not filename.endswith(".json"):
                 continue
-            with open(os.path.join(self.adv_folder, filename)) as f:
-                data = json.load(f)
+            data = self.read_adv_file(filename)
             uuid = filename[:-5]
 
             adv_progress = self.check_adv_progress(data)
@@ -171,3 +169,9 @@ class AdvMonitor:
         if adv in progress:
             return progress[adv][1]
         return f"0/{self.criteria[adv]}"
+    
+    @retry_on_exception(json.decoder.JSONDecodeError)
+    def read_adv_file(self, filename):
+        with open(os.path.join(self.adv_folder, filename)) as f:
+            data = json.load(f)
+        return data
