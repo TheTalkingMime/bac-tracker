@@ -4,7 +4,7 @@ import string
 from logging_config import LOGGING_CONFIG
 import logging
 
-logging.config.dictConfig(LOGGING_CONFIG)
+# logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 class Overlay:

@@ -5,7 +5,7 @@ from logging_config import LOGGING_CONFIG
 import logging
 from utils import retry_on_exception
 
-logging.config.dictConfig(LOGGING_CONFIG)
+# logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 class Statistics:
     def __init__(self, world_dir, cwd):

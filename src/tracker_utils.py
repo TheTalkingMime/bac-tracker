@@ -8,7 +8,7 @@ from logging_config import LOGGING_CONFIG
 from utils import log_function_call
 import logging
 
-logging.config.dictConfig(LOGGING_CONFIG)
+# logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 

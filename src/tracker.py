@@ -3,6 +3,7 @@ from pathlib import Path
 import tracker_utils
 from logging_config import LOGGING_CONFIG
 import logging
+import logging.config
 
 logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)

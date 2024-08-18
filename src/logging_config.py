@@ -2,7 +2,7 @@ import os
 
 if not os.path.exists('logs'):
     os.makedirs('logs')
-    
+
 LOGGING_CONFIG = {
     "version": 1,
     "disable_existing_loggers": False,
