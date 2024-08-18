@@ -18,9 +18,11 @@ LOGGING_CONFIG = {
         },
         "file": {
             "level": "DEBUG",
-            "class": "logging.FileHandler",
+            "class": "logging.handlers.RotatingFileHandler",
             "formatter": "standard",
-            "filename": "latest.log",
+            "filename": "logs/latest.log",
+            "backupCount": 3,
+            "maxBytes": 5000000
         },
     },
     "loggers": {
