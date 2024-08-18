@@ -2,7 +2,8 @@
 /bac_datapack/
 credentials.json
 settings.json
-src/__pycache__ 
+__pycache__
+tracker/src/__pycache__
 bac_tracker.code-workspace
 .venv
 latest.log
