@@ -1,20 +1,13 @@
 @echo off
 setlocal enabledelayedexpansion
 
-if "%~1" neq "" (
-    set "VERSION=%~1"
-) else (
-    :prompt
-    set "VERSION="
-    set /p "VERSION=Enter version number: "
-    
-    if "!VERSION!"=="" (
-        echo Enter a version number (ex: 0.0.0)
-        goto prompt
-    )
-)
+set /p "VERSION=Enter version number (ex: 0.0.0): "
 
 pyinstaller --onefile src/tracker.py
+
+if not exist ".\releases\" (
+    mkdir ".\releases\"
+)
 
 mkdir ".\releases\%VERSION%"
 mkdir ".\releases\%VERSION%\settings"
