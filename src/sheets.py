@@ -5,7 +5,6 @@ from logging_config import LOGGING_CONFIG
 from utils import retry_on_exception
 import logging
 
-# logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 logging.getLogger("google.auth").setLevel(logging.WARNING)
