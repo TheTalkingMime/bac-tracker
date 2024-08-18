@@ -1,6 +1,7 @@
-import logging
-import logging.config
-from functools import wraps
+import os
+
+if not os.path.exists('logs'):
+    os.makedirs('logs')
 
 LOGGING_CONFIG = {
     "version": 1,
@@ -18,9 +19,11 @@ LOGGING_CONFIG = {
         },
         "file": {
             "level": "DEBUG",
-            "class": "logging.FileHandler",
+            "class": "logging.handlers.RotatingFileHandler",
             "formatter": "standard",
-            "filename": "latest.log",
+            "filename": "logs/latest.log",
+            "backupCount": 3,
+            "maxBytes": 5000000
         },
     },
     "loggers": {
@@ -32,14 +35,3 @@ LOGGING_CONFIG = {
     },
 }
 
-logging.config.dictConfig(LOGGING_CONFIG)
-logger = logging.getLogger(__name__)
-
-def log_function_call(func):
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        logger.debug(f'Calling function: {func.__name__}')
-        result = func(*args, **kwargs)
-        logger.debug(f'Function {func.__name__} finished')
-        return result
-    return wrapper

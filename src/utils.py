@@ -3,7 +3,6 @@ from logging_config import LOGGING_CONFIG
 import logging
 from functools import wraps
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 def retry_on_exception(exception_types, retries=3, delay=1):
@@ -27,3 +26,12 @@ def retry_on_exception(exception_types, retries=3, delay=1):
                         raise
         return wrapper
     return decorator
+
+def log_function_call(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        logger.debug(f'Calling function: {func.__name__}')
+        result = func(*args, **kwargs)
+        logger.debug(f'Function {func.__name__} finished')
+        return result
+    return wrapper

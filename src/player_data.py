@@ -1,7 +1,7 @@
 import requests
 import logging
 
-logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 class Players():
     def __init__(self):
