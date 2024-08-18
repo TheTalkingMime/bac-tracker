@@ -2,9 +2,9 @@ import gspread, os, re
 from itertools import chain
 from player_data import Players
 from logging_config import LOGGING_CONFIG
+from utils import retry_on_exception
 import logging
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 logging.getLogger("google.auth").setLevel(logging.WARNING)
@@ -75,9 +75,7 @@ class SheetsManager:
                 )
             sheet_data.extend(row_data)
         logger.info(f"Batch Update adv progress, {len(sheet_data)}")
-        sheet_info["worksheet"].batch_update(
-            sheet_data, value_input_option="USER_ENTERED"
-        )
+        self.worksheet_batch_update(sheet_info["worksheet"], sheet_data)
 
     def update_first_completions(self, log_data):
         """
@@ -121,9 +119,7 @@ class SheetsManager:
 
         logger.info(f"Batch update log progress: {new_advs}")
 
-        sheet_info["worksheet"].batch_update(
-            sheet_data, value_input_option="USER_ENTERED"
-        )
+        self.worksheet_batch_update(sheet_info["worksheet"], sheet_data)
         return new_advs
 
     def update_item_progress(self, item_progress):
@@ -150,9 +146,7 @@ class SheetsManager:
 
         logger.info(f"Batch update item progress: {len(sheet_data)}")
 
-        sheet_info["worksheet"].batch_update(
-            sheet_data, value_input_option="USER_ENTERED"
-        )
+        self.worksheet_batch_update(sheet_info["worksheet"], sheet_data)
 
     def update_stat_progress(self, stats_data, scoreboard_data):
         sheet_info = self.get_sheet_info("STATS_SHEET")
@@ -183,14 +177,12 @@ class SheetsManager:
             sheet_data.extend(row_data)
 
         logger.info(f"Batch update stat progress: {len(sheet_data)}")
-        sheet_info["worksheet"].batch_update(
-            sheet_data, value_input_option="USER_ENTERED"
-        )
+        self.worksheet_batch_update(sheet_info["worksheet"], sheet_data)
 
     def get_adv_count(self):
         sheet_info = self.get_sheet_info("ADVANCEMENTS_SHEET")
         worksheet = sheet_info["worksheet"]
-        statuses = worksheet.get(sheet_info["format"]["status_range"])
+        statuses = self.worksheet_get(worksheet, sheet_info["format"]["status_range"])
         count = 0
         for x in statuses:
             if x == ["TRUE"]:
@@ -228,3 +220,11 @@ class SheetsManager:
     def get_adv_list(self):
         sheet_mapping = self.sheets_info["ADVANCEMENTS_SHEET"]["mapping"]
         return list(sheet_mapping.keys())
+
+    @retry_on_exception(gspread.exceptions.APIError)
+    def worksheet_get(self, worksheet, range):
+        return worksheet.get(range)
+
+    @retry_on_exception(gspread.exceptions.APIError)
+    def worksheet_batch_update(self, worksheet, data, input_option="USER_ENTERED"):
+        return worksheet.batch_update(data, value_input_option=input_option)

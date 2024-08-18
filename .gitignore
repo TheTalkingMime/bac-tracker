@@ -11,3 +11,4 @@ build
 dist
 tracker.exe
 tracker.spec
+releases/*

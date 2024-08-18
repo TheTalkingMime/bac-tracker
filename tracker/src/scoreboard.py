@@ -6,7 +6,6 @@ import logging
 from utils import retry_on_exception
 from gzip import BadGzipFile
 
-logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 class Scoreboard:
