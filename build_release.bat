@@ -5,6 +5,10 @@ set /p "VERSION=Enter version number (ex: 0.0.0): "
 
 pyinstaller --onefile src/tracker.py
 
+if not exist ".\releases\" (
+    mkdir ".\releases\"
+)
+
 mkdir ".\releases\%VERSION%"
 mkdir ".\releases\%VERSION%\settings"
 
