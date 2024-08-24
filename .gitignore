@@ -10,3 +10,6 @@ build
 dist
 tracker.exe
 tracker.spec
+dev_tools/releases/*
+logs
+tracker/src/test.py
