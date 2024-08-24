@@ -1,7 +1,6 @@
 import requests
 import secrets
 import string
-from logging_config import LOGGING_CONFIG
 import logging
 
 logger = logging.getLogger(__name__)

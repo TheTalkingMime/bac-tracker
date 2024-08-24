@@ -12,3 +12,4 @@ dist
 tracker.exe
 tracker.spec
 releases/*
+logs

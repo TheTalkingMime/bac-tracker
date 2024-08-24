@@ -1,7 +1,7 @@
 import json, os, time, datetime, sys
 from pathlib import Path
 import tracker_utils
-from logging_config import LOGGING_CONFIG
+from logging_config import *
 import logging
 import logging.config
 
@@ -71,12 +71,13 @@ def main():
 
 def load_settings():
     if getattr(sys, 'frozen', False):
-        logging.debug("Executable")
         cwd = Path(sys.argv[0]).resolve().parent
+        logger.debug("Running as .exe")
     else:
-        logging.debug("Normal env")
         cwd = Path(__file__).resolve().parent.parent
-    logger.debug(f"CWD is {cwd}")
+        logger.debug("Running as .py")
+
+    logger.debug(f"Running in {cwd}")
     with open(os.path.join(cwd, 'settings', 'settings.json')) as f:
         settings = json.load(f)
     settings['cwd'] = cwd

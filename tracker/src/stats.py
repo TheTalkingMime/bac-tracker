@@ -1,7 +1,6 @@
 import csv
 import json
 import os
-from logging_config import LOGGING_CONFIG
 import logging
 from utils import retry_on_exception
 
