@@ -1,5 +1,4 @@
 import re
-from logging_config import LOGGING_CONFIG
 import logging
 
 logger = logging.getLogger(__name__)

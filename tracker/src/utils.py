@@ -1,5 +1,4 @@
 import time
-from logging_config import LOGGING_CONFIG
 import logging
 from functools import wraps
 import copy

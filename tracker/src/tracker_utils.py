@@ -4,7 +4,6 @@ from log_monitor import LogMonitor
 from stats import Statistics
 from overlay import Overlay
 from scoreboard import Scoreboard
-from logging_config import LOGGING_CONFIG
 from utils import log_function_call
 import logging
 

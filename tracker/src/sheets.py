@@ -1,7 +1,6 @@
 import gspread, os, re
 from itertools import chain
 from player_data import Players
-from logging_config import LOGGING_CONFIG
 from utils import retry_on_exception
 import logging
 
