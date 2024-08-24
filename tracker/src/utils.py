@@ -2,6 +2,7 @@ import time
 from logging_config import LOGGING_CONFIG
 import logging
 from functools import wraps
+import copy
 
 logger = logging.getLogger(__name__)
 
@@ -11,7 +12,10 @@ def retry_on_exception(exception_types, retries=3, delay=1):
     def decorator(func):
         @wraps(func)
         def wrapper(*args, **kwargs):
+            mutable_types = (list, dict, set)            
             n = 0
+            original_args = [copy.deepcopy(arg) if isinstance(arg, mutable_types) else arg for arg in args]
+            original_kwargs = {k: copy.deepcopy(v) if isinstance(v, mutable_types) else v for k, v in kwargs.items()}
             while n < retries:
                 try:
                     return func(*args, **kwargs)
@@ -35,3 +39,6 @@ def log_function_call(func):
         logger.debug(f'Function {func.__name__} finished')
         return result
     return wrapper
+
+def is_mutable(var):
+
