@@ -24,7 +24,7 @@ class SheetsManager:
         self.get_sheet_info("ITEMS_SHEET")
         self.get_sheet_info("STATS_SHEET")
 
-    def update_advancement_progress(self, adv_progress):
+    def update_advancement_progress(self, adv_progress, completer_data):
         """
         Formats the adv_progress dict for gspread.
 
@@ -63,15 +63,19 @@ class SheetsManager:
                     "values": [[info[3]]],
                 },
             ]
-            if info[4] is not None:
-                row_data.extend(
+            if adv in completer_data:
+                who = completer_data[adv]
+            elif info[4] is not None:
+                who = info[4]
+            row_data.extend(
                     [
                         {
                             "range": self.calc_cell(sheet_format["who_range"], index),
-                            "values": [[self.get_face(info[4])]],
+                            "values": [[self.get_face(who)]],
                         }
                     ]
                 )
+        
             sheet_data.extend(row_data)
         logger.info(f"Batch Update adv progress, {len(sheet_data)}")
         self.worksheet_batch_update(sheet_info["worksheet"], sheet_data)

@@ -26,6 +26,9 @@ class Scoreboard:
 
         objectives_tag = self.read_dat()
 
+        mapping = {}
+        advancements = {}
+
         for objective in objectives_tag:
             if objective['Objective'] in self.scoreboards:
                 if self.scoreboards[objective['Objective']] == "max" and scores[objective['Objective']]["value"] < objective['Score']:
@@ -36,6 +39,17 @@ class Scoreboard:
             
             if objective['Objective'] == 'bac_current_time' and objective['Name'] == 'time':
                 current_time = objective['Score']
+
+            if objective['Objective'] == 'tracker_players':
+                if str(objective['Name']) == '.total':
+                    continue
+                mapping[int(objective['Score'])] = str(objective['Name'])
+            if objective['Objective'] == 'tracker_advancement':
+                advancements[str(objective['Name'])] = int(objective['Score'])
+        
+        # IBowSpam is a player with a question mark as their head, so it will look good on the spreadsheet
+        mapped_advancements = {key: mapping.get(value, "IBowSpam") for key,value in advancements.items()}
+
         output = ""
         
         for score in scores:
@@ -45,7 +59,10 @@ class Scoreboard:
         if current_time == self.prev_time:
             output = "Warning: bac_current_time hasn't updated"
         self.prev_time = int(current_time)
-        return output, scores
+
+        # Output is warning text
+        # Scores is stats info
+        return output, scores, mapped_advancements
 
     @retry_on_exception((TypeError, KeyError, BadGzipFile), retries=3, delay=2)
     def read_dat(self):
