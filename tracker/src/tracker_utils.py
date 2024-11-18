@@ -96,9 +96,9 @@ def check_scoreboard(scoreboard):
         return scoreboard.check()
   
 @log_function_call  
-def update_advancement_progress(sheets_manager, adv_data):
+def update_advancement_progress(sheets_manager, adv_data, completion_data):
     if sheets_manager and adv_data:
-        return sheets_manager.update_advancement_progress(adv_data)
+        return sheets_manager.update_advancement_progress(adv_data, completion_data)
     else:
         logger.info("Sheets_manager or adv_data is None, skipping")
 
