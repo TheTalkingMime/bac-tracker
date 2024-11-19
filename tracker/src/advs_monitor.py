@@ -92,20 +92,12 @@ class AdvMonitor:
             adv_progress[adv_path] = (
                 completed,
                 num_criteria,
-                self.incomplete_advs_to_string(incomplete),
+                incomplete,
                 is_complete,
             )
         return adv_progress
 
-    def incomplete_advs_to_string(self, incomplete):
-        if len(incomplete) == 0:
-            return ""
-        if type(incomplete[0]) != list:
-            return ", ".join(incomplete)
-        incomplete_strs = []
-        for group in incomplete:
-            incomplete_strs.append(" or ".join(group))
-        return ", ".join(incomplete_strs)
+
 
     def get_max_progression(self, player_progress):
         """

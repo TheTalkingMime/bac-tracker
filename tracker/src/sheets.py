@@ -56,7 +56,7 @@ class SheetsManager:
                 },
                 {
                     "range": self.calc_cell(sheet_format["incomplete_range"], index),
-                    "values": [[info[2]]],
+                    "values": [[self.incomplete_advs_to_string(info[2])]],
                 },
                 {
                     "range": self.calc_cell(sheet_format["status_range"], index),
@@ -231,3 +231,13 @@ class SheetsManager:
     @retry_on_exception(gspread.exceptions.APIError)
     def worksheet_batch_update(self, worksheet, data, input_option="USER_ENTERED"):
         return worksheet.batch_update(data, value_input_option=input_option)
+
+    def incomplete_advs_to_string(self, incomplete):
+        if len(incomplete) == 0:
+            return ""
+        if type(incomplete[0]) != list:
+            return ", ".join(incomplete)
+        incomplete_strs = []
+        for group in incomplete:
+            incomplete_strs.append(" or ".join(group))
+        return ", ".join(incomplete_strs)
