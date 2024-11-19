@@ -84,14 +84,14 @@ class AdvMonitor:
                             incomplete.append(criteria_group)
             """
             Adv_progress format:
-            [0] : % complete (float)
-            [1] : Fraction representation of progress (str)
+            [0] : Criteria complete (int)
+            [1] : Total criteria required (int)
             [2] : Incomplete criteria, if applicable (str)
             [3] : Is adv complete (bool)
             """
             adv_progress[adv_path] = (
-                round(completed / num_criteria, 5),
-                f"'{completed}/{num_criteria}",
+                completed,
+                num_criteria,
                 self.incomplete_advs_to_string(incomplete),
                 is_complete,
             )

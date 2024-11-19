@@ -30,8 +30,8 @@ class SheetsManager:
 
         adv_progress format:
         [key] : adv_path (str)
-        [0] : % complete (float)
-        [1] : Fraction representation of progress (str)
+        [0] : Criteria complete (int)
+        [1] : Total criteria required (int)
         [2] : Incomplete criteria, if applicable (str)
         [3] : Is adv complete (bool)
         [4] : Player UUID (str)
@@ -52,7 +52,7 @@ class SheetsManager:
             row_data = [
                 {
                     "range": self.calc_cell(sheet_format["progress_range"], index),
-                    "values": [[info[1]]],
+                    "values": [[f"{info[0]}/{info[1]}"]],
                 },
                 {
                     "range": self.calc_cell(sheet_format["incomplete_range"], index),
