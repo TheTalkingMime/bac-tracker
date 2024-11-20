@@ -54,10 +54,11 @@ def get_Overlay(settings):
         return None
     return Overlay(settings, settings.get("website_enabled", "localhost"))
 
+@log_function_call
 def get_local_output(settings, cwd):
     if not settings['local_output_enabled']:
         return None
-    return LocalOutput(settings, cwd)
+    return LocalOutput(cwd)
 
 #
 # Read files
@@ -117,7 +118,8 @@ def update_item_progress(sheets_manager, item_data):
 def update_stat_progress(sheets_manager, stats_data, scoreboard_data):
     if sheets_manager:
         return sheets_manager.update_stat_progress(stats_data, scoreboard_data)
-    
+
+@log_function_call
 def update_local_output(local_output, adv_data):
     if local_output:
         return local_output.update_db(adv_data)
