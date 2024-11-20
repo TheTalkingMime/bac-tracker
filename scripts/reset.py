@@ -21,10 +21,10 @@ def get_sheet_info(sheet_type, conn):
 
 cwd = Path(__file__).resolve().parent.parent
 
-with open(os.path.join(cwd, "settings", "settings.json")) as f:
+with open(os.path.join(cwd, "tracker", "settings", "settings.json")) as f:
     settings = json.load(f)
     
-gc = gspread.service_account(filename=os.path.join(cwd, "settings", "credentials.json"))
+gc = gspread.service_account(filename=os.path.join(cwd, "tracker", "settings", "credentials.json"))
 conn = gc.open_by_url(settings['spreadsheet-link'])
 
 advancement_sheet_info = get_sheet_info("ADVANCEMENTS_SHEET", conn=conn)
