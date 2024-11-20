@@ -62,11 +62,11 @@ adv_vals = [{
 
 item_vals = [{
                 'range': items_sheet_format['status_range'],
-                'values': [[False] for x in range(adv_len)]
+                'values': [[False] for x in range(item_len)]
             },
             {
                 'range': items_sheet_format['who_range'],
-                'values': [[""] for x in range(adv_len)]
+                'values': [[""] for x in range(item_len)]
             }]
 
 advancementsSheet.batch_update(adv_vals)
