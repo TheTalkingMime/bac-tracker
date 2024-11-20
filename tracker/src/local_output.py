@@ -5,7 +5,7 @@ import json
 
 class LocalOutput():
     def __init__(self, cwd):
-        json_db = self.initialize_db(cwd)
+        self.json_db = self.initialize_db(cwd)
         
     # Creates a new json DB by copying the skeleton and overwriting previous DB
     def initialize_db(self, cwd):

@@ -4,6 +4,7 @@ from log_monitor import LogMonitor
 from stats import Statistics
 from overlay import Overlay
 from scoreboard import Scoreboard
+from local_output import LocalOutput
 from utils import log_function_call
 import logging
 
@@ -52,6 +53,11 @@ def get_Overlay(settings):
     if not settings['overlay_enabled']:
         return None
     return Overlay(settings, settings.get("website_enabled", "localhost"))
+
+def get_local_output(settings, cwd):
+    if not settings['local_output_enabled']:
+        return None
+    return LocalOutput(settings, cwd)
 
 #
 # Read files
@@ -111,3 +117,7 @@ def update_item_progress(sheets_manager, item_data):
 def update_stat_progress(sheets_manager, stats_data, scoreboard_data):
     if sheets_manager:
         return sheets_manager.update_stat_progress(stats_data, scoreboard_data)
+    
+def update_local_output(local_output, adv_data):
+    if local_output:
+        return local_output.update_db(adv_data)

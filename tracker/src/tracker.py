@@ -12,6 +12,8 @@ def main():
     logger.info("Program Started!")
 
     settings = load_settings()
+    logger.info("Loaded Settings!")
+
     cwd = settings['cwd'] 
 
     world_dir = settings['path_to_world']
@@ -27,6 +29,7 @@ def main():
     scoreboard = tracker_utils.get_Scoreboard(settings, cwd)
     statistics = tracker_utils.get_Statistics(settings, cwd)
     overlay = tracker_utils.get_Overlay(settings)
+    local_output = tracker_utils.get_local_output(settings, cwd)
 
     refresh_rate = settings['refresh_rate']
     save_rate = 300
@@ -50,6 +53,7 @@ def main():
             warning, scoreboard_data, completer_data = tracker_utils.check_scoreboard(scoreboard)
             
             tracker_utils.update_advancement_progress(sheets_manager, adv_data, completer_data)
+            tracker_utils.update_local_output(local_output, adv_data)
             tracker_utils.update_item_progress(sheets_manager, item_data)
             tracker_utils.update_stat_progress(sheets_manager, stats_data, scoreboard_data)
             force_refresh = True
