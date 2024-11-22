@@ -55,10 +55,10 @@ def get_Overlay(settings):
     return Overlay(settings, settings.get("website_enabled", "localhost"))
 
 @log_function_call
-def get_local_output(settings, cwd):
+def get_local_output(settings):
     if not settings['local_output_enabled']:
         return None
-    return LocalOutput(cwd)
+    return LocalOutput(settings)
 
 #
 # Read files

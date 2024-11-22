@@ -29,7 +29,7 @@ def main():
     scoreboard = tracker_utils.get_Scoreboard(settings, cwd)
     statistics = tracker_utils.get_Statistics(settings, cwd)
     overlay = tracker_utils.get_Overlay(settings)
-    local_output = tracker_utils.get_local_output(settings, cwd)
+    local_output = tracker_utils.get_local_output(settings)
 
     refresh_rate = settings['refresh_rate']
     save_rate = 300
