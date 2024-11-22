@@ -4,8 +4,9 @@ import json
 
 
 class LocalOutput():
-    def __init__(self, cwd):
-        self.file_path = os.path.join(cwd, "data", "data.json")
+    def __init__(self, settings):
+        cwd = settings['cwd']
+        self.file_path = settings["path_to_advancements_json"]
         self.skeleton_path = os.path.join(cwd, "data", "skeleton.json")
         
     # Creates a new json DB by copying the skeleton and overwriting previous DB
