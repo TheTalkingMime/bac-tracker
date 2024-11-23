@@ -120,6 +120,6 @@ def update_stat_progress(sheets_manager: SheetsManager, stats_data, scoreboard_d
         return sheets_manager.update_stat_progress(stats_data, scoreboard_data)
 
 @log_function_call
-def update_local_output(local_output: LocalOutput, adv_data):
+def update_local_output(local_output: LocalOutput, adv_data, stats_data):
     if local_output:
-        return local_output.update_db(adv_data)
+        return local_output.update_db(adv_data, stats_data)
