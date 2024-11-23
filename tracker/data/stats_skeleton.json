@@ -1,0 +1,18 @@
+{
+    "custom.jump": {
+        "id": "custom.jump",
+        "progress": 0,
+        "maxProgress": 100000
+    },
+    "custom.animals_bred": {
+        "id": "custom.animals_bred",
+        "progress": 0,
+        "maxProgress": 2500
+    },
+    "bac_stat_food": {
+        "id": "bac_stat_food",
+        "progress": 0,
+        "maxProgress": 5000
+    }
+}
+
