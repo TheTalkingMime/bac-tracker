@@ -35,7 +35,7 @@ class LocalOutput():
 
     def update_db_stats(self, stats_data):
         data = self.load_data(self.stats_skeleton_path)
-        for key in stats_data:
+        for key in data:
             data[key]["progress"] = stats_data.get("value", 0)
 
         self.write_data(self.file_path, data)
