@@ -35,12 +35,34 @@ class LocalOutput():
 
     def update_db_stats(self, stats_data):
         data = self.load_data(self.stats_skeleton_path)
+        mapping = {
+            "custom.aviate_one_cm": 100000000,
+            "custom.walk_one_cm": 25000000,
+            "custom.sprint_one_cm": 25000000,
+            "custom.jump": 100000,
+            "custom.crouch_one_cm": 1000000,
+            "custom.swim_one_cm": 5000000,
+            "custom.minecart_one_cm": 5000000,
+            "custom.pig_one_cm": 1000000,
+            "custom.horse_one_cm": 5000000,
+            "custom.boat_one_cm": 5000000,
+            "custom.strider_one_cm": 1000000,
+            "custom.mob_kills": 25000,
+            "custom.animals_bred": 2500,
+            "custom.enchant_item": 250,
+            "custom.traded_with_villager": 2500,
+            "bac_day_count": 365,
+            "bac_stat_food": 5000,
+            "bac_stat_loot_chest": 500
+        }
+
         for key in stats_data:
             data[key] = {
                 "id": key,
                 "progress": 0,
-                "maxProgress": 10000
+                "maxProgress": mapping.get(key, -1)
             }
+            
 
         # for key in data:
         #     data[key]["progress"] = stats_data[key].get("value", 0)
