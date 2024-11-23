@@ -19,7 +19,7 @@ class LocalOutput():
         with open(file_path, "w") as f:
             return json.dump(data, f)
         
-    def update_local_output(self, adv_data, stats_data):
+    def update_db(self, adv_data, stats_data):
         self.update_db_adv(adv_data)
         self.update_db_stats(stats_data)
 
