@@ -65,7 +65,7 @@ class Scoreboard:
         # Scores is stats info
         return output, scores, mapped_advancements
 
-    @retry_on_exception((TypeError, KeyError, BadGzipFile, EOFError), retries=3, delay=2)
+    @retry_on_exception((TypeError, KeyError, BadGzipFile, EOFError), retries=30, delay=5)
     def read_dat(self):
         with nbtlib.load(self.scoreboard_path) as file:
             objectives_tag = file['data']['PlayerScores']
