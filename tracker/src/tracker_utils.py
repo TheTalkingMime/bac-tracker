@@ -93,7 +93,7 @@ def check_stats(stat_tracker):
 # Update spreadsheet calls
 
 @log_function_call     
-def update_first_completions(sheets_manager, log_output):
+def update_first_completions(sheets_manager: SheetsManager, log_output):
     if not (log_output is None or sheets_manager is None):
         return sheets_manager.update_first_completions(log_output)
 
@@ -103,23 +103,23 @@ def check_scoreboard(scoreboard):
         return scoreboard.check()
   
 @log_function_call  
-def update_advancement_progress(sheets_manager, adv_data, completion_data):
+def update_advancement_progress(sheets_manager: SheetsManager, adv_data, completion_data):
     if sheets_manager and adv_data:
         return sheets_manager.update_advancement_progress(adv_data, completion_data)
     else:
         logger.info("Sheets_manager or adv_data is None, skipping")
 
 @log_function_call
-def update_item_progress(sheets_manager, item_data):
+def update_item_progress(sheets_manager: SheetsManager, item_data):
     if sheets_manager and item_data:
         return sheets_manager.update_item_progress(item_data)
     
 @log_function_call
-def update_stat_progress(sheets_manager, stats_data, scoreboard_data):
+def update_stat_progress(sheets_manager: SheetsManager, stats_data, scoreboard_data):
     if sheets_manager:
         return sheets_manager.update_stat_progress(stats_data, scoreboard_data)
 
 @log_function_call
-def update_local_output(local_output, adv_data):
+def update_local_output(local_output: LocalOutput, adv_data):
     if local_output:
         return local_output.update_db(adv_data)
