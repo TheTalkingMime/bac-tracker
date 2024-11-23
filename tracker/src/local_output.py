@@ -38,4 +38,4 @@ class LocalOutput():
         for key in data:
             data[key]["progress"] = stats_data.get("value", 0)
 
-        self.write_data(self.file_path, data)
+        self.write_data(self.stats_file_path, data)
