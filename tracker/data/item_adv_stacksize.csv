@@ -86,6 +86,7 @@ Birch Trapdoor	birch_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
 Birch Wood	birch_wood	blazeandcave:challenges/stack_all_the_blocks	64
 Black Banner	black_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Black Bed	black_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Black Bundle	black_bundle	blazeandcave:challenges/stack_all_the_items	1
 Black Candle	black_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Black Carpet	black_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Black Concrete	black_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -107,6 +108,7 @@ Blaze Powder	blaze_powder	blazeandcave:challenges/stack_all_the_items	64
 Blaze Rod	blaze_rod	blazeandcave:challenges/stack_all_the_items	64
 Blue Banner	blue_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Blue Bed	blue_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Blue Bundle	blue_bundle	blazeandcave:challenges/stack_all_the_items	1
 Blue Candle	blue_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Carpet	blue_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Concrete	blue_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -120,12 +122,13 @@ Blue Stained Glass	blue_stained_glass	blazeandcave:challenges/stack_all_the_bloc
 Blue Stained Glass Pane	blue_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Terracotta	blue_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Wool	blue_wool	blazeandcave:challenges/stack_all_the_blocks	64
-Bolt Armor Trim Smithing Template	bolt_armor_trim	blazeandcave:challenges/all_the_items	1
+Bolt Armor Trim Smithing Template	bolt_armor_trim_smithing_template	blazeandcave:challenges/all_the_items	1
 Bone	bone	blazeandcave:challenges/stack_all_the_items	64
 Bone Block	bone_block	blazeandcave:challenges/stack_all_the_blocks	64
 Bone Meal	bone_meal	blazeandcave:challenges/stack_all_the_items	64
 Book	book	blazeandcave:challenges/stack_all_the_items	64
 Bookshelf	bookshelf	blazeandcave:challenges/stack_all_the_blocks	64
+Bordure Indented Banner Pattern	bordure_indented_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
 Bow	bow	blazeandcave:challenges/stack_all_the_items	1
 Bowl	bowl	blazeandcave:challenges/stack_all_the_items	64
 Brain Coral	brain_coral	blazeandcave:challenges/stack_all_the_blocks	64
@@ -142,6 +145,7 @@ Brick Wall	brick_wall	blazeandcave:challenges/stack_all_the_blocks	64
 Bricks	bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Banner	brown_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Brown Bed	brown_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Brown Bundle	brown_bundle	blazeandcave:challenges/stack_all_the_items	1
 Brown Candle	brown_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Carpet	brown_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Concrete	brown_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -160,6 +164,7 @@ Bubble Coral	bubble_coral	blazeandcave:challenges/stack_all_the_blocks	64
 Bubble Coral Block	bubble_coral_block	blazeandcave:challenges/stack_all_the_blocks	64
 Bubble Coral Fan	bubble_coral_fan	blazeandcave:challenges/stack_all_the_blocks	64
 Bucket	bucket	blazeandcave:challenges/stack_all_the_items	16
+Bundle	bundle	blazeandcave:challenges/stack_all_the_items	1
 Burn Pottery Sherd	burn_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Cactus	cactus	blazeandcave:challenges/stack_all_the_blocks	64
 Cake	cake	blazeandcave:challenges/stack_all_the_blocks	1
@@ -206,6 +211,7 @@ Chiseled Nether Bricks	chiseled_nether_bricks	blazeandcave:challenges/stack_all_
 Chiseled Polished Blackstone	chiseled_polished_blackstone	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Quartz Block	chiseled_quartz_block	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Red Sandstone	chiseled_red_sandstone	blazeandcave:challenges/stack_all_the_blocks	64
+Chiseled Resin Bricks	chiseled_resin_bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Sandstone	chiseled_sandstone	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Stone Bricks	chiseled_stone_bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Chiseled Tuff	chiseled_tuff	blazeandcave:challenges/stack_all_the_blocks	64
@@ -215,6 +221,7 @@ Chorus Fruit	chorus_fruit	blazeandcave:challenges/stack_all_the_items	64
 Clay	clay	blazeandcave:challenges/stack_all_the_blocks	64
 Clay Ball	clay_ball	blazeandcave:challenges/stack_all_the_items	64
 Clock	clock	blazeandcave:challenges/stack_all_the_items	64
+Closed Eyeblossom	closed_eyeblossom	blazeandcave:challenges/stack_all_the_blocks	64
 Coal	coal	blazeandcave:challenges/stack_all_the_items	64
 Coal Block	coal_block	blazeandcave:challenges/stack_all_the_blocks	64
 Coal Ore	coal_ore	blazeandcave:challenges/stack_all_the_blocks	64
@@ -259,6 +266,7 @@ Cracked Polished Blackstone Bricks	cracked_polished_blackstone_bricks	blazeandca
 Cracked Stone Bricks	cracked_stone_bricks	blazeandcave:challenges/stack_all_the_blocks	64
 Crafter	crafter	blazeandcave:challenges/stack_all_the_blocks	64
 Crafting Table	crafting_table	blazeandcave:challenges/stack_all_the_blocks	64
+Creaking Heart	creaking_heart	blazeandcave:challenges/stack_all_the_blocks	64
 Creeper Banner Pattern	creeper_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
 Creeper Head	creeper_head	blazeandcave:challenges/stack_all_the_blocks	64
 Crimson Button	crimson_button	blazeandcave:challenges/stack_all_the_blocks	64
@@ -288,6 +296,7 @@ Cut Sandstone	cut_sandstone	blazeandcave:challenges/stack_all_the_blocks	64
 Cut Sandstone Slab	cut_sandstone_slab	blazeandcave:challenges/stack_all_the_blocks	64
 Cyan Banner	cyan_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Cyan Bed	cyan_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Cyan Bundle	cyan_bundle	blazeandcave:challenges/stack_all_the_items	1
 Cyan Candle	cyan_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Cyan Carpet	cyan_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Cyan Concrete	cyan_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -420,6 +429,7 @@ Eye Armor Trim	eye_armor_trim	blazeandcave:challenges/all_the_items	1
 Feather	feather	blazeandcave:challenges/stack_all_the_items	64
 Fermented Spider Eye	fermented_spider_eye	blazeandcave:challenges/stack_all_the_items	64
 Fern	fern	blazeandcave:challenges/stack_all_the_blocks	64
+Field Masoned Banner Pattern	field_masoned_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
 Filled Map	filled_map	blazeandcave:challenges/stack_all_the_items	64
 Fire Charge	fire_charge	blazeandcave:challenges/stack_all_the_items	64
 Fire Coral	fire_coral	blazeandcave:challenges/stack_all_the_blocks	64
@@ -431,7 +441,7 @@ Fishing Rod	fishing_rod	blazeandcave:challenges/stack_all_the_items	1
 Fletching Table	fletching_table	blazeandcave:challenges/stack_all_the_blocks	64
 Flint	flint	blazeandcave:challenges/stack_all_the_items	64
 Flint And Steel	flint_and_steel	blazeandcave:challenges/stack_all_the_items	1
-Flow Armor Trim Smithing Template	flow_armor_trim	blazeandcave:challenges/all_the_items	1
+Flow Armor Trim Smithing Template	flow_armor_trim_smithing_template	blazeandcave:challenges/all_the_items	1
 Flow Banner Pattern	flow_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
 Flow Pottery Sherd	flow_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Flower Banner Pattern	flower_banner_pattern	blazeandcave:challenges/stack_all_the_items	1
@@ -480,6 +490,7 @@ Grass Block	grass_block	blazeandcave:challenges/stack_all_the_blocks	64
 Gravel	gravel	blazeandcave:challenges/stack_all_the_blocks	64
 Gray Banner	gray_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Gray Bed	gray_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Gray Bundle	gray_bundle	blazeandcave:challenges/stack_all_the_items	1
 Gray Candle	gray_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Gray Carpet	gray_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Gray Concrete	gray_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -493,6 +504,7 @@ Gray Terracotta	gray_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
 Gray Wool	gray_wool	blazeandcave:challenges/stack_all_the_blocks	64
 Green Banner	green_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Green Bed	green_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Green Bundle	green_bundle	blazeandcave:challenges/stack_all_the_items	1
 Green Candle	green_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Green Carpet	green_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Green Concrete	green_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -585,6 +597,7 @@ Lectern	lectern	blazeandcave:challenges/stack_all_the_blocks	64
 Lever	lever	blazeandcave:challenges/stack_all_the_blocks	64
 Light Blue Banner	light_blue_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Light Blue Bed	light_blue_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Light Blue Bundle	light_blue_bundle	blazeandcave:challenges/stack_all_the_items	1
 Light Blue Candle	light_blue_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Light Blue Carpet	light_blue_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Light Blue Concrete	light_blue_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -598,6 +611,7 @@ Light Blue Terracotta	light_blue_terracotta	blazeandcave:challenges/stack_all_th
 Light Blue Wool	light_blue_wool	blazeandcave:challenges/stack_all_the_blocks	64
 Light Gray Banner	light_gray_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Light Gray Bed	light_gray_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Light Gray Bundle	light_gray_bundle	blazeandcave:challenges/stack_all_the_items	1
 Light Gray Candle	light_gray_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Light Gray Carpet	light_gray_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Light Gray Concrete	light_gray_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -616,6 +630,7 @@ Lily Of The Valley	lily_of_the_valley	blazeandcave:challenges/stack_all_the_bloc
 Lily Pad	lily_pad	blazeandcave:challenges/stack_all_the_blocks	64
 Lime Banner	lime_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Lime Bed	lime_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Lime Bundle	lime_bundle	blazeandcave:challenges/stack_all_the_items	1
 Lime Candle	lime_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Lime Carpet	lime_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Lime Concrete	lime_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -633,6 +648,7 @@ Loom	loom	blazeandcave:challenges/stack_all_the_blocks	64
 Mace	mace	blazeandcave:challenges/stack_all_the_items	1
 Magenta Banner	magenta_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Magenta Bed	magenta_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Magenta Bundle	magenta_bundle	blazeandcave:challenges/stack_all_the_items	1
 Magenta Candle	magenta_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Magenta Carpet	magenta_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Magenta Concrete	magenta_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -764,8 +780,10 @@ Obsidian	obsidian	blazeandcave:challenges/stack_all_the_blocks	64
 Ochre Froglight	ochre_froglight	blazeandcave:challenges/stack_all_the_blocks	64
 Ominous Bottle	ominous_bottle	blazeandcave:challenges/stack_all_the_items	64
 Ominous Trial Key	ominous_trial_key	blazeandcave:challenges/stack_all_the_items	64
+Open Eyeblossom	open_eyeblossom	blazeandcave:challenges/stack_all_the_blocks	64
 Orange Banner	orange_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Orange Bed	orange_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Orange Bundle	orange_bundle	blazeandcave:challenges/stack_all_the_items	1
 Orange Candle	orange_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Orange Carpet	orange_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Orange Concrete	orange_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -791,6 +809,26 @@ Oxidized Cut Copper Stairs	oxidized_cut_copper_stairs	blazeandcave:challenges/st
 Packed Ice	packed_ice	blazeandcave:challenges/stack_all_the_blocks	64
 Packed Mud	packed_mud	blazeandcave:challenges/stack_all_the_blocks	64
 Painting	painting	blazeandcave:challenges/stack_all_the_items	64
+Pale Hanging Moss	pale_hanging_moss	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Moss Block	pale_moss_block	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Moss Carpet	pale_moss_carpet	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Boat	pale_oak_boat	blazeandcave:challenges/stack_all_the_items	1
+Pale Oak Button	pale_oak_button	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Chest Boat	pale_oak_chest_boat	blazeandcave:challenges/stack_all_the_items	1
+Pale Oak Door	pale_oak_door	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Fence	pale_oak_fence	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Fence Gate	pale_oak_fence_gate	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Hanging Sign	pale_oak_hanging_sign	blazeandcave:challenges/stack_all_the_blocks	16
+Pale Oak Leaves	pale_oak_leaves	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Log	pale_oak_log	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Planks	pale_oak_planks	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Pressure Plate	pale_oak_pressure_plate	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Sapling	pale_oak_sapling	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Sign	pale_oak_sign	blazeandcave:challenges/stack_all_the_blocks	16
+Pale Oak Slab	pale_oak_slab	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Stairs	pale_oak_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Trapdoor	pale_oak_trapdoor	blazeandcave:challenges/stack_all_the_blocks	64
+Pale Oak Wood	pale_oak_wood	blazeandcave:challenges/stack_all_the_blocks	64
 Paper	paper	blazeandcave:challenges/stack_all_the_items	64
 Pearlescent Froglight	pearlescent_froglight	blazeandcave:challenges/stack_all_the_blocks	64
 Peony	peony	blazeandcave:challenges/stack_all_the_blocks	64
@@ -799,6 +837,7 @@ Piglin Banner Pattern	piglin_banner_pattern	blazeandcave:challenges/stack_all_th
 Piglin Head	piglin_head	blazeandcave:challenges/stack_all_the_blocks	64
 Pink Banner	pink_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Pink Bed	pink_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Pink Bundle	pink_bundle	blazeandcave:challenges/stack_all_the_items	1
 Pink Candle	pink_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Pink Carpet	pink_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Pink Concrete	pink_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -871,6 +910,7 @@ Pumpkin Pie	pumpkin_pie	blazeandcave:challenges/stack_all_the_items	64
 Pumpkin Seeds	pumpkin_seeds	blazeandcave:challenges/stack_all_the_items	64
 Purple Banner	purple_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Purple Bed	purple_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Purple Bundle	purple_bundle	blazeandcave:challenges/stack_all_the_items	1
 Purple Candle	purple_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Purple Carpet	purple_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Purple Concrete	purple_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -907,6 +947,7 @@ Raw Iron Block	raw_iron_block	blazeandcave:challenges/stack_all_the_blocks	64
 Recovery Compass	recovery_compass	blazeandcave:challenges/all_the_items	1
 Red Banner	red_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Red Bed	red_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Red Bundle	red_bundle	blazeandcave:challenges/stack_all_the_items	1
 Red Candle	red_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Red Carpet	red_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Red Concrete	red_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -936,6 +977,13 @@ Redstone Lamp	redstone_lamp	blazeandcave:challenges/stack_all_the_blocks	64
 Redstone Ore	redstone_ore	blazeandcave:challenges/stack_all_the_blocks	64
 Redstone Torch	redstone_torch	blazeandcave:challenges/stack_all_the_blocks	64
 Repeater	repeater	blazeandcave:challenges/stack_all_the_blocks	64
+Resin Block	resin_block	blazeandcave:challenges/stack_all_the_blocks	64
+Resin Brick	resin_brick	blazeandcave:challenges/stack_all_the_items	64
+Resin Brick Slab	resin_brick_slab	blazeandcave:challenges/stack_all_the_blocks	64
+Resin Brick Stairs	resin_brick_stairs	blazeandcave:challenges/stack_all_the_blocks	64
+Resin Brick Wall	resin_brick_wall	blazeandcave:challenges/stack_all_the_blocks	64
+Resin Bricks	resin_bricks	blazeandcave:challenges/stack_all_the_blocks	64
+Resin Clump	resin_clump	blazeandcave:challenges/stack_all_the_blocks	64
 Respawn Anchor	respawn_anchor	blazeandcave:challenges/stack_all_the_blocks	64
 Rib Armor Trim	rib_armor_trim	blazeandcave:challenges/all_the_items	1
 Rooted Dirt	rooted_dirt	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1062,6 +1110,8 @@ Stripped Mangrove Log	stripped_mangrove_log	blazeandcave:challenges/stack_all_th
 Stripped Mangrove Wood	stripped_mangrove_wood	blazeandcave:challenges/stack_all_the_blocks	64
 Stripped Oak Log	stripped_oak_log	blazeandcave:challenges/stack_all_the_blocks	64
 Stripped Oak Wood	stripped_oak_wood	blazeandcave:challenges/stack_all_the_blocks	64
+Stripped Pale Oak Log	stripped_pale_oak_log	blazeandcave:challenges/stack_all_the_blocks	64
+Stripped Pale Oak Wood	stripped_pale_oak_wood	blazeandcave:challenges/stack_all_the_blocks	64
 Stripped Spruce Log	stripped_spruce_log	blazeandcave:challenges/stack_all_the_blocks	64
 Stripped Spruce Wood	stripped_spruce_wood	blazeandcave:challenges/stack_all_the_blocks	64
 Stripped Warped Hyphae	stripped_warped_hyphae	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1181,6 +1231,7 @@ Wheat	wheat	blazeandcave:challenges/stack_all_the_items	64
 Wheat Seeds	wheat_seeds	blazeandcave:challenges/stack_all_the_items	64
 White Banner	white_banner	blazeandcave:challenges/stack_all_the_blocks	16
 White Bed	white_bed	blazeandcave:challenges/stack_all_the_blocks	1
+White Bundle	white_bundle	blazeandcave:challenges/stack_all_the_items	1
 White Candle	white_candle	blazeandcave:challenges/stack_all_the_blocks	64
 White Carpet	white_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 White Concrete	white_concrete	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1207,6 +1258,7 @@ Writable Book	writable_book	blazeandcave:challenges/stack_all_the_items	1
 Written Book	written_book	blazeandcave:challenges/stack_all_the_items	16
 Yellow Banner	yellow_banner	blazeandcave:challenges/stack_all_the_blocks	16
 Yellow Bed	yellow_bed	blazeandcave:challenges/stack_all_the_blocks	1
+Yellow Bundle	yellow_bundle	blazeandcave:challenges/stack_all_the_items	1
 Yellow Candle	yellow_candle	blazeandcave:challenges/stack_all_the_blocks	64
 Yellow Carpet	yellow_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Yellow Concrete	yellow_concrete	blazeandcave:challenges/stack_all_the_blocks	64

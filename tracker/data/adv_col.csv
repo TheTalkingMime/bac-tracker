@@ -14,6 +14,7 @@ blazeandcave:enchanting/pick_like_silk
 blazeandcave:nether/a_piglins_best_friend
 blazeandcave:redstone/root
 blazeandcave:end/the_beginning
+blazeandcave:monsters/oh_no_guys_im_oozing
 blazeandcave:animal/mooshroom_kingdom
 blazeandcave:nether/giddy_up
 blazeandcave:building/spawn_camping
@@ -22,6 +23,7 @@ blazeandcave:challenges/root
 blazeandcave:statistics/overlevelling
 blazeandcave:potion/death_by_magic
 blazeandcave:challenges/im_in_space
+blazeandcave:mining/i_yearned_for_the_mines
 blazeandcave:enchanting/shotbow
 blazeandcave:mining/this_dirt_is_dirtier
 blazeandcave:farming/the_garbage_will_do
@@ -246,11 +248,11 @@ blazeandcave:farming/squid_game
 blazeandcave:animal/blackberry_market
 blazeandcave:monsters/ew_ew_ew
 blazeandcave:adventure/the_sound_of_silence
-blazeandcave:technical/place_painting
 blazeandcave:technical/stat_branch6_mid
 blazeandcave:redstone/dispense_with_this
 blazeandcave:animal/cow_tipper
 blazeandcave:mining/galileo_figaro
+blazeandcave:nether/light_show
 blazeandcave:animal/are_we_there_yet
 blazeandcave:adventure/filthy_stinkin_rich
 blazeandcave:technical/branch6_end
@@ -322,7 +324,6 @@ blazeandcave:weaponry/poseidon_vs_hades
 blazeandcave:building/writers_block
 blazeandcave:building/slabs_for_days
 blazeandcave:weaponry/axeman
-blazeandcave:monsters/iskallium_collector
 blazeandcave:monsters/melting
 blazeandcave:technical/stat_branch8_mid
 blazeandcave:animal/pig_slaughterer
@@ -385,7 +386,6 @@ blazeandcave:monsters/bone_to_party
 blazeandcave:animal/in_a_hole_there_lived_a_rabbit
 blazeandcave:nether/the_hunt_begins
 blazeandcave:mining/rock_bottom
-blazeandcave:technical/whack_a_mole_count
 blazeandcave:animal/humble_bundle
 blazeandcave:nether/enders_chest
 blazeandcave:redstone/electric_rails
@@ -464,7 +464,6 @@ blazeandcave:end/shouldnt_my_shield_levitate_too
 minecraft:adventure/play_jukebox_in_meadows
 blazeandcave:end/off_with_his_head
 blazeandcave:nether/jenga
-blazeandcave:technical/on_a_rail_start
 minecraft:adventure/hero_of_the_village
 blazeandcave:animal/shoe_shed
 blazeandcave:weaponry/revenge
@@ -608,7 +607,6 @@ blazeandcave:animal/milkshroom
 minecraft:adventure/blowback
 minecraft:husbandry/complete_catalogue
 blazeandcave:monsters/camouflage
-blazeandcave:technical/sound_the_alarm_check
 blazeandcave:potion/secret_of_the_ooze
 blazeandcave:monsters/what_a_creep
 blazeandcave:animal/billy_the_kid
@@ -618,7 +616,6 @@ blazeandcave:farming/berry_nice
 blazeandcave:end/anti_gravity_generator
 blazeandcave:nether/limbo_walker
 blazeandcave:technical/stat_branch1_mid
-blazeandcave:technical/inventory_changed
 blazeandcave:building/skyblock
 blazeandcave:enchanting/master_macerator
 blazeandcave:adventure/rekt
@@ -637,10 +634,10 @@ blazeandcave:farming/its_a_cactus
 blazeandcave:challenges/global_vaccination
 blazeandcave:monsters/zombie_slayer
 blazeandcave:biomes/boaty_mcboatface
+blazeandcave:biomes/pale_in_comparison
 blazeandcave:mining/diam_oh_wait_no
 blazeandcave:mining/strike_a_light
 blazeandcave:monsters/poisonous_ew
-blazeandcave:technical/factorio_craft
 blazeandcave:enchanting/armor_for_the_masses
 blazeandcave:animal/nest_quick
 blazeandcave:challenges/endergeddon
@@ -686,7 +683,6 @@ blazeandcave:redstone/noteworthy
 blazeandcave:building/mangrove_master
 blazeandcave:monsters/blind_stare
 blazeandcave:monsters/phantom_slayer
-blazeandcave:technical/consume_food
 minecraft:husbandry/tame_an_animal
 minecraft:adventure/craft_decorated_pot_using_only_sherds
 blazeandcave:nether/spreading_corruption
@@ -741,7 +737,6 @@ blazeandcave:biomes/root
 blazeandcave:statistics/boing_boing
 blazeandcave:enchanting/ill_be_back
 blazeandcave:biomes/just_a_sample
-blazeandcave:technical/lucky_break_check
 blazeandcave:animal/stay_calmer
 blazeandcave:building/hanging_around
 blazeandcave:enchanting/master_digger
@@ -843,7 +838,6 @@ blazeandcave:end/dragon_vs_dragon
 minecraft:adventure/walk_on_powder_snow_with_leather_boots
 blazeandcave:enchanting/do_a_barrel_roll
 blazeandcave:challenges/all_the_items
-blazeandcave:technical/open_loot_chest
 blazeandcave:building/classy_glassy
 blazeandcave:building/happy_birthday
 blazeandcave:redstone/powerful_light
@@ -855,6 +849,7 @@ minecraft:adventure/salvage_sherd
 blazeandcave:enchanting/unbreakable
 blazeandcave:animal/so_i_got_that_going_for_me
 blazeandcave:adventure/spear_fishing
+blazeandcave:biomes/resinance
 blazeandcave:animal/feeding_the_chickens
 blazeandcave:monsters/there_has_to_be_another_way
 blazeandcave:challenges/i_am_loot
@@ -940,6 +935,7 @@ minecraft:end/elytra
 blazeandcave:nether/the_tribal_snouts
 blazeandcave:redstone/mobile_explosion
 blazeandcave:nether/glows_in_the_dark
+blazeandcave:biomes/heart_breaker
 blazeandcave:end/sky_high
 blazeandcave:mining/seeing_red
 blazeandcave:farming/hot_chocolate
@@ -1010,6 +1006,7 @@ blazeandcave:biomes/x_marks_the_spot
 blazeandcave:redstone/solar_power
 blazeandcave:building/professor_dark_oak
 blazeandcave:biomes/ahoy
+blazeandcave:biomes/eyeball_forest
 blazeandcave:nether/when_piglins_fly
 minecraft:husbandry/obtain_netherite_hoe
 blazeandcave:redstone/fuel_engine
@@ -1020,6 +1017,7 @@ blazeandcave:biomes/wet_feet
 blazeandcave:animal/swine_sailing
 blazeandcave:weaponry/king_of_the_sea
 blazeandcave:biomes/ten_thousand_blocks
+blazeandcave:animal/flamboyant_range
 blazeandcave:adventure/disc_jockey
 blazeandcave:weaponry/nice_to_mace_you
 blazeandcave:monsters/poison_dart
@@ -1053,6 +1051,7 @@ blazeandcave:farming/meat_lovers
 blazeandcave:adventure/im_not_lost_anymore
 blazeandcave:farming/spikey
 blazeandcave:challenges/poglin
+blazeandcave:building/pale_gardener
 minecraft:nether/ride_strider_in_overworld_lava
 blazeandcave:weaponry/theres_yolk_on_my_head
 blazeandcave:nether/dark_ages
@@ -1096,7 +1095,6 @@ blazeandcave:adventure/mold_maker
 blazeandcave:animal/axolittle
 blazeandcave:potion/a_much_more_doable_challenge
 blazeandcave:enchanting/master_knight
-blazeandcave:technical/consume_food_null
 blazeandcave:weaponry/the_aquatic_hunter
 blazeandcave:animal/paw_patrol
 blazeandcave:monsters/a_watery_grave
@@ -1123,6 +1121,7 @@ blazeandcave:farming/not_today
 blazeandcave:bacap/animal_milestone
 blazeandcave:end/dragon_shield
 blazeandcave:monsters/controlled_detonation
+blazeandcave:biomes/fake_copper
 blazeandcave:adventure/a_suspicious_advancement
 blazeandcave:monsters/void_ender
 blazeandcave:challenges/death_from_all
@@ -1150,7 +1149,6 @@ blazeandcave:technical/riddle_fifth_line
 blazeandcave:farming/yay_deadbush
 blazeandcave:adventure/feeling_ill
 blazeandcave:mining/iggy
-blazeandcave:technical/goat_horn_use
 blazeandcave:monsters/paleontologist
 blazeandcave:nether/i_am_root
 minecraft:adventure/crafters_crafting_crafters

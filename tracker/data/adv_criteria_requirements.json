@@ -53,6 +53,9 @@
     "blazeandcave:end/the_beginning": [
         "wither"
     ],
+    "blazeandcave:monsters/oh_no_guys_im_oozing": [
+        "slime_block"
+    ],
     "blazeandcave:animal/mooshroom_kingdom": [
         "mushroom_fields"
     ],
@@ -125,6 +128,9 @@
     "blazeandcave:challenges/im_in_space": [
         "levitated"
     ],
+    "blazeandcave:mining/i_yearned_for_the_mines": [
+        "i_am_steve"
+    ],
     "blazeandcave:enchanting/shotbow": [
         "shot_crossbow"
     ],
@@ -157,12 +163,15 @@
         "mangrove_fence_gate",
         "pink_petals",
         "spruce_fence_gate",
+        "cave_vines",
         "white_tulip",
         "birch_fence_gate",
         "azure_bluet",
         "cyan_wool",
+        "stripped_pale_oak_log",
         "light_blue_carpet",
         "acacia_leaves",
+        "open_eyeblossom",
         "orange_tulip",
         "spruce_wood",
         "scaffolding",
@@ -178,6 +187,7 @@
         "jungle_leaves",
         "bamboo",
         "bamboo_mosaic",
+        "pale_oak_slab",
         "acacia_log",
         "acacia_fence_gate",
         "stripped_jungle_log",
@@ -196,6 +206,7 @@
         "yellow_carpet",
         "bamboo_mosaic_slab",
         "birch_fence",
+        "pale_oak_fence",
         "jungle_fence_gate",
         "blue_wool",
         "oak_stairs",
@@ -204,11 +215,14 @@
         "light_gray_carpet",
         "grass",
         "stripped_dark_oak_log",
+        "closed_eyeblossom",
         "cherry_stairs",
         "mangrove_stairs",
         "spruce_log",
         "bamboo_fence_gate",
         "white_wool",
+        "hanging_roots",
+        "pale_oak_leaves",
         "oak_fence",
         "acacia_planks",
         "light_gray_wool",
@@ -218,6 +232,7 @@
         "bamboo_stairs",
         "brown_wool",
         "cornflower",
+        "pale_oak_planks",
         "spruce_leaves",
         "stripped_oak_log",
         "green_carpet",
@@ -226,10 +241,12 @@
         "stripped_jungle_wood",
         "spruce_slab",
         "stripped_acacia_wood",
+        "spore_blossom",
         "stripped_birch_log",
         "hay_block",
         "stripped_mangrove_log",
         "pink_tulip",
+        "pale_hanging_moss",
         "dark_oak_stairs",
         "dandelion",
         "bamboo_mosaic_stairs",
@@ -242,6 +259,7 @@
         "torchflower",
         "black_wool",
         "spruce_planks",
+        "pale_oak_log",
         "pink_wool",
         "vine",
         "oak_leaves",
@@ -253,25 +271,33 @@
         "bamboo_fence",
         "green_wool",
         "dark_oak_wood",
+        "azalea",
         "red_carpet",
+        "pale_oak_wood",
         "mangrove_slab",
         "purple_carpet",
         "red_tulip",
         "birch_wood",
         "oak_log",
         "oak_wood",
+        "glow_lichen",
         "dark_oak_fence_gate",
         "jungle_planks",
         "magenta_carpet",
+        "big_dripleaf",
+        "pale_moss_block",
         "dark_oak_leaves",
         "mangrove_fence",
         "stripped_cherry_wood",
         "stripped_spruce_log",
+        "pale_moss_carpet",
         "white_carpet",
         "bamboo_slab",
+        "pale_oak_stairs",
         "blue_carpet",
         "sweet_berry_bush",
         "jungle_fence",
+        "pale_oak_fence_gate",
         "stripped_acacia_log",
         "stripped_spruce_wood",
         "acacia_slab",
@@ -282,6 +308,7 @@
         "purple_wool",
         "lilac",
         "lime_wool",
+        "small_dripleaf",
         "jungle_log",
         "brown_carpet",
         "black_carpet",
@@ -306,7 +333,9 @@
         "stripped_dark_oak_wood",
         "dried_kelp_block",
         "cherry_planks",
+        "stripped_pale_oak_wood",
         "target",
+        "flowering_azalea",
         "lime_carpet",
         "tall_grass",
         "flowering_azalea_leaves"
@@ -497,6 +526,7 @@
         "silverfish",
         "drowned",
         "ghast",
+        "creaking",
         "stray",
         "shulker",
         "vex",
@@ -1299,9 +1329,11 @@
         "water_bucket",
         "leather_boots",
         "light_blue_dye",
+        "pale_oak_boat",
         "chainmail_helmet",
         "pumpkin_seeds",
         "egg",
+        "field_masoned_banner_pattern",
         "music_disc_stal",
         "chorus_fruit",
         "beef",
@@ -1328,6 +1360,8 @@
         "honeycomb",
         "writable_book",
         "golden_helmet",
+        "cyan_bundle",
+        "brown_bundle",
         "rabbit_stew",
         "glow_item_frame",
         "white_dye",
@@ -1390,7 +1424,9 @@
         "skull_banner_pattern",
         "firework_star",
         "music_disc_strad",
+        "bordure_indented_banner_pattern",
         "furnace_minecart",
+        "pale_oak_chest_boat",
         "netherite_axe",
         "music_disc_mellohi",
         "mangrove_boat",
@@ -1406,6 +1442,7 @@
         "music_disc_creator_music_box",
         "flint",
         "armadillo_scute",
+        "gray_bundle",
         "emerald",
         "cocoa_beans",
         "string",
@@ -1414,8 +1451,10 @@
         "cooked_mutton",
         "book",
         "wooden_shovel",
+        "resin_brick",
         "bamboo_chest_raft",
         "bamboo_raft",
+        "lime_bundle",
         "apple",
         "spider_eye",
         "piglin_banner_pattern",
@@ -1434,6 +1473,7 @@
         "trial_key",
         "golden_carrot",
         "gray_dye",
+        "blue_bundle",
         "magma_cream",
         "enchanted_golden_apple",
         "sugar_cane",
@@ -1446,6 +1486,7 @@
         "honey_bottle",
         "iron_chestplate",
         "fire_charge",
+        "red_bundle",
         "diamond_shovel",
         "powder_snow_bucket",
         "experience_bottle",
@@ -1454,6 +1495,7 @@
         "firework_rocket",
         "golden_leggings",
         "wolf_armor",
+        "magenta_bundle",
         "cookie",
         "oak_chest_boat",
         "magenta_dye",
@@ -1470,6 +1512,7 @@
         "music_disc_5",
         "snowball",
         "nautilus_shell",
+        "light_blue_bundle",
         "shield",
         "carrot_on_a_stick",
         "glass_bottle",
@@ -1491,6 +1534,7 @@
         "lapis_lazuli",
         "poisonous_potato",
         "music_disc_wait",
+        "bundle",
         "netherite_pickaxe",
         "map",
         "black_dye",
@@ -1498,11 +1542,14 @@
         "netherite_boots",
         "golden_apple",
         "bread",
+        "orange_bundle",
         "tropical_fish_bucket",
         "rotten_flesh",
+        "green_bundle",
         "dried_kelp",
         "tnt_minecart",
         "chainmail_leggings",
+        "pink_bundle",
         "pitcher_pod",
         "lead",
         "prismarine_shard",
@@ -1523,6 +1570,7 @@
         "music_disc_13",
         "music_disc_11",
         "porkchop",
+        "yellow_bundle",
         "wooden_axe",
         "spruce_boat",
         "shears",
@@ -1532,6 +1580,7 @@
         "rabbit_hide",
         "chainmail_boots",
         "ghast_tear",
+        "white_bundle",
         "enchanted_book",
         "jungle_boat",
         "glow_berries",
@@ -1545,6 +1594,7 @@
         "compass",
         "coal",
         "leather_helmet",
+        "light_gray_bundle",
         "blue_dye",
         "music_disc_precipice",
         "sugar",
@@ -1577,6 +1627,7 @@
         "netherite_chestplate",
         "pufferfish",
         "ominous_bottle",
+        "purple_bundle",
         "quartz",
         "raw_gold",
         "leather_horse_armor",
@@ -1590,6 +1641,7 @@
         "diamond",
         "cyan_dye",
         "painting",
+        "black_bundle",
         "netherite_hoe",
         "carrot",
         "spruce_chest_boat"
@@ -1805,10 +1857,7 @@
         ]
     ],
     "blazeandcave:enchanting/this_name_sounds_cooler": [
-        [
-            "diamond_edge",
-            "diamond_edge_old"
-        ]
+        "diamond_edge"
     ],
     "blazeandcave:farming/the_meloncholy_dane": [
         "melon_block"
@@ -1824,6 +1873,7 @@
         "warped_roots",
         "poppy",
         "oak_sapling",
+        "pale_oak_sapling",
         "pink_tulip",
         "brown_mushroom",
         "crimson_roots",
@@ -1834,8 +1884,10 @@
         "acacia_sapling",
         "azure_bluet",
         "cactus",
+        "closed_eyeblossom",
         "lily_of_the_valley",
         "blue_orchid",
+        "open_eyeblossom",
         "orange_tulip",
         "dark_oak_sapling",
         "wither_rose",
@@ -1986,12 +2038,7 @@
         ]
     ],
     "blazeandcave:technical/riddle_third_line": [
-        [
-            "dinnerbone",
-            "grumm",
-            "dinnerbone_old",
-            "grumm_old"
-        ]
+        "dinnerbone"
     ],
     "blazeandcave:farming/suspicious_looking_stew": [
         "suspicious_stew"
@@ -2127,6 +2174,7 @@
         "stone_age",
         "travelling_merchant",
         "controlled_detonation",
+        "pale_in_comparison",
         "grate_expectations",
         "dimension_penetration",
         "boatception",
@@ -2264,6 +2312,7 @@
         "nugget_in_a_biscuit",
         "fashion_statement",
         "spring_in_your_step",
+        "fractal",
         "wet_feet",
         "warm_feet",
         "spear_fishing",
@@ -2309,6 +2358,7 @@
         "family_reunion",
         "sign_off",
         "life_uhh_finds_a_way",
+        "oh_no_guys_im_oozing",
         "bring_home_the_beacon",
         "grinding_nemo",
         "hell_hunter",
@@ -2373,6 +2423,7 @@
         "benchmarking",
         "true_cow_tipper",
         "classic_pocket_edition_block",
+        "humble_bundle",
         "master_engineer",
         "a_horse_in_shining_armor",
         "deep_slate_nine",
@@ -2609,12 +2660,12 @@
         "are_we_there_yet",
         "monsters_root",
         "spikey",
-        "iskallium_collector",
         "fireworks_display",
         "quirky_quartz",
         "voyage",
         "extrabiologist",
         "two_birds_one_arrow",
+        "resinance",
         "zork_chop",
         "pressure_detector",
         "postmortal",
@@ -2820,6 +2871,7 @@
         "sheariously",
         "even_moar_tools",
         "shady_deals",
+        "eyeball_forest",
         "help_ive_been_framed",
         "trimming_the_treetops",
         "rock_paper_shears",
@@ -2842,6 +2894,7 @@
         "yum_yum_yummo",
         "the_mistake",
         "bukkit_bukkit",
+        "fake_copper",
         "colors_of_the_wind",
         "delicious_hot_schmoes",
         "when_pigs_finally_fly",
@@ -2947,6 +3000,7 @@
         "pig_slaughterer",
         "isnt_it_scute",
         "stripper",
+        "flamboyant_range",
         "its_a_sign",
         "frequent_flyer",
         "all_chained_up",
@@ -3023,6 +3077,7 @@
         "unbreakable",
         "artificial_selection",
         "adventuring_time",
+        "pale_gardener",
         "monumental",
         "lost_its_bark",
         "smithing_with_style",
@@ -3086,6 +3141,7 @@
         "the_healing_power_of_friendship",
         "spruce_lee",
         "night_runner",
+        "light_show",
         "warlock",
         "ive_got_a_bad_feeling_about_this",
         "desert_rider",
@@ -3111,6 +3167,7 @@
         "zeus",
         "potion_root",
         "master_trader",
+        "i_yearned_for_the_mines",
         "just_keep_swimming",
         "gold_rush",
         "blistering_barnacles",
@@ -3132,6 +3189,7 @@
         "crafters_crafting_crafters",
         "if_only_cats_grew_into_kittens",
         "sound_the_alarm",
+        "heart_breaker",
         "honey_im_home",
         "oh_shiny",
         "sweet_dreams",
@@ -3493,9 +3551,6 @@
     "blazeandcave:adventure/the_sound_of_silence": [
         "silence_armor_trim_smithing_template"
     ],
-    "blazeandcave:technical/place_painting": [
-        "painting"
-    ],
     "blazeandcave:technical/stat_branch6_mid": [
         "root"
     ],
@@ -3507,6 +3562,9 @@
     ],
     "blazeandcave:mining/galileo_figaro": [
         "spyglass"
+    ],
+    "blazeandcave:nether/light_show": [
+        "pale_moss_block"
     ],
     "blazeandcave:animal/are_we_there_yet": [
         "tamed_animal"
@@ -3690,10 +3748,12 @@
         "azure_bluet",
         "podzol",
         "cactus",
+        "closed_eyeblossom",
         "lily_of_the_valley",
         "blue_orchid",
         "melon",
         "warped_nylium",
+        "open_eyeblossom",
         "orange_tulip",
         "carved_pumpkin",
         "wither_rose",
@@ -3708,6 +3768,7 @@
         "warped_fungus",
         "red_mushroom",
         "muddy_mangrove_roots",
+        "pale_moss_block",
         "cornflower",
         "coarse_dirt",
         "tnt",
@@ -3988,6 +4049,7 @@
         "tuff_slab",
         "cobbled_deepslate_slab",
         "smooth_red_sandstone_slab",
+        "resin_brick_slab",
         "cut_sandstone_slab",
         "waxed_oxidized_cut_copper_slab",
         "polished_blackstone_brick_slab",
@@ -3995,6 +4057,7 @@
         "polished_deepslate_slab",
         "mangrove_slab",
         "polished_granite_slab",
+        "pale_oak_slab",
         "smooth_sandstone_slab",
         "cut_red_sandstone_slab",
         "bamboo_slab",
@@ -4034,9 +4097,6 @@
         "diamond_axe",
         "netherite_axe",
         "stone_axe"
-    ],
-    "blazeandcave:monsters/iskallium_collector": [
-        "slime_block"
     ],
     "blazeandcave:monsters/melting": [
         "desert"
@@ -4138,6 +4198,7 @@
         "dragon_egg",
         "weathered_cut_copper_slab",
         "chiseled_tuff",
+        "creaking_heart",
         "acacia_hanging_sign",
         "warped_pressure_plate",
         "light_gray_stained_glass_pane",
@@ -4193,6 +4254,7 @@
         "red_wool",
         "waxed_cut_copper_slab",
         "black_wool",
+        "pale_oak_door",
         "cracked_deepslate_bricks",
         "stone_button",
         "waxed_oxidized_chiseled_copper",
@@ -4235,6 +4297,7 @@
         "pink_terracotta",
         "purple_candle",
         "magenta_terracotta",
+        "stripped_pale_oak_wood",
         "deepslate_copper_ore",
         "black_shulker_box",
         "brain_coral_fan",
@@ -4281,6 +4344,7 @@
         "conduit",
         "oak_stairs",
         "light_blue_candle",
+        "pale_oak_hanging_sign",
         "deepslate_lapis_ore",
         "nether_bricks",
         "brown_stained_glass",
@@ -4296,6 +4360,7 @@
         "comparator",
         "gray_shulker_box",
         "yellow_concrete_powder",
+        "pale_oak_planks",
         "blackstone_wall",
         "smooth_stone",
         "spruce_pressure_plate",
@@ -4366,9 +4431,11 @@
         "copper_trapdoor",
         "sandstone_slab",
         "cake",
+        "stripped_pale_oak_log",
         "exposed_copper_trapdoor",
         "acacia_leaves",
         "yellow_shulker_box",
+        "resin_block",
         "oxidized_copper_trapdoor",
         "moss_carpet",
         "brown_banner",
@@ -4376,6 +4443,8 @@
         "bamboo",
         "red_sand",
         "purple_shulker_box",
+        "resin_bricks",
+        "pale_oak_sapling",
         "chiseled_stone_bricks",
         "clay",
         "lectern",
@@ -4422,6 +4491,7 @@
         "dark_oak_leaves",
         "waxed_copper_block",
         "lime_shulker_box",
+        "pale_oak_sign",
         "jungle_sapling",
         "amethyst_block",
         "creeper_head",
@@ -4435,6 +4505,7 @@
         "black_carpet",
         "fire_coral",
         "magenta_glazed_terracotta",
+        "resin_brick_wall",
         "gray_bed",
         "stripped_cherry_log",
         "wet_sponge",
@@ -4449,6 +4520,7 @@
         "magma_block",
         "cauldron",
         "pink_concrete_powder",
+        "pale_oak_pressure_plate",
         "calibrated_sculk_sensor",
         "cherry_fence",
         "soul_sand",
@@ -4460,6 +4532,7 @@
         "deepslate",
         "bee_nest",
         "smooth_red_sandstone_slab",
+        "resin_brick_slab",
         "cut_sandstone_slab",
         "grass_block",
         "black_bed",
@@ -4471,6 +4544,8 @@
         "waxed_oxidized_cut_copper_stairs",
         "smooth_sandstone_stairs",
         "blue_wool",
+        "chiseled_resin_bricks",
+        "resin_clump",
         "small_amethyst_bud",
         "waxed_exposed_cut_copper_slab",
         "stripped_dark_oak_log",
@@ -4520,6 +4595,7 @@
         "moss_block",
         "green_terracotta",
         "red_carpet",
+        "pale_oak_wood",
         "white_concrete",
         "mangrove_slab",
         "glow_lichen",
@@ -4529,6 +4605,7 @@
         "red_shulker_box",
         "light_blue_terracotta",
         "waxed_chiseled_copper",
+        "pale_oak_stairs",
         "brown_glazed_terracotta",
         "crimson_planks",
         "bamboo_block",
@@ -4591,6 +4668,7 @@
         "piston",
         "dead_fire_coral_block",
         "cyan_candle",
+        "pale_oak_leaves",
         "waxed_cut_copper",
         "ender_chest",
         "light_gray_wool",
@@ -4608,6 +4686,8 @@
         "polished_deepslate",
         "spore_blossom",
         "waxed_weathered_copper_grate",
+        "pale_oak_trapdoor",
+        "pale_hanging_moss",
         "red_stained_glass",
         "stone_slab",
         "bamboo_mosaic_stairs",
@@ -4619,6 +4699,7 @@
         "rose_bush",
         "suspicious_gravel",
         "iron_trapdoor",
+        "pale_oak_log",
         "stone_pressure_plate",
         "iron_bars",
         "smooth_red_sandstone_stairs",
@@ -4693,6 +4774,7 @@
         "exposed_copper_grate",
         "mossy_stone_brick_stairs",
         "warped_fungus",
+        "pale_oak_slab",
         "stripped_jungle_log",
         "waxed_exposed_chiseled_copper",
         "sniffer_egg",
@@ -4702,6 +4784,7 @@
         "anvil",
         "azalea_leaves",
         "bamboo_mosaic_slab",
+        "pale_oak_fence",
         "magenta_stained_glass",
         "cherry_sign",
         "dark_oak_sign",
@@ -4755,11 +4838,13 @@
         "andesite_stairs",
         "dark_oak_fence_gate",
         "polished_andesite_stairs",
+        "pale_moss_block",
         "waxed_exposed_cut_copper",
         "jungle_pressure_plate",
         "bamboo_slab",
         "cyan_bed",
         "smooth_quartz_slab",
+        "pale_oak_fence_gate",
         "stripped_acacia_log",
         "crimson_roots",
         "mangrove_trapdoor",
@@ -4865,6 +4950,7 @@
         "white_candle",
         "dark_prismarine_stairs",
         "jungle_button",
+        "pale_moss_carpet",
         "dead_tube_coral_block",
         "weathered_copper_bulb",
         "jungle_fence",
@@ -4905,6 +4991,7 @@
         "lime_banner",
         "diorite_slab",
         "soul_soil",
+        "open_eyeblossom",
         "dark_oak_sapling",
         "polished_diorite_stairs",
         "oxidized_chiseled_copper",
@@ -4938,11 +5025,13 @@
         "polished_deepslate_stairs",
         "orange_candle",
         "yellow_stained_glass",
+        "closed_eyeblossom",
         "deepslate_diamond_ore",
         "cherry_trapdoor",
         "prismarine_slab",
         "magenta_wool",
         "lapis_block",
+        "resin_brick_stairs",
         "cornflower",
         "oak_fence_gate",
         "stripped_jungle_wood",
@@ -4995,6 +5084,7 @@
         "flowering_azalea",
         "yellow_glazed_terracotta",
         "quartz_slab",
+        "pale_oak_button",
         "blue_stained_glass_pane",
         "mossy_stone_brick_wall",
         "granite",
@@ -5058,6 +5148,9 @@
         ],
         [
             "crossbow"
+        ],
+        [
+            "firework_rocket"
         ],
         [
             "trident_melee",
@@ -5164,6 +5257,7 @@
         "minecraft:ghast",
         "minecraft:hoglin",
         "minecraft:guardian",
+        "minecraft:creaking",
         "minecraft:breeze",
         "minecraft:vindicator",
         "minecraft:magma_cube",
@@ -5220,6 +5314,7 @@
         "acacia_sapling",
         "azure_bluet",
         "acacia_leaves",
+        "open_eyeblossom",
         "orange_tulip",
         "dark_oak_sapling",
         "moss_carpet",
@@ -5234,14 +5329,17 @@
         "oxeye_daisy",
         "pitcher_plant",
         "poppy",
+        "pale_oak_sapling",
         "azalea_leaves",
         "grass",
         "potato",
         "cactus",
+        "closed_eyeblossom",
         "wheat",
         "nether_sprouts",
         "bread",
         "hanging_roots",
+        "pale_oak_leaves",
         "dried_kelp",
         "pitcher_pod",
         "melon_slice",
@@ -5258,6 +5356,7 @@
         "spore_blossom",
         "hay_block",
         "pink_tulip",
+        "pale_hanging_moss",
         "brown_mushroom",
         "dandelion",
         "mangrove_roots",
@@ -5279,10 +5378,12 @@
         "red_tulip",
         "glow_lichen",
         "big_dripleaf",
+        "pale_moss_block",
         "dark_oak_leaves",
         "birch_sapling",
         "jungle_sapling",
         "mushroom_stem",
+        "pale_moss_carpet",
         "cocoa_beans",
         "shroomlight",
         "sweet_berries",
@@ -5370,16 +5471,6 @@
     "blazeandcave:mining/rock_bottom": [
         "bedrock_level"
     ],
-    "blazeandcave:technical/whack_a_mole_count": [
-        [
-            "whack_a_mole",
-            "whack_a_mole_strength1",
-            "whack_a_mole_strength2",
-            "whack_a_mole_strength3",
-            "whack_a_mole_strength4",
-            "whack_a_mole_strength5"
-        ]
-    ],
     "blazeandcave:animal/humble_bundle": [
         "bundle"
     ],
@@ -5390,10 +5481,7 @@
         "powered_rail"
     ],
     "blazeandcave:enchanting/god_of_thunder": [
-        [
-            "mjolnir",
-            "mjolnir_old"
-        ]
+        "mjolnir"
     ],
     "blazeandcave:nether/holy_scrap": [
         "netherite_scrap"
@@ -5489,6 +5577,7 @@
         "tarzan",
         "thin_ice",
         "everybody_loves_ice",
+        "eyeball_forest",
         "powder_full",
         "so_long_and_thanks_for_all_the_fish",
         "atlantis",
@@ -5498,10 +5587,12 @@
         "voyage",
         "bamboom",
         "kilometre_walk",
+        "resinance",
         "titanic",
         "just_keep_swimming",
         "no_reefing",
         "wet_feet",
+        "pale_in_comparison",
         "warm_feet",
         "sleep_with_the_fishes",
         "boatception",
@@ -5517,7 +5608,9 @@
         "cargo_carrier",
         "overgrown",
         "simba",
+        "heart_breaker",
         "root",
+        "fake_copper",
         "just_a_sample",
         "free_diver",
         "the_sea_calls_you",
@@ -5669,10 +5762,7 @@
         "big_cheater"
     ],
     "blazeandcave:end/organizational_wizard": [
-        [
-            "shulker_box",
-            "shulker_box_old"
-        ]
+        "shulker_box"
     ],
     "blazeandcave:potion/marine_marauder": [
         "water_breathing"
@@ -5934,9 +6024,6 @@
     "blazeandcave:nether/jenga": [
         "jenga"
     ],
-    "blazeandcave:technical/on_a_rail_start": [
-        "enter_minecart"
-    ],
     "minecraft:adventure/hero_of_the_village": [
         "hero_of_the_village"
     ],
@@ -6025,6 +6112,7 @@
         "beach",
         "jungle",
         "river",
+        "pale_garden",
         "desert"
     ],
     "blazeandcave:enchanting/overkill": [
@@ -6109,6 +6197,7 @@
         "windswept_savanna",
         "wooded_badlands",
         "jungle",
+        "pale_garden",
         "warped_forest",
         "frozen_river",
         "forest",
@@ -6528,7 +6617,10 @@
             "light_weighted_pressure_plate",
             "heavy_weighted_pressure_plate",
             "polished_blackstone_pressure_plate",
-            "mangrove_pressure_plate"
+            "mangrove_pressure_plate",
+            "cherry_pressure_plate",
+            "bamboo_pressure_plate",
+            "pale_oak_pressure_plate"
         ]
     ],
     "blazeandcave:building/rock_collection": [
@@ -6634,10 +6726,7 @@
         "blue_ice"
     ],
     "blazeandcave:adventure/nyan_sheep": [
-        [
-            "name_tag",
-            "name_tag_old"
-        ]
+        "name_tag"
     ],
     "blazeandcave:biomes/echolocation": [
         "echolocation"
@@ -7573,6 +7662,7 @@
         "drowned",
         "guardian",
         "ghast",
+        "creaking",
         "stray",
         "shulker",
         "vex",
@@ -7621,9 +7711,6 @@
             "piglin"
         ]
     ],
-    "blazeandcave:technical/sound_the_alarm_check": [
-        "bell"
-    ],
     "blazeandcave:potion/secret_of_the_ooze": [
         "oozing"
     ],
@@ -7661,9 +7748,6 @@
     "blazeandcave:technical/stat_branch1_mid": [
         "root"
     ],
-    "blazeandcave:technical/inventory_changed": [
-        "inventory_changed"
-    ],
     "blazeandcave:building/skyblock": [
         "grass_block"
     ],
@@ -7686,6 +7770,7 @@
         "lily_of_the_valley_stew",
         "allium_stew",
         "azure_bluet_stew",
+        "closed_eyeblossom_stew",
         "tulip_stew",
         "oxeye_daisy_stew",
         "cornflower_stew",
@@ -7853,6 +7938,12 @@
     "blazeandcave:biomes/boaty_mcboatface": [
         "boat"
     ],
+    "blazeandcave:biomes/pale_in_comparison": [
+        [
+            "pale_moss_block",
+            "moss_block"
+        ]
+    ],
     "blazeandcave:mining/diam_oh_wait_no": [
         "coal"
     ],
@@ -7861,9 +7952,6 @@
     ],
     "blazeandcave:monsters/poisonous_ew": [
         "spider"
-    ],
-    "blazeandcave:technical/factorio_craft": [
-        "factorio_craft"
     ],
     "blazeandcave:enchanting/armor_for_the_masses": [
         [
@@ -8107,6 +8195,7 @@
         "jungle_log",
         "mangrove_log",
         "warped_stem",
+        "pale_oak_log",
         "spruce_log",
         "birch_log"
     ],
@@ -8167,9 +8256,6 @@
     ],
     "blazeandcave:monsters/phantom_slayer": [
         "phantom_membrane"
-    ],
-    "blazeandcave:technical/consume_food": [
-        "consume_food"
     ],
     "minecraft:husbandry/tame_an_animal": [
         "tamed_animal"
@@ -8250,6 +8336,7 @@
         "suit_up",
         "the_way_to_spawn",
         "stone_age",
+        "i_yearned_for_the_mines",
         "lapis_lazuli_miner",
         "isnt_it_iron_pick",
         "bulldozer",
@@ -8388,7 +8475,8 @@
             "crimson_stem",
             "warped_stem",
             "mangrove_log",
-            "cherry_log"
+            "cherry_log",
+            "pale_oak_log"
         ]
     ],
     "blazeandcave:monsters/still_talking": [
@@ -8409,10 +8497,7 @@
         "glow_lichen"
     ],
     "blazeandcave:end/dogfight": [
-        [
-            "skeleton",
-            "stray"
-        ]
+        "skeleton"
     ],
     "blazeandcave:statistics/sheriff_firearm": [
         "trigger"
@@ -8437,10 +8522,7 @@
         "trigger"
     ],
     "blazeandcave:adventure/i_just_want_to_make_toast": [
-        [
-            "name_tag",
-            "name_tag_old"
-        ]
+        "name_tag"
     ],
     "blazeandcave:mining/bottom_to_top": [
         "deepslate",
@@ -8528,10 +8610,7 @@
         "trigger"
     ],
     "blazeandcave:enchanting/ill_be_back": [
-        [
-            "terminator",
-            "terminator_old"
-        ]
+        "terminator"
     ],
     "blazeandcave:biomes/just_a_sample": [
         [
@@ -8566,9 +8645,6 @@
             "dead_fire_coral_fan",
             "dead_horn_coral_fan"
         ]
-    ],
-    "blazeandcave:technical/lucky_break_check": [
-        "lucky_break_check"
     ],
     "blazeandcave:animal/stay_calmer": [
         "tamed_animal"
@@ -8734,17 +8810,15 @@
             "dark_oak_sapling",
             "mangrove_propagule",
             "bamboo_sapling",
-            "cherry_sapling"
+            "cherry_sapling",
+            "pale_oak_sapling"
         ]
     ],
     "blazeandcave:adventure/hard_mode_activated": [
         "trial_omen"
     ],
     "minecraft:adventure/sniper_duel": [
-        [
-            "killed_skeleton",
-            "killed_stray"
-        ]
+        "killed_skeleton"
     ],
     "blazeandcave:mining/bulldozer": [
         "mine_nether_gold_ore"
@@ -8778,6 +8852,7 @@
         "jungle_log",
         "mangrove_log",
         "warped_stem",
+        "pale_oak_log",
         "spruce_log",
         "birch_log"
     ],
@@ -8788,10 +8863,7 @@
         "smithing_table"
     ],
     "blazeandcave:adventure/nerds_never_die": [
-        [
-            "technoblade",
-            "technoblade_old"
-        ]
+        "technoblade"
     ],
     "blazeandcave:weaponry/rock_paper_shears": [
         [
@@ -8816,6 +8888,7 @@
         "enders_chest",
         "legend_of_hell_chicken_riders",
         "gilty",
+        "light_show",
         "polar_opposites",
         "cultural_misunderstandings",
         "local_brewery",
@@ -9142,9 +9215,11 @@
         "water_bucket",
         "leather_boots",
         "light_blue_dye",
+        "pale_oak_boat",
         "chainmail_helmet",
         "pumpkin_seeds",
         "egg",
+        "field_masoned_banner_pattern",
         "music_disc_stal",
         "chorus_fruit",
         "beef",
@@ -9174,6 +9249,8 @@
         "honeycomb",
         "writable_book",
         "golden_helmet",
+        "cyan_bundle",
+        "brown_bundle",
         "rabbit_stew",
         "glow_item_frame",
         "white_dye",
@@ -9245,7 +9322,9 @@
         "skull_banner_pattern",
         "firework_star",
         "music_disc_strad",
+        "bordure_indented_banner_pattern",
         "furnace_minecart",
+        "pale_oak_chest_boat",
         "netherite_axe",
         "eye_armor_trim",
         "music_disc_mellohi",
@@ -9263,6 +9342,7 @@
         "music_disc_creator_music_box",
         "flint",
         "armadillo_scute",
+        "gray_bundle",
         "emerald",
         "cocoa_beans",
         "string",
@@ -9271,10 +9351,12 @@
         "cooked_mutton",
         "book",
         "wooden_shovel",
+        "resin_brick",
         "tide_armor_trim",
         "raiser_armor_trim",
         "bamboo_chest_raft",
         "bamboo_raft",
+        "lime_bundle",
         "apple",
         "spider_eye",
         "piglin_banner_pattern",
@@ -9294,6 +9376,7 @@
         "trial_key",
         "golden_carrot",
         "gray_dye",
+        "blue_bundle",
         "magma_cream",
         "enchanted_golden_apple",
         "sugar_cane",
@@ -9309,6 +9392,7 @@
         "honey_bottle",
         "iron_chestplate",
         "fire_charge",
+        "red_bundle",
         "danger_pottery_sherd",
         "diamond_shovel",
         "powder_snow_bucket",
@@ -9320,6 +9404,7 @@
         "howl_pottery_sherd",
         "golden_leggings",
         "wolf_armor",
+        "magenta_bundle",
         "cookie",
         "oak_chest_boat",
         "shelter_pottery_sherd",
@@ -9337,6 +9422,7 @@
         "music_disc_5",
         "snowball",
         "nautilus_shell",
+        "light_blue_bundle",
         "shield",
         "carrot_on_a_stick",
         "glass_bottle",
@@ -9363,6 +9449,7 @@
         "poisonous_potato",
         "ward_armor_trim",
         "music_disc_wait",
+        "bundle",
         "netherite_pickaxe",
         "map",
         "black_dye",
@@ -9371,11 +9458,14 @@
         "golden_apple",
         "bread",
         "arms_up_pottery_sherd",
+        "orange_bundle",
         "tropical_fish_bucket",
         "rotten_flesh",
+        "green_bundle",
         "dried_kelp",
         "tnt_minecart",
         "chainmail_leggings",
+        "pink_bundle",
         "pitcher_pod",
         "lead",
         "friend_pottery_sherd",
@@ -9402,6 +9492,7 @@
         "plenty_pottery_sherd",
         "music_disc_11",
         "porkchop",
+        "yellow_bundle",
         "wooden_axe",
         "spruce_boat",
         "shears",
@@ -9412,6 +9503,7 @@
         "rabbit_hide",
         "chainmail_boots",
         "ghast_tear",
+        "white_bundle",
         "enchanted_book",
         "coast_armor_trim",
         "jungle_boat",
@@ -9427,6 +9519,7 @@
         "compass",
         "coal",
         "leather_helmet",
+        "light_gray_bundle",
         "blue_dye",
         "music_disc_precipice",
         "sugar",
@@ -9460,6 +9553,7 @@
         "heartbreak_pottery_sherd",
         "pufferfish",
         "ominous_bottle",
+        "purple_bundle",
         "quartz",
         "raw_gold",
         "leather_horse_armor",
@@ -9473,103 +9567,12 @@
         "diamond",
         "cyan_dye",
         "painting",
+        "black_bundle",
         "heart_pottery_sherd",
         "snout_armor_trim",
         "netherite_hoe",
         "carrot",
         "spruce_chest_boat"
-    ],
-    "blazeandcave:technical/open_loot_chest": [
-        [
-            "abandoned_mineshaft",
-            "bastion_bridge",
-            "bastion_hoglin_stable",
-            "bastion_other",
-            "bastion_treasure",
-            "buried_treasure",
-            "desert_pyramid",
-            "end_city_treasure",
-            "igloo_chest",
-            "jungle_temple",
-            "nether_bridge",
-            "pillager_outpost",
-            "ruined_portal",
-            "shipwreck_map",
-            "shipwreck_supply",
-            "shipwreck_treasure",
-            "simple_dungeon",
-            "stronghold_corridor",
-            "stronghold_crossing",
-            "stronghold_library",
-            "underwater_ruin_big",
-            "underwater_ruin_small",
-            "woodland_mansion",
-            "village_armorer",
-            "village_butcher",
-            "village_cartographer",
-            "village_desert_house",
-            "village_fisher",
-            "village_fletcher",
-            "village_mason",
-            "village_plains_house",
-            "village_savanna_house",
-            "village_shepherd",
-            "village_snowy_house",
-            "village_taiga_house",
-            "village_tannery",
-            "village_temple",
-            "village_toolsmith",
-            "village_weaponsmith",
-            "ancient_city",
-            "ancient_city_ice_box",
-            "trial_chambers_corridor",
-            "trial_chambers_entrance",
-            "trial_chambers_intersection",
-            "trial_chambers_intersection_barrel",
-            "trial_chambers_reward",
-            "trial_chambers_supply",
-            "fortified_village_archer",
-            "fortified_village_attic",
-            "fortified_village_butcher",
-            "fortified_village_cartographer",
-            "fortified_village_fisherman",
-            "fortified_village_food",
-            "fortified_village_generic",
-            "fortified_village_generic_low",
-            "fortified_village_junk",
-            "fortified_village_library",
-            "fortified_village_mason",
-            "fortified_village_smith",
-            "fortified_village_tavern_downstairs",
-            "fortified_village_tavern_upstairs",
-            "fortified_village_treasure",
-            "fortified_desert_village_archer",
-            "fortified_desert_village_attic",
-            "fortified_desert_village_butcher",
-            "fortified_desert_village_cartographer",
-            "fortified_desert_village_food",
-            "fortified_desert_village_generic",
-            "fortified_desert_village_generic_low",
-            "fortified_desert_village_junk",
-            "fortified_desert_village_library",
-            "fortified_desert_village_mason",
-            "fortified_desert_village_smith",
-            "fortified_desert_village_treasure",
-            "glacial_hut_main",
-            "glacial_hut_junk",
-            "spire_junk",
-            "spire_common",
-            "spire_rare",
-            "spire_treasure",
-            "underground_cabin",
-            "giant_bee_hive",
-            "desert_outpost",
-            "terralith_igloo",
-            "mage_barracks",
-            "mage_extras",
-            "mage_treasure",
-            "lodge_drinkables"
-        ]
     ],
     "blazeandcave:building/classy_glassy": [
         "glass"
@@ -9608,6 +9611,9 @@
     ],
     "blazeandcave:adventure/spear_fishing": [
         "guardian"
+    ],
+    "blazeandcave:biomes/resinance": [
+        "resin_clump"
     ],
     "blazeandcave:animal/feeding_the_chickens": [
         "chicken"
@@ -9770,6 +9776,7 @@
         "drowned",
         "spider",
         "creeper",
+        "creaking",
         "enderman"
     ],
     "blazeandcave:biomes/smooth_operator": [
@@ -9809,6 +9816,7 @@
     ],
     "blazeandcave:bacap/monsters_milestone": [
         "stealth_is_optional",
+        "oh_no_guys_im_oozing",
         "paleontologist",
         "termite_control",
         "house_of_freaks",
@@ -9836,7 +9844,6 @@
         "now_thats_a_lot_of_damage",
         "plane_walker",
         "creeper_killer",
-        "iskallium_collector",
         "spooky_skulls",
         "ew_ew_ew",
         "dead_really_dont_die",
@@ -10026,6 +10033,7 @@
         "writers_block",
         "elmer_mudd",
         "halloween",
+        "pale_gardener",
         "tuff_stuff",
         "jailhouse_block",
         "lost_its_bark",
@@ -10098,6 +10106,7 @@
         "stripped_warped_stem",
         "stripped_bamboo_block",
         "stripped_birch_log",
+        "stripped_pale_oak_log",
         "stripped_mangrove_log",
         "stripped_spruce_log",
         "stripped_oak_log"
@@ -10165,7 +10174,9 @@
         "flower_banner_pattern",
         "mojang_banner_pattern",
         "piglin_banner_pattern",
+        "field_masoned_banner_pattern",
         "skull_banner_pattern",
+        "bordure_indented_banner_pattern",
         "flow_banner_pattern",
         "guster_banner_pattern",
         "globe_banner_pattern",
@@ -10184,6 +10195,7 @@
         "bamboo_sapling",
         "oak_sapling",
         "acacia_sapling",
+        "pale_oak_sapling",
         "birch_sapling",
         "azalea",
         "cherry_sapling",
@@ -10258,6 +10270,7 @@
         "deepslate_tile_wall",
         "deepslate_brick_wall",
         "polished_deepslate_wall",
+        "resin_brick_wall",
         "tuff_wall",
         "granite_wall",
         "tuff_brick_wall",
@@ -10421,6 +10434,9 @@
     "blazeandcave:nether/glows_in_the_dark": [
         "spectral_arrow"
     ],
+    "blazeandcave:biomes/heart_breaker": [
+        "creaking"
+    ],
     "blazeandcave:end/sky_high": [
         "world_height"
     ],
@@ -10542,9 +10558,7 @@
     "blazeandcave:adventure/whats_up_doc": [
         [
             "name_tag",
-            "name_tag_grumm",
-            "name_tag_dinnerbone_old",
-            "name_tag_grumm_old"
+            "name_tag_grumm"
         ]
     ],
     "blazeandcave:bacap/potion_milestone": [
@@ -10640,10 +10654,7 @@
         "snowy_beach"
     ],
     "blazeandcave:adventure/good_lookin_treasure": [
-        [
-            "trim_templates",
-            "netherite_upgrade"
-        ]
+        "trim_templates"
     ],
     "blazeandcave:enchanting/curses": [
         [
@@ -10724,15 +10735,17 @@
             "acacia_log",
             "dark_oak_log",
             "mangrove_log",
-            "cherry_log"
+            "cherry_log",
+            "pale_oak_log"
         ]
     ],
     "blazeandcave:technical/riddle_fourth_line": [
         [
-            "fourth_line",
-            "fourth_line_jungle",
-            "fourth_line_sparse_jungle",
-            "fourth_line_bamboo_jungle"
+            "pot_on_a_pot"
+        ],
+        [
+            "pot_in_a_pot1",
+            "pot_in_a_pot2"
         ]
     ],
     "blazeandcave:nether/polar_opposites": [
@@ -10863,6 +10876,9 @@
     "blazeandcave:biomes/ahoy": [
         "shipwreck"
     ],
+    "blazeandcave:biomes/eyeball_forest": [
+        "eyeblossom"
+    ],
     "blazeandcave:nether/when_piglins_fly": [
         [
             "piglin"
@@ -10915,6 +10931,9 @@
             "outer_neg_z"
         ]
     ],
+    "blazeandcave:animal/flamboyant_range": [
+        "bundle"
+    ],
     "blazeandcave:adventure/disc_jockey": [
         "music_disc_blocks",
         "music_disc_stal",
@@ -10937,14 +10956,7 @@
         "music_disc_far"
     ],
     "blazeandcave:weaponry/nice_to_mace_you": [
-        [
-            "mace_no_strength",
-            "mace_strength1",
-            "mace_strength2",
-            "mace_strength3",
-            "mace_strength4",
-            "mace_strength5"
-        ]
+        "mace"
     ],
     "blazeandcave:monsters/poison_dart": [
         [
@@ -11141,6 +11153,7 @@
         "sparse_jungle",
         "jungle",
         "mangrove_swamp",
+        "pale_garden",
         "swamp",
         "cherry_grove"
     ],
@@ -11173,6 +11186,7 @@
         "beach",
         "jungle",
         "river",
+        "pale_garden",
         "desert"
     ],
     "blazeandcave:animal/have_a_shearful_day": [
@@ -11258,6 +11272,25 @@
     ],
     "blazeandcave:challenges/poglin": [
         "creeper_head"
+    ],
+    "blazeandcave:building/pale_gardener": [
+        "pale_oak_boat",
+        "pale_oak_stairs",
+        "pale_oak_fence_gate",
+        "pale_oak_fence",
+        "pale_oak_wood",
+        "pale_oak_chest_boat",
+        "pale_oak_trapdoor",
+        "stripped_pale_oak_wood",
+        "pale_oak_button",
+        "pale_oak_door",
+        "pale_oak_hanging_sign",
+        "pale_oak_slab",
+        "pale_oak_planks",
+        "pale_oak_sign",
+        "stripped_pale_oak_log",
+        "pale_oak_log",
+        "pale_oak_pressure_plate"
     ],
     "minecraft:nether/ride_strider_in_overworld_lava": [
         "ride_entity_distance"
@@ -11659,9 +11692,6 @@
             "perfect_sword_bane"
         ]
     ],
-    "blazeandcave:technical/consume_food_null": [
-        "consume_food_null"
-    ],
     "blazeandcave:weaponry/the_aquatic_hunter": [
         "pufferfish",
         "dolphin",
@@ -11783,7 +11813,8 @@
             "lapis",
             "quartz",
             "netherite",
-            "redstone"
+            "redstone",
+            "resin"
         ]
     ],
     "blazeandcave:potion/failed_concoctions": [
@@ -11856,6 +11887,7 @@
         "cool_kids",
         "total_beelocation",
         "rainbow_collection",
+        "humble_bundle",
         "super_mooshroom",
         "a_horse_in_shining_armor",
         "wheres_the_honey_lebowski",
@@ -11877,6 +11909,7 @@
         "fashion_statement",
         "blistering_barnacles",
         "milkshroom",
+        "fractal",
         "axeolotl",
         "heavy_duty_caravan",
         "swine_sailing",
@@ -11980,6 +12013,7 @@
         "pig_slaughterer",
         "you_lead_ill_follow",
         "isnt_it_scute",
+        "flamboyant_range",
         "live_and_let_dye",
         "when_pigs_used_to_fly"
     ],
@@ -11988,6 +12022,14 @@
     ],
     "blazeandcave:monsters/controlled_detonation": [
         "controlled_detonation"
+    ],
+    "blazeandcave:biomes/fake_copper": [
+        "resin_brick_stairs",
+        "resin_bricks",
+        "resin_brick_slab",
+        "chiseled_resin_bricks",
+        "resin_brick_wall",
+        "resin_block"
     ],
     "blazeandcave:adventure/a_suspicious_advancement": [
         "tall_grass"
@@ -12022,6 +12064,7 @@
         "drowned",
         "guardian",
         "ghast",
+        "creaking",
         "pufferfish",
         "dolphin",
         "stray",
@@ -12132,10 +12175,12 @@
         "torchflower",
         "white_tulip",
         "azure_bluet",
+        "closed_eyeblossom",
         "cornflower",
         "lily_of_the_valley",
         "blue_orchid",
         "peony",
+        "open_eyeblossom",
         "oxeye_daisy",
         "orange_tulip"
     ],
@@ -12155,6 +12200,7 @@
     "blazeandcave:adventure/chromatic_armory": [
         "gold",
         "diamond",
+        "resin",
         "quartz",
         "iron",
         "copper",
@@ -12202,9 +12248,6 @@
             "azalea",
             "flowering_azalea"
         ]
-    ],
-    "blazeandcave:technical/goat_horn_use": [
-        "goat_horn"
     ],
     "blazeandcave:monsters/paleontologist": [
         "bone_block"
@@ -12275,7 +12318,9 @@
         "rooted_dirt",
         "potatoes",
         "oak_sapling",
+        "pale_oak_sapling",
         "weeping_vines",
+        "pale_hanging_moss",
         "brown_mushroom",
         "lilac",
         "rose_bush",
@@ -12291,6 +12336,7 @@
         "mangrove_leaves",
         "pumpkin_stem",
         "melon_stem",
+        "moss_block",
         "large_fern",
         "pitcher_pod",
         "azalea",
@@ -12309,9 +12355,11 @@
         "tall_grass",
         "tall_seagrass",
         "red_mushroom",
+        "pale_moss_block",
         "birch_sapling",
         "peony",
-        "jungle_sapling"
+        "jungle_sapling",
+        "pale_moss_carpet"
     ],
     "blazeandcave:statistics/giga_xp_grinder": [
         "trigger"
@@ -12423,6 +12471,7 @@
     "blazeandcave:animal/so_hungry_i_could_eat_a_horse": [
         "apple",
         "golden_apple",
+        "enchanted_golden_apple",
         "wheat",
         "hay_block",
         "sugar",
@@ -12463,6 +12512,7 @@
         "dark_prismarine_stairs",
         "weathered_cut_copper_stairs",
         "smooth_quartz_stairs",
+        "pale_oak_stairs",
         "brick_stairs",
         "waxed_oxidized_cut_copper_stairs",
         "diorite_stairs",
@@ -12484,7 +12534,8 @@
         "oxidized_cut_copper_stairs",
         "polished_tuff_stairs",
         "waxed_exposed_cut_copper_stairs",
-        "bamboo_stairs"
+        "bamboo_stairs",
+        "resin_brick_stairs"
     ],
     "blazeandcave:building/concrete_evidence": [
         [
@@ -12563,6 +12614,7 @@
         "prismarine_brick_slab",
         "weathered_cut_copper_slab",
         "chiseled_tuff",
+        "creaking_heart",
         "acacia_hanging_sign",
         "warped_pressure_plate",
         "light_gray_stained_glass_pane",
@@ -12616,6 +12668,7 @@
         "red_wool",
         "waxed_cut_copper_slab",
         "black_wool",
+        "pale_oak_door",
         "cracked_deepslate_bricks",
         "stone_button",
         "waxed_oxidized_chiseled_copper",
@@ -12658,6 +12711,7 @@
         "pink_terracotta",
         "purple_candle",
         "magenta_terracotta",
+        "stripped_pale_oak_wood",
         "deepslate_copper_ore",
         "black_shulker_box",
         "brain_coral_fan",
@@ -12703,6 +12757,7 @@
         "conduit",
         "oak_stairs",
         "light_blue_candle",
+        "pale_oak_hanging_sign",
         "deepslate_lapis_ore",
         "nether_bricks",
         "brown_stained_glass",
@@ -12718,6 +12773,7 @@
         "comparator",
         "gray_shulker_box",
         "yellow_concrete_powder",
+        "pale_oak_planks",
         "blackstone_wall",
         "smooth_stone",
         "spruce_pressure_plate",
@@ -12788,9 +12844,11 @@
         "copper_trapdoor",
         "sandstone_slab",
         "cake",
+        "stripped_pale_oak_log",
         "exposed_copper_trapdoor",
         "acacia_leaves",
         "yellow_shulker_box",
+        "resin_block",
         "oxidized_copper_trapdoor",
         "moss_carpet",
         "brown_banner",
@@ -12798,6 +12856,8 @@
         "bamboo",
         "red_sand",
         "purple_shulker_box",
+        "resin_bricks",
+        "pale_oak_sapling",
         "chiseled_stone_bricks",
         "clay",
         "lectern",
@@ -12844,6 +12904,7 @@
         "dark_oak_leaves",
         "waxed_copper_block",
         "lime_shulker_box",
+        "pale_oak_sign",
         "jungle_sapling",
         "amethyst_block",
         "creeper_head",
@@ -12857,6 +12918,7 @@
         "black_carpet",
         "fire_coral",
         "magenta_glazed_terracotta",
+        "resin_brick_wall",
         "gray_bed",
         "stripped_cherry_log",
         "wet_sponge",
@@ -12871,6 +12933,7 @@
         "magma_block",
         "cauldron",
         "pink_concrete_powder",
+        "pale_oak_pressure_plate",
         "calibrated_sculk_sensor",
         "cherry_fence",
         "soul_sand",
@@ -12882,6 +12945,7 @@
         "deepslate",
         "bee_nest",
         "smooth_red_sandstone_slab",
+        "resin_brick_slab",
         "cut_sandstone_slab",
         "grass_block",
         "black_bed",
@@ -12892,6 +12956,8 @@
         "waxed_oxidized_cut_copper_stairs",
         "smooth_sandstone_stairs",
         "blue_wool",
+        "chiseled_resin_bricks",
+        "resin_clump",
         "small_amethyst_bud",
         "waxed_exposed_cut_copper_slab",
         "stripped_dark_oak_log",
@@ -12941,6 +13007,7 @@
         "moss_block",
         "green_terracotta",
         "red_carpet",
+        "pale_oak_wood",
         "white_concrete",
         "mangrove_slab",
         "glow_lichen",
@@ -12950,6 +13017,7 @@
         "red_shulker_box",
         "light_blue_terracotta",
         "waxed_chiseled_copper",
+        "pale_oak_stairs",
         "brown_glazed_terracotta",
         "crimson_planks",
         "bamboo_block",
@@ -13012,6 +13080,7 @@
         "piston",
         "dead_fire_coral_block",
         "cyan_candle",
+        "pale_oak_leaves",
         "waxed_cut_copper",
         "ender_chest",
         "light_gray_wool",
@@ -13029,6 +13098,8 @@
         "polished_deepslate",
         "spore_blossom",
         "waxed_weathered_copper_grate",
+        "pale_oak_trapdoor",
+        "pale_hanging_moss",
         "red_stained_glass",
         "stone_slab",
         "bamboo_mosaic_stairs",
@@ -13039,6 +13110,7 @@
         "copper_door",
         "rose_bush",
         "iron_trapdoor",
+        "pale_oak_log",
         "stone_pressure_plate",
         "iron_bars",
         "smooth_red_sandstone_stairs",
@@ -13112,6 +13184,7 @@
         "exposed_copper_grate",
         "mossy_stone_brick_stairs",
         "warped_fungus",
+        "pale_oak_slab",
         "stripped_jungle_log",
         "waxed_exposed_chiseled_copper",
         "sniffer_egg",
@@ -13121,6 +13194,7 @@
         "anvil",
         "azalea_leaves",
         "bamboo_mosaic_slab",
+        "pale_oak_fence",
         "magenta_stained_glass",
         "cherry_sign",
         "dark_oak_sign",
@@ -13174,11 +13248,13 @@
         "andesite_stairs",
         "dark_oak_fence_gate",
         "polished_andesite_stairs",
+        "pale_moss_block",
         "waxed_exposed_cut_copper",
         "jungle_pressure_plate",
         "bamboo_slab",
         "cyan_bed",
         "smooth_quartz_slab",
+        "pale_oak_fence_gate",
         "stripped_acacia_log",
         "crimson_roots",
         "mangrove_trapdoor",
@@ -13283,6 +13359,7 @@
         "white_candle",
         "dark_prismarine_stairs",
         "jungle_button",
+        "pale_moss_carpet",
         "dead_tube_coral_block",
         "weathered_copper_bulb",
         "jungle_fence",
@@ -13323,6 +13400,7 @@
         "lime_banner",
         "diorite_slab",
         "soul_soil",
+        "open_eyeblossom",
         "dark_oak_sapling",
         "polished_diorite_stairs",
         "oxidized_chiseled_copper",
@@ -13356,11 +13434,13 @@
         "polished_deepslate_stairs",
         "orange_candle",
         "yellow_stained_glass",
+        "closed_eyeblossom",
         "deepslate_diamond_ore",
         "cherry_trapdoor",
         "prismarine_slab",
         "magenta_wool",
         "lapis_block",
+        "resin_brick_stairs",
         "cornflower",
         "oak_fence_gate",
         "stripped_jungle_wood",
@@ -13413,6 +13493,7 @@
         "flowering_azalea",
         "yellow_glazed_terracotta",
         "quartz_slab",
+        "pale_oak_button",
         "blue_stained_glass_pane",
         "mossy_stone_brick_wall",
         "granite",
@@ -13502,7 +13583,9 @@
             "lily_of_the_valley",
             "wither_rose",
             "torchflower",
-            "pitcher_plant"
+            "pitcher_plant",
+            "closed_eyeblossom",
+            "open_eyeblossom"
         ]
     ],
     "blazeandcave:redstone/troll_chest": [
@@ -13547,6 +13630,7 @@
         "rabbit",
         "silverfish",
         "drowned",
+        "creaking",
         "dolphin",
         "stray",
         "turtle",
