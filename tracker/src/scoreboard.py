@@ -43,7 +43,7 @@ class Scoreboard:
                 current_time = objective['Score']
 
             if objective['Objective'] == 'tracker_players':
-                if str(objective['Name']) == '.total':
+                if str(objective['Name']) == '.total' or 'Score' not in objective:
                     continue
                 mapping[int(objective['Score'])] = str(objective['Name'])
             if objective['Objective'] == 'tracker_advancement':
