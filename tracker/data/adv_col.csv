@@ -29,6 +29,7 @@ blazeandcave:mining/lapis_lazuli_miner
 blazeandcave:monsters/aww_man
 blazeandcave:biomes/everybody_loves_ice
 blazeandcave:mining/bonfire_night
+minecraft:adventure/use_lodestone
 blazeandcave:animal/tropical_collection
 blazeandcave:mining/dripstone_drop
 blazeandcave:enchanting/heavy_metal
@@ -89,7 +90,6 @@ blazeandcave:biomes/warm_feet
 minecraft:story/deflect_arrow
 blazeandcave:animal/llama_llama_duck_king
 blazeandcave:biomes/high_feet
-blazeandcave:nether/lodes_of_applications
 blazeandcave:farming/naturally_carved
 blazeandcave:adventure/keys_to_success
 blazeandcave:mining/oresome
@@ -927,7 +927,6 @@ blazeandcave:monsters/poultry_boy
 blazeandcave:mining/diamond_miner
 blazeandcave:mining/shriek_forever_after
 blazeandcave:nether/let_me_out
-blazeandcave:nether/get_a_lode_of_this
 blazeandcave:animal/direct_fishing
 blazeandcave:potion/final_shout
 blazeandcave:end/portable_storage
@@ -1058,6 +1057,7 @@ blazeandcave:weaponry/theres_yolk_on_my_head
 blazeandcave:nether/dark_ages
 blazeandcave:weaponry/expelliarmus
 blazeandcave:nether/legend_of_hell_chicken_riders
+blazeandcave:mining/lodes_of_applications
 blazeandcave:farming/a_mangrove_grove
 blazeandcave:end/the_void_frogs
 blazeandcave:monsters/pupil_poppers
@@ -1118,7 +1118,6 @@ blazeandcave:animal/desert_rider
 blazeandcave:farming/castaway
 blazeandcave:weaponry/snowball_fight
 blazeandcave:animal/just_keeps_going
-minecraft:nether/use_lodestone
 blazeandcave:farming/not_today
 blazeandcave:bacap/animal_milestone
 blazeandcave:end/dragon_shield
@@ -1132,6 +1131,7 @@ blazeandcave:monsters/keep_your_distance
 blazeandcave:statistics/i_like_trains
 blazeandcave:building/pathways
 blazeandcave:enchanting/scuba_gear
+blazeandcave:mining/get_a_lode_of_this
 blazeandcave:animal/super_mooshroom
 blazeandcave:animal/theyre_breeding_like_rabbits
 blazeandcave:building/professor_oak

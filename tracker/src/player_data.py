@@ -24,8 +24,10 @@ class Players():
     def get_uuid(self, name):
         if name in self.name_to_uuid:
             return self.name_to_uuid[name]
-        url = f"https://api.mojang.com/users/profiles/minecraft/{name}"
+        # This URL stopped working?
+        # url = f"https://api.mojang.com/users/profiles/minecraft/{name}"
 
+        url = f"https://api.minecraftservices.com/minecraft/profile/lookup/name/{name}"
         logging.debug(f"Performing API Call... {name}")
         response = requests.get(url)
 
@@ -36,6 +38,7 @@ class Players():
             logging.debug(f"Updating dicts for {name}")
             return uuid
         else:
+            logging.error(f"Failed to get UUID for {name}: {response.status_code}")
             return None
         
     def update_dicts(self, name, uuid):

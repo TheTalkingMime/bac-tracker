@@ -38,6 +38,10 @@ Smithing With Style	minecraft:adventure/trim_with_all_exclusive_armor_patterns	s
 Crafting a New Look	minecraft:adventure/trim_with_any_armor_pattern	iron_helmet
 Two Birds, One Arrow	minecraft:adventure/two_birds_one_arrow	crossbow
 Under Lock and Key	minecraft:adventure/under_lock_and_key	trial_key
+<<<<<<< Updated upstream
+=======
+Country Lode, Take Me Home	minecraft:adventure/use_lodestone	compass
+>>>>>>> Stashed changes
 Very Very Frightening	minecraft:adventure/very_very_frightening	dragon_breath
 I've got a bad feeling about this	minecraft:adventure/voluntary_exile	white_banner
 Light as a Rabbit	minecraft:adventure/walk_on_powder_snow_with_leather_boots	leather_boots
@@ -105,7 +109,10 @@ Feels Like Home	minecraft:nether/ride_strider_in_overworld_lava	lava_bucket
 Nether	minecraft:nether/root	red_nether_bricks
 Withering Heights	minecraft:nether/summon_wither	nether_star
 Uneasy Alliance	minecraft:nether/uneasy_alliance	ghast_tear
+<<<<<<< Updated upstream
 Country Lode, Take Me Home	minecraft:nether/use_lodestone	compass
+=======
+>>>>>>> Stashed changes
 Zombie Doctor	minecraft:story/cure_zombie_villager	golden_apple
 Not Today, Thank You	minecraft:story/deflect_arrow	shield
 Enchanter	minecraft:story/enchant_item	enchanting_table
@@ -267,11 +274,19 @@ Farmadillo	blazeandcave:animal/farmadillo	spider_eye
 Fashion Statement	blazeandcave:animal/fashion_statement	leather_leggings
 Feeding the §mDucks§r Chickens	blazeandcave:animal/feeding_the_chickens	wheat_seeds
 Feeling Sheepish	blazeandcave:animal/feeling_sheepish	cooked_mutton
+<<<<<<< Updated upstream
+=======
+Flamboyant Range	blazeandcave:animal/flamboyant_range	yellow_bundle
+>>>>>>> Stashed changes
 Flashy Items	blazeandcave:animal/flashy_items	glow_item_frame
 Foal Play	blazeandcave:animal/foal_play	golden_apple
 Follow the Leader	blazeandcave:animal/follow_the_leader	oak_fence
 Foxy Thievery	blazeandcave:animal/foxy_thievery	totem_of_undying
+<<<<<<< Updated upstream
 Fractal	blazeandcave:animal/fractal	bundle
+=======
+Fractal	blazeandcave:animal/fractal	black_bundle
+>>>>>>> Stashed changes
 Frog Family	blazeandcave:animal/frog_family	frogspawn
 Fuzzy Feet	blazeandcave:animal/fuzzy_feet	magenta_carpet
 Getting Into a Stew	blazeandcave:animal/getting_into_a_stew	rabbit_stew
@@ -365,7 +380,11 @@ Monsters Milestone	blazeandcave:bacap/monsters_milestone	zombie_head
 Nether Milestone	blazeandcave:bacap/nether_milestone	red_nether_bricks
 Potions Milestone	blazeandcave:bacap/potion_milestone	potion
 Redstone Milestone	blazeandcave:bacap/redstone_milestone	redstone
+<<<<<<< Updated upstream
 BlazeandCave's Advancements	blazeandcave:bacap/root	grass_block
+=======
+BlazeandCave's Advancements Pack	blazeandcave:bacap/root	grass_block
+>>>>>>> Stashed changes
 Statistics Milestone	blazeandcave:bacap/statistics_milestone	writable_book
 Time to Chop!	blazeandcave:bacap/time_to_chop	wooden_axe
 Time to Dig!	blazeandcave:bacap/time_to_dig	wooden_shovel
@@ -389,10 +408,19 @@ Echolocation	blazeandcave:biomes/echolocation	cod
 Edge of the Jungle	blazeandcave:biomes/edge_of_the_jungle	jungle_sapling
 Enchanted Forest	blazeandcave:biomes/enchanted_forest	allium
 Everybody Loves Ice!	blazeandcave:biomes/everybody_loves_ice	poisonous_potato
+<<<<<<< Updated upstream
+=======
+Eyeball Forest	blazeandcave:biomes/eyeball_forest	open_eyeblossom
+Fake Copper	blazeandcave:biomes/fake_copper	chiseled_resin_bricks
+>>>>>>> Stashed changes
 Flipper	blazeandcave:biomes/flipper	light_blue_wool
 Flower Power	blazeandcave:biomes/flower_power	rose_bush
 For you, my sweet	blazeandcave:biomes/for_you_my_sweet	poppy
 Free Diver	blazeandcave:biomes/free_diver	tube_coral_fan
+<<<<<<< Updated upstream
+=======
+Heart Breaker	blazeandcave:biomes/heart_breaker	creaking_heart
+>>>>>>> Stashed changes
 High Feet	blazeandcave:biomes/high_feet	stone
 In a Pickle	blazeandcave:biomes/in_a_pickle	sea_pickle
 Just a sample	blazeandcave:biomes/just_a_sample	fire_coral_fan
@@ -404,11 +432,19 @@ Moskstraumen	blazeandcave:biomes/moskstraumen	conduit
 No Reefing!	blazeandcave:biomes/no_reefing	dead_brain_coral_block
 One with the forest	blazeandcave:biomes/one_with_the_forest	oak_sapling
 Overgrown!	blazeandcave:biomes/overgrown	jungle_sapling
+<<<<<<< Updated upstream
+=======
+Pale in Comparison	blazeandcave:biomes/pale_in_comparison	pale_moss_block
+>>>>>>> Stashed changes
 Pandamonium	blazeandcave:biomes/pandamonium	cake
 Powder-full	blazeandcave:biomes/powder_full	powder_snow_bucket
 Pretty in Pink	blazeandcave:biomes/pretty_in_pink	cherry_leaves
 Pushed Around	blazeandcave:biomes/pushed_around	magma_block
 Qinling	blazeandcave:biomes/qinling	brown_dye
+<<<<<<< Updated upstream
+=======
+Resinance	blazeandcave:biomes/resinance	resin_clump
+>>>>>>> Stashed changes
 Biomes	blazeandcave:biomes/root	birch_sapling
 Simba	blazeandcave:biomes/simba	ocelot_spawn_egg
 Sleep with the Fishes	blazeandcave:biomes/sleep_with_the_fishes	drowned_spawn_egg
@@ -497,6 +533,10 @@ Master Logger	blazeandcave:building/master_logger	birch_log
 No Banner, Only Color!	blazeandcave:building/no_banner_only_color	magenta_banner
 No Chain, No Gain	blazeandcave:building/no_chain_no_gain	chain
 One Pickle, Two Pickle, Sea Pickle, Four	blazeandcave:building/one_pickle_two_pickle_sea_pickle_four	sea_pickle
+<<<<<<< Updated upstream
+=======
+Pale Gardener	blazeandcave:building/pale_gardener	pale_oak_sapling
+>>>>>>> Stashed changes
 Pane in the Glass	blazeandcave:building/pane_in_the_glass	light_blue_stained_glass_pane
 Pathways	blazeandcave:building/pathways	dirt_path
 Pot Planter	blazeandcave:building/pot_planter	flower_pot
@@ -757,6 +797,10 @@ Flint Miner	blazeandcave:mining/flint_miner	flint
 Fossil Fuel	blazeandcave:mining/fossil_fuel	coal
 Frigid Diversions	blazeandcave:mining/frigid_diversions	packed_ice
 Galileo Figaro	blazeandcave:mining/galileo_figaro	spyglass
+<<<<<<< Updated upstream
+=======
+Get a Lode Of This!	blazeandcave:mining/get_a_lode_of_this	lodestone
+>>>>>>> Stashed changes
 G.I. Geode	blazeandcave:mining/gi_geode	amethyst_cluster
 Gold Mine!	blazeandcave:mining/gold_mine	gold_ore
 Gold Miner	blazeandcave:mining/gold_miner	raw_gold
@@ -769,10 +813,18 @@ Iconic Merchandising Prop	blazeandcave:mining/iconic_merchandising_prop	diamond_
 Iggy	blazeandcave:mining/iggy	flowering_azalea
 Iron Man	blazeandcave:mining/iron_man	iron_helmet
 Iron Miner	blazeandcave:mining/iron_miner	raw_iron
+<<<<<<< Updated upstream
+=======
+I yearned for the mines	blazeandcave:mining/i_yearned_for_the_mines	player_head
+>>>>>>> Stashed changes
 Lapis Lazuli Miner	blazeandcave:mining/lapis_lazuli_miner	lapis_block
 Leaflet Drop	blazeandcave:mining/leaflet_drop	big_dripleaf
 Lichen Subscribe	blazeandcave:mining/lichen_subscribe	glow_lichen
 Living Like Kings	blazeandcave:mining/living_like_kings	golden_chestplate
+<<<<<<< Updated upstream
+=======
+Lodes of Applications	blazeandcave:mining/lodes_of_applications	end_stone
+>>>>>>> Stashed changes
 Lucky Break	blazeandcave:mining/lucky_break	chainmail_boots
 Lush Hour	blazeandcave:mining/lush_hour	moss_block
 Master Coal Miner	blazeandcave:mining/master_coal_miner	coal_block
@@ -849,7 +901,10 @@ Hell Hunter	blazeandcave:monsters/hell_hunter	blaze_rod
 House of Freaks	blazeandcave:monsters/house_of_freaks	sculk_shrieker
 Impossible...	blazeandcave:monsters/impossible	arrow
 Iron Belly	blazeandcave:monsters/iron_belly	rotten_flesh
+<<<<<<< Updated upstream
 Iskallium Collector	blazeandcave:monsters/iskallium_collector	player_head
+=======
+>>>>>>> Stashed changes
 Keep Your Distance	blazeandcave:monsters/keep_your_distance	bow
 Maximum Resistance	blazeandcave:monsters/maximum_resistance	netherite_chestplate
 Melting	blazeandcave:monsters/melting	sand
@@ -858,6 +913,10 @@ Mollusc Man	blazeandcave:monsters/mollusc_man	nautilus_shell
 Night Runner	blazeandcave:monsters/night_runner	iron_sword
 Not Afraid of Heights	blazeandcave:monsters/not_afraid_of_heights	black_concrete_powder
 Now that's a lot of damage	blazeandcave:monsters/now_thats_a_lot_of_damage	sculk_catalyst
+<<<<<<< Updated upstream
+=======
+Oh no guys I'm o o z i n g	blazeandcave:monsters/oh_no_guys_im_oozing	player_head
+>>>>>>> Stashed changes
 Ooh, Baby!	blazeandcave:monsters/ooh_baby	paper
 Paleontologist	blazeandcave:monsters/paleontologist	bone_block
 Phantom Slayer	blazeandcave:monsters/phantom_slayer	phantom_spawn_egg
@@ -916,7 +975,10 @@ Et tu, Brute?	blazeandcave:nether/et_tu_brute	chain
 Fire Blast Shield	blazeandcave:nether/fire_blast_shield	shield
 Fool Me Twice	blazeandcave:nether/fool_me_twice	netherite_hoe
 From Whence It Came!	blazeandcave:nether/from_whence_it_came	obsidian
+<<<<<<< Updated upstream
 Get a Lode Of This!	blazeandcave:nether/get_a_lode_of_this	lodestone
+=======
+>>>>>>> Stashed changes
 Ghast Slayer	blazeandcave:nether/ghast_slayer	ghast_spawn_egg
 Giant Floating Jellyfish	blazeandcave:nether/giant_floating_jellyfish	gunpowder
 Giddy Up!	blazeandcave:nether/giddy_up	hoglin_spawn_egg
@@ -938,8 +1000,13 @@ I am Root	blazeandcave:nether/i_am_root	crimson_roots
 Jenga	blazeandcave:nether/jenga	acacia_boat
 Legend of Hell Chicken Riders	blazeandcave:nether/legend_of_hell_chicken_riders	player_head
 Let Me Out!	blazeandcave:nether/let_me_out	white_bed
+<<<<<<< Updated upstream
 Limbo Walker	blazeandcave:nether/limbo_walker	bedrock
 Lodes of Applications	blazeandcave:nether/lodes_of_applications	end_stone
+=======
+Light Show	blazeandcave:nether/light_show	magenta_stained_glass
+Limbo Walker	blazeandcave:nether/limbo_walker	bedrock
+>>>>>>> Stashed changes
 Ludicrous Speed!	blazeandcave:nether/ludicrous_speed	red_glazed_terracotta
 Magma Cube Squisher	blazeandcave:nether/magma_cube_squisher	magma_cube_spawn_egg
 Master Netherite Miner	blazeandcave:nether/master_netherite_miner	netherite_ingot
@@ -1134,6 +1201,10 @@ NOT AN ADVANCEMENT	blazeandcave:technical/fail_dragon_vs	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/feed_parrot_cookie	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/give_piglin_gold	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/goat_horn_use	barrier
+<<<<<<< Updated upstream
+=======
+NOT AN ADVANCEMENT	blazeandcave:technical/goat_simulator_check	barrier
+>>>>>>> Stashed changes
 NOT AN ADVANCEMENT	blazeandcave:technical/inventory_changed	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/just_keeps_going_fail	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/just_keeps_going_start	barrier

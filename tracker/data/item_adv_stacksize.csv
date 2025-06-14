@@ -112,6 +112,7 @@ Blue Carpet	blue_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Concrete	blue_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Concrete Powder	blue_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Dye	blue_dye	blazeandcave:challenges/stack_all_the_items	64
+Blue Egg	blue_egg	blazeandcave:challenges/stack_all_the_items	16
 Blue Glazed Terracotta	blue_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Ice	blue_ice	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Orchid	blue_orchid	blazeandcave:challenges/stack_all_the_blocks	64
@@ -147,6 +148,7 @@ Brown Carpet	brown_carpet	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Concrete	brown_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Concrete Powder	brown_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Dye	brown_dye	blazeandcave:challenges/stack_all_the_items	64
+Brown Egg	brown_egg	blazeandcave:challenges/stack_all_the_items	16
 Brown Glazed Terracotta	brown_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Mushroom	brown_mushroom	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Mushroom Block	brown_mushroom_block	blazeandcave:challenges/stack_all_the_blocks	64
@@ -161,7 +163,9 @@ Bubble Coral Block	bubble_coral_block	blazeandcave:challenges/stack_all_the_bloc
 Bubble Coral Fan	bubble_coral_fan	blazeandcave:challenges/stack_all_the_blocks	64
 Bucket	bucket	blazeandcave:challenges/stack_all_the_items	16
 Burn Pottery Sherd	burn_pottery_sherd	blazeandcave:challenges/all_the_items	1
+Bush	bush	blazeandcave:challenges/stack_all_the_blocks	64
 Cactus	cactus	blazeandcave:challenges/stack_all_the_blocks	64
+Cactus Flower	cactus_flower	blazeandcave:challenges/stack_all_the_blocks	64
 Cake	cake	blazeandcave:challenges/stack_all_the_blocks	1
 Calcite	calcite	blazeandcave:challenges/stack_all_the_blocks	64
 Calibrated Sculk Sensor	calibrated_sculk_sensor	blazeandcave:challenges/stack_all_the_blocks	64
@@ -425,6 +429,7 @@ Fire Charge	fire_charge	blazeandcave:challenges/stack_all_the_items	64
 Fire Coral	fire_coral	blazeandcave:challenges/stack_all_the_blocks	64
 Fire Coral Block	fire_coral_block	blazeandcave:challenges/stack_all_the_blocks	64
 Fire Coral Fan	fire_coral_fan	blazeandcave:challenges/stack_all_the_blocks	64
+Firefly Bush	firefly_bush	blazeandcave:challenges/stack_all_the_blocks	64
 Firework Rocket	firework_rocket	blazeandcave:challenges/stack_all_the_items	64
 Firework Star	firework_star	blazeandcave:challenges/stack_all_the_items	64
 Fishing Rod	fishing_rod	blazeandcave:challenges/stack_all_the_items	1
@@ -575,6 +580,7 @@ Large Amethyst Bud	large_amethyst_bud	blazeandcave:challenges/stack_all_the_bloc
 Large Fern	large_fern	blazeandcave:challenges/all_the_blocks	1
 Lava Bucket	lava_bucket	blazeandcave:challenges/stack_all_the_items	1
 Lead	lead	blazeandcave:challenges/stack_all_the_items	64
+Leaf Litter	leaf_litter	blazeandcave:challenges/stack_all_the_blocks	64
 Leather	leather	blazeandcave:challenges/stack_all_the_items	64
 Leather Boots	leather_boots	blazeandcave:challenges/stack_all_the_items	1
 Leather Chestplate	leather_chestplate	blazeandcave:challenges/stack_all_the_items	1
@@ -966,6 +972,7 @@ Sheaf Pottery Sherd	sheaf_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Shears	shears	blazeandcave:challenges/stack_all_the_items	1
 Shelter Pottery Sherd	shelter_pottery_sherd	blazeandcave:challenges/all_the_items	1
 Shield	shield	blazeandcave:challenges/stack_all_the_items	1
+Short Dry Grass	short_dry_grass	blazeandcave:challenges/stack_all_the_blocks	64
 Shroomlight	shroomlight	blazeandcave:challenges/stack_all_the_blocks	64
 Shulker Box	shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Shulker Shell	shulker_shell	blazeandcave:challenges/stack_all_the_items	64
@@ -1074,6 +1081,7 @@ Suspicious Sand	suspicious_sand	blazeandcave:challenges/all_the_blocks	1
 Suspicious Stew	suspicious_stew	blazeandcave:challenges/stack_all_the_items	1
 Sweet Berries	sweet_berries	blazeandcave:challenges/stack_all_the_items	64
 Tadpole Bucket	tadpole_bucket	blazeandcave:challenges/stack_all_the_items	1
+Tall Dry Grass	tall_dry_grass	blazeandcave:challenges/stack_all_the_blocks	64
 Tall Grass	tall_grass	blazeandcave:challenges/all_the_blocks	1
 Target	target	blazeandcave:challenges/stack_all_the_blocks	64
 Terracotta	terracotta	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1194,6 +1202,7 @@ White Terracotta	white_terracotta	blazeandcave:challenges/stack_all_the_blocks	6
 White Tulip	white_tulip	blazeandcave:challenges/stack_all_the_blocks	64
 White Wool	white_wool	blazeandcave:challenges/stack_all_the_blocks	64
 Wild Armor Trim	wild_armor_trim	blazeandcave:challenges/all_the_items	1
+Wildflowers	wildflowers	blazeandcave:challenges/stack_all_the_blocks	64
 Wind Charge	wind_charge	blazeandcave:challenges/stack_all_the_items	64
 Wither Rose	wither_rose	blazeandcave:challenges/stack_all_the_blocks	64
 Wither Skeleton Skull	wither_skeleton_skull	blazeandcave:challenges/stack_all_the_blocks	64

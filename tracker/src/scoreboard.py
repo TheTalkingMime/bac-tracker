@@ -30,6 +30,8 @@ class Scoreboard:
         advancements = {}
 
         for objective in objectives_tag:
+            objective = dict(objective)
+            print(objective)
             if objective['Objective'] in self.scoreboards:
                 if self.scoreboards[objective['Objective']] == "max" and scores[objective['Objective']]["value"] < objective['Score']:
                     scores[objective['Objective']]["value"] = int(objective['Score'])
@@ -45,7 +47,7 @@ class Scoreboard:
                     continue
                 mapping[int(objective['Score'])] = str(objective['Name'])
             if objective['Objective'] == 'tracker_advancement':
-                advancements[str(objective['Name'])] = int(objective['Score'])
+                advancements[str(objective['Name'])] = objective.get('Score', 0)
         
         # IBowSpam is a player with a question mark as their head, so it will look good on the spreadsheet
         mapped_advancements = {key: mapping.get(value, "IBowSpam") for key,value in advancements.items()}

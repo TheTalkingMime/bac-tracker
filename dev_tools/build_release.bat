@@ -14,7 +14,7 @@ mkdir ".\releases\%VERSION%\settings"
 
 echo %VERSION%
 
-copy "..\dist\tracker.exe" ".\releases\%VERSION%\%VERSION%-tracker.exe"
+copy ".\dist\tracker.exe" ".\releases\%VERSION%\%VERSION%-tracker.exe"
 robocopy "../tracker/data/" "releases/%VERSION%/data/" /s /e
 copy "..\tracker\settings\sample_settings.json" ".\releases\%VERSION%\settings\settings.json"
 
