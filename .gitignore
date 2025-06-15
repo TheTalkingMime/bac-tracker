@@ -14,3 +14,4 @@ tracker.spec
 dev_tools/releases/*
 logs
 tracker/src/test.py
+/dev_tools/update/data/blazeandcave/

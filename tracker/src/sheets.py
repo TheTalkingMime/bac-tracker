@@ -63,6 +63,7 @@ class SheetsManager:
                     "values": [[info[3]]],
                 },
             ]
+            who = "IBowSpam"
             if adv in completer_data:
                 who = completer_data[adv]
             elif info[4] is not None:

@@ -30,6 +30,8 @@ class Scoreboard:
         advancements = {}
 
         for objective in objectives_tag:
+            objective = dict(objective)
+            print(objective)
             if objective['Objective'] in self.scoreboards:
                 if self.scoreboards[objective['Objective']] == "max" and scores[objective['Objective']]["value"] < objective['Score']:
                     scores[objective['Objective']]["value"] = int(objective['Score'])
@@ -41,11 +43,11 @@ class Scoreboard:
                 current_time = objective['Score']
 
             if objective['Objective'] == 'tracker_players':
-                if str(objective['Name']) == '.total':
+                if str(objective['Name']) == '.total' or 'Score' not in objective:
                     continue
                 mapping[int(objective['Score'])] = str(objective['Name'])
             if objective['Objective'] == 'tracker_advancement':
-                advancements[str(objective['Name'])] = int(objective['Score'])
+                advancements[str(objective['Name'])] = objective.get('Score', 0)
         
         # IBowSpam is a player with a question mark as their head, so it will look good on the spreadsheet
         mapped_advancements = {key: mapping.get(value, "IBowSpam") for key,value in advancements.items()}
@@ -64,7 +66,7 @@ class Scoreboard:
         # Scores is stats info
         return output, scores, mapped_advancements
 
-    @retry_on_exception((TypeError, KeyError, BadGzipFile), retries=3, delay=2)
+    @retry_on_exception((TypeError, KeyError, BadGzipFile, EOFError), retries=3, delay=2)
     def read_dat(self):
         with nbtlib.load(self.scoreboard_path) as file:
             objectives_tag = file['data']['PlayerScores']
