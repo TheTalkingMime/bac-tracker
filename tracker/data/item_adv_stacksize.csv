@@ -93,6 +93,7 @@ Black Concrete	black_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Black Concrete Powder	black_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Black Dye	black_dye	blazeandcave:challenges/stack_all_the_items	64
 Black Glazed Terracotta	black_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Black Harness	black_harness	blazeandcave:challenges/stack_all_the_items	1
 Black Shulker Box	black_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Black Stained Glass	black_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Black Stained Glass Pane	black_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -116,6 +117,7 @@ Blue Concrete Powder	blue_concrete_powder	blazeandcave:challenges/stack_all_the_
 Blue Dye	blue_dye	blazeandcave:challenges/stack_all_the_items	64
 Blue Egg	blue_egg	blazeandcave:challenges/stack_all_the_items	16
 Blue Glazed Terracotta	blue_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Blue Harness	blue_harness	blazeandcave:challenges/stack_all_the_items	1
 Blue Ice	blue_ice	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Orchid	blue_orchid	blazeandcave:challenges/stack_all_the_blocks	64
 Blue Shulker Box	blue_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
@@ -154,6 +156,7 @@ Brown Concrete Powder	brown_concrete_powder	blazeandcave:challenges/stack_all_th
 Brown Dye	brown_dye	blazeandcave:challenges/stack_all_the_items	64
 Brown Egg	brown_egg	blazeandcave:challenges/stack_all_the_items	16
 Brown Glazed Terracotta	brown_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Brown Harness	brown_harness	blazeandcave:challenges/stack_all_the_items	1
 Brown Mushroom	brown_mushroom	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Mushroom Block	brown_mushroom_block	blazeandcave:challenges/stack_all_the_blocks	64
 Brown Shulker Box	brown_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
@@ -307,6 +310,7 @@ Cyan Concrete	cyan_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Cyan Concrete Powder	cyan_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Cyan Dye	cyan_dye	blazeandcave:challenges/stack_all_the_items	64
 Cyan Glazed Terracotta	cyan_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Cyan Harness	cyan_harness	blazeandcave:challenges/stack_all_the_items	1
 Cyan Shulker Box	cyan_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Cyan Stained Glass	cyan_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Cyan Stained Glass Pane	cyan_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -394,6 +398,7 @@ Dispenser	dispenser	blazeandcave:challenges/stack_all_the_blocks	64
 Dragon Breath	dragon_breath	blazeandcave:challenges/stack_all_the_items	64
 Dragon Egg	dragon_egg	blazeandcave:challenges/all_the_blocks	1
 Dragon Head	dragon_head	blazeandcave:challenges/stack_all_the_blocks	64
+Dried Ghast	dried_ghast	blazeandcave:challenges/stack_all_the_blocks	64
 Dried Kelp	dried_kelp	blazeandcave:challenges/stack_all_the_items	64
 Dried Kelp Block	dried_kelp_block	blazeandcave:challenges/stack_all_the_blocks	64
 Dripstone Block	dripstone_block	blazeandcave:challenges/stack_all_the_blocks	64
@@ -502,6 +507,7 @@ Gray Concrete	gray_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Gray Concrete Powder	gray_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Gray Dye	gray_dye	blazeandcave:challenges/stack_all_the_items	64
 Gray Glazed Terracotta	gray_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Gray Harness	gray_harness	blazeandcave:challenges/stack_all_the_items	1
 Gray Shulker Box	gray_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Gray Stained Glass	gray_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Gray Stained Glass Pane	gray_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -516,6 +522,7 @@ Green Concrete	green_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Green Concrete Powder	green_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Green Dye	green_dye	blazeandcave:challenges/stack_all_the_items	64
 Green Glazed Terracotta	green_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Green Harness	green_harness	blazeandcave:challenges/stack_all_the_items	1
 Green Shulker Box	green_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Green Stained Glass	green_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Green Stained Glass Pane	green_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -610,6 +617,7 @@ Light Blue Concrete	light_blue_concrete	blazeandcave:challenges/stack_all_the_bl
 Light Blue Concrete Powder	light_blue_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Light Blue Dye	light_blue_dye	blazeandcave:challenges/stack_all_the_items	64
 Light Blue Glazed Terracotta	light_blue_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Light Blue Harness	light_blue_harness	blazeandcave:challenges/stack_all_the_items	1
 Light Blue Shulker Box	light_blue_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Light Blue Stained Glass	light_blue_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Light Blue Stained Glass Pane	light_blue_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -624,6 +632,7 @@ Light Gray Concrete	light_gray_concrete	blazeandcave:challenges/stack_all_the_bl
 Light Gray Concrete Powder	light_gray_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Light Gray Dye	light_gray_dye	blazeandcave:challenges/stack_all_the_items	64
 Light Gray Glazed Terracotta	light_gray_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Light Gray Harness	light_gray_harness	blazeandcave:challenges/stack_all_the_items	1
 Light Gray Shulker Box	light_gray_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Light Gray Stained Glass	light_gray_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Light Gray Stained Glass Pane	light_gray_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -643,6 +652,7 @@ Lime Concrete	lime_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Lime Concrete Powder	lime_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Lime Dye	lime_dye	blazeandcave:challenges/stack_all_the_items	64
 Lime Glazed Terracotta	lime_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Lime Harness	lime_harness	blazeandcave:challenges/stack_all_the_items	1
 Lime Shulker Box	lime_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Lime Stained Glass	lime_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Lime Stained Glass Pane	lime_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -661,6 +671,7 @@ Magenta Concrete	magenta_concrete	blazeandcave:challenges/stack_all_the_blocks	6
 Magenta Concrete Powder	magenta_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Magenta Dye	magenta_dye	blazeandcave:challenges/stack_all_the_items	64
 Magenta Glazed Terracotta	magenta_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Magenta Harness	magenta_harness	blazeandcave:challenges/stack_all_the_items	1
 Magenta Shulker Box	magenta_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Magenta Stained Glass	magenta_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Magenta Stained Glass Pane	magenta_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -731,6 +742,7 @@ Music Disc Precipice	music_disc_precipice	blazeandcave:challenges/stack_all_the_
 Music Disc Relic	music_disc_relic	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Stal	music_disc_stal	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Strad	music_disc_strad	blazeandcave:challenges/stack_all_the_items	1
+Music Disc Tears	music_disc_tears	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Wait	music_disc_wait	blazeandcave:challenges/stack_all_the_items	1
 Music Disc Ward	music_disc_ward	blazeandcave:challenges/stack_all_the_items	1
 Mutton	mutton	blazeandcave:challenges/stack_all_the_items	64
@@ -796,6 +808,7 @@ Orange Concrete	orange_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Orange Concrete Powder	orange_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Orange Dye	orange_dye	blazeandcave:challenges/stack_all_the_items	64
 Orange Glazed Terracotta	orange_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Orange Harness	orange_harness	blazeandcave:challenges/stack_all_the_items	1
 Orange Shulker Box	orange_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Orange Stained Glass	orange_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Orange Stained Glass Pane	orange_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -850,6 +863,7 @@ Pink Concrete	pink_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Pink Concrete Powder	pink_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Pink Dye	pink_dye	blazeandcave:challenges/stack_all_the_items	64
 Pink Glazed Terracotta	pink_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Pink Harness	pink_harness	blazeandcave:challenges/stack_all_the_items	1
 Pink Petals	pink_petals	blazeandcave:challenges/stack_all_the_blocks	64
 Pink Shulker Box	pink_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Pink Stained Glass	pink_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
@@ -923,6 +937,7 @@ Purple Concrete	purple_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Purple Concrete Powder	purple_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Purple Dye	purple_dye	blazeandcave:challenges/stack_all_the_items	64
 Purple Glazed Terracotta	purple_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Purple Harness	purple_harness	blazeandcave:challenges/stack_all_the_items	1
 Purple Shulker Box	purple_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Purple Stained Glass	purple_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Purple Stained Glass Pane	purple_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -960,6 +975,7 @@ Red Concrete	red_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Red Concrete Powder	red_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Red Dye	red_dye	blazeandcave:challenges/stack_all_the_items	64
 Red Glazed Terracotta	red_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Red Harness	red_harness	blazeandcave:challenges/stack_all_the_items	1
 Red Mushroom	red_mushroom	blazeandcave:challenges/stack_all_the_blocks	64
 Red Mushroom Block	red_mushroom_block	blazeandcave:challenges/stack_all_the_blocks	64
 Red Nether Brick Slab	red_nether_brick_slab	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1246,6 +1262,7 @@ White Concrete	white_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 White Concrete Powder	white_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 White Dye	white_dye	blazeandcave:challenges/stack_all_the_items	64
 White Glazed Terracotta	white_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+White Harness	white_harness	blazeandcave:challenges/stack_all_the_items	1
 White Shulker Box	white_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 White Stained Glass	white_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 White Stained Glass Pane	white_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
@@ -1274,6 +1291,7 @@ Yellow Concrete	yellow_concrete	blazeandcave:challenges/stack_all_the_blocks	64
 Yellow Concrete Powder	yellow_concrete_powder	blazeandcave:challenges/stack_all_the_blocks	64
 Yellow Dye	yellow_dye	blazeandcave:challenges/stack_all_the_items	64
 Yellow Glazed Terracotta	yellow_glazed_terracotta	blazeandcave:challenges/stack_all_the_blocks	64
+Yellow Harness	yellow_harness	blazeandcave:challenges/stack_all_the_items	1
 Yellow Shulker Box	yellow_shulker_box	blazeandcave:challenges/stack_all_the_blocks	1
 Yellow Stained Glass	yellow_stained_glass	blazeandcave:challenges/stack_all_the_blocks	64
 Yellow Stained Glass Pane	yellow_stained_glass_pane	blazeandcave:challenges/stack_all_the_blocks	64
