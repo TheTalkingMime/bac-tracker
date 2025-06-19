@@ -42,7 +42,8 @@ class SheetsManager:
         mapping = sheet_info["mapping"]
 
         sheet_data = []
-
+        logging.info(f"Adv progress {mapping}")
+        
         logging.info(f"Adv progress {len(adv_progress)}")
 
         for adv in adv_progress:
@@ -194,7 +195,9 @@ class SheetsManager:
         return count
 
     def get_mapping(self, worksheet, sheet_format):
+        print(sheet_format["id_range"])
         ordering = list(chain.from_iterable(worksheet.get(sheet_format["id_range"])))
+        print("Length of ordering", len(ordering))
         mapping = {item: i for i, item in enumerate(ordering)}
         return mapping
 
