@@ -8,6 +8,7 @@ Bullseye	minecraft:adventure/bullseye	arrow
 Crafters Crafting Crafters	minecraft:adventure/crafters_crafting_crafters	crafting_table
 Careful Restoration	minecraft:adventure/craft_decorated_pot_using_only_sherds	decorated_pot
 Caves & Cliffs	minecraft:adventure/fall_from_world_height	water_bucket
+Heart Transplanter	minecraft:adventure/heart_transplanter	creaking_heart
 Hero of the Village	minecraft:adventure/hero_of_the_village	firework_rocket
 Sticky Situation	minecraft:adventure/honey_block_slide	honey_block
 Monsters Hunted	minecraft:adventure/kill_all_mobs	diamond_sword
@@ -69,6 +70,7 @@ When the Squad Hops into Town	minecraft:husbandry/leash_all_frog_variants	lead
 Glow and Behold	minecraft:husbandry/make_a_sign_glow	warped_sign
 NOT AN ADVANCEMENT	minecraft:husbandry/obtain_netherite_hoe	warped_sign
 Life… uhh… finds a way	minecraft:husbandry/obtain_sniffer_egg	sniffer_egg
+Stay Hydrated	minecraft:husbandry/place_dried_ghast_in_water	dried_ghast
 Planting the Past	minecraft:husbandry/plant_any_sniffer_seed	torchflower
 A Seedy Place	minecraft:husbandry/plant_seed	wheat_seeds
 Shear Brilliance	minecraft:husbandry/remove_wolf_armor	shears
@@ -123,6 +125,7 @@ Cover Me With Diamonds	minecraft:story/shiny_gear	diamond_chestplate
 Acquire Hardware	minecraft:story/smelt_iron	iron_ingot
 Getting an Upgrade	minecraft:story/upgrade_tools	stone_pickaxe
 Allayance	blazeandcave:adventure/allayance	allay_spawn_egg
+All Around the World	blazeandcave:adventure/all_around_the_world	filled_map
 All chained up	blazeandcave:adventure/all_chained_up	chainmail_chestplate
 And make it double!	blazeandcave:adventure/and_make_it_double	amethyst_shard
 Awards Ceremony	blazeandcave:adventure/awards_ceremony	gold_block
@@ -245,6 +248,7 @@ Axolotl of them	blazeandcave:animal/axolotl_of_them	bucket
 A Horse in Shining Armor	blazeandcave:animal/a_horse_in_shining_armor	diamond_horse_armor
 Bacon!	blazeandcave:animal/bacon	porkchop
 Battle of the Bands	blazeandcave:animal/battle_of_the_bands	white_banner
+Beef Moover	blazeandcave:animal/beef_moover	beef
 Beeloons!	blazeandcave:animal/beeloons	honeycomb
 Billy the Kid	blazeandcave:animal/billy_the_kid	goat_spawn_egg
 Birdkeeper	blazeandcave:animal/birdkeeper	parrot_spawn_egg
@@ -256,6 +260,7 @@ Catching Nemo	blazeandcave:animal/catching_nemo	tropical_fish
 Cephalight	blazeandcave:animal/cephalight	glow_ink_sac
 Chatterbox	blazeandcave:animal/chatterbox	beetroot_seeds
 Chicken Cooper	blazeandcave:animal/chicken_cooper	chicken_spawn_egg
+Chick Buffet	blazeandcave:animal/chick_buffet	chicken
 Colorful Cavalry	blazeandcave:animal/colorful_cavalry	leather_horse_armor
 Cool Kids	blazeandcave:animal/cool_kids	leather_chestplate
 Cowboy	blazeandcave:animal/cowboy	saddle
@@ -308,7 +313,9 @@ Mooshroom Kingdom	blazeandcave:animal/mooshroom_kingdom	mycelium
 Mushroom Scientist	blazeandcave:animal/mushroom_scientist	trident
 Nest, Quick!	blazeandcave:animal/nest_quick	bee_spawn_egg
 NOT THE BEES!	blazeandcave:animal/not_the_bees	spawner
+Omelette	blazeandcave:animal/omelette	blue_egg
 Paw Patrol	blazeandcave:animal/paw_patrol	wolf_armor
+Piglet's BIG Advancement	blazeandcave:animal/piglets_big_advancement	potato
 Pig Slaughterer	blazeandcave:animal/pig_slaughterer	pig_spawn_egg
 Poacher	blazeandcave:animal/poacher	seagrass
 Pork Chop	blazeandcave:animal/pork_chop	cooked_porkchop
@@ -335,6 +342,7 @@ Swine Sailing	blazeandcave:animal/swine_sailing	jungle_boat
 Thanks a lotl	blazeandcave:animal/thanks_a_lotl	prismarine_shard
 They're breeding like rabbits!	blazeandcave:animal/theyre_breeding_like_rabbits	carrot
 The High Road	blazeandcave:animal/the_high_road	iron_sword
+The Three Little Pigs	blazeandcave:animal/the_three_little_pigs	bricks
 Tickle Time!	blazeandcave:animal/tickle_time	feather
 Totally not an AFK fisher!	blazeandcave:animal/totally_not_an_afk_fisher	fishing_rod
 Treasure Hunter	blazeandcave:animal/treasure_hunter	nautilus_shell
@@ -396,13 +404,14 @@ Flipper	blazeandcave:biomes/flipper	light_blue_wool
 Flower Power	blazeandcave:biomes/flower_power	rose_bush
 For you, my sweet	blazeandcave:biomes/for_you_my_sweet	poppy
 Free Diver	blazeandcave:biomes/free_diver	tube_coral_fan
-Heart Breaker	blazeandcave:biomes/heart_breaker	creaking_heart
+Heart Breaker	blazeandcave:biomes/heart_breaker	creaking_spawn_egg
 High Feet	blazeandcave:biomes/high_feet	stone
 In a Pickle	blazeandcave:biomes/in_a_pickle	sea_pickle
 Just a sample	blazeandcave:biomes/just_a_sample	fire_coral_fan
 Just Keep Swimming	blazeandcave:biomes/just_keep_swimming	water_bucket
 Kilometre Walk	blazeandcave:biomes/kilometre_walk	leather_boots
 Kung Fu Panda!	blazeandcave:biomes/kung_fu_panda	leather_chestplate
+Le creak, c'est chic	blazeandcave:biomes/le_creak_cest_chic	creaking_spawn_egg
 Lion Hunter	blazeandcave:biomes/lion_hunter	cod
 Moskstraumen	blazeandcave:biomes/moskstraumen	conduit
 No Reefing!	blazeandcave:biomes/no_reefing	dead_brain_coral_block
@@ -550,14 +559,15 @@ Abyss Lord	blazeandcave:challenges/abyss_lord	conduit
 Ad Astra	blazeandcave:challenges/ad_astra	firework_rocket
 All the Blocks!	blazeandcave:challenges/all_the_blocks	polished_andesite
 All the Items!	blazeandcave:challenges/all_the_items	glowstone_dust
+At the Rim of the Sky	blazeandcave:challenges/at_the_rim_of_the_sky	mace
 A Million Blocks Away	blazeandcave:challenges/a_million_blocks_away	elytra
 Biological Warfare	blazeandcave:challenges/biological_warfare	lingering_potion
 Constellation	blazeandcave:challenges/constellation	nether_star
 Creepergeddon	blazeandcave:challenges/creepergeddon	creeper_head
 Death From All	blazeandcave:challenges/death_from_all	mossy_cobblestone_wall
 Dragon Army	blazeandcave:challenges/dragon_army	dragon_head
-Dragon vs Dragon II	blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo	dragon_head
-Dragon vs Wither: Pre-Sequel	blazeandcave:challenges/dragon_vs_wither_the_pre_sequel	player_head
+Dragon vs Dragon II: Electric Boogaloo	blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo	dragon_head
+Dragon vs Wither: The Pre-Sequel	blazeandcave:challenges/dragon_vs_wither_the_pre_sequel	player_head
 Endergeddon	blazeandcave:challenges/endergeddon	end_portal_frame
 Explorer of Worlds	blazeandcave:challenges/explorer_of_worlds	netherite_boots
 Farlander	blazeandcave:challenges/farlander	structure_void
@@ -567,6 +577,7 @@ Highway to Hell	blazeandcave:challenges/highway_to_hell	netherrack
 Immortal	blazeandcave:challenges/immortal	totem_of_undying
 I'm in Space!	blazeandcave:challenges/im_in_space	shulker_shell
 I am Loot!	blazeandcave:challenges/i_am_loot	chest
+Let's take it up a notch	blazeandcave:challenges/lets_take_it_up_a_notch	enchanted_golden_apple
 Nuclear Fusion	blazeandcave:challenges/nuclear_fusion	trident
 Overwarden	blazeandcave:challenges/overwarden	player_head
 Poglin!	blazeandcave:challenges/poglin	piglin_head
@@ -623,6 +634,7 @@ Master Sniper	blazeandcave:enchanting/master_sniper	bow
 Master Tridenteer	blazeandcave:enchanting/master_tridenteer	trident
 Needle Sharp	blazeandcave:enchanting/needle_sharp	iron_sword
 Newton's Flaming Laser Sword	blazeandcave:enchanting/newtons_flaming_laser_sword	flint_and_steel
+Oh baby a triple!	blazeandcave:enchanting/oh_baby_a_triple	tipped_arrow
 Overkill	blazeandcave:enchanting/overkill	diamond_sword
 Over-Overkill	blazeandcave:enchanting/over_overkill	netherite_axe
 Pick Like Silk	blazeandcave:enchanting/pick_like_silk	diamond_ore
@@ -672,8 +684,11 @@ The Start of Something	blazeandcave:end/the_start_of_something	end_crystal
 The Void Frogs	blazeandcave:end/the_void_frogs	pearlescent_froglight
 Uh, Houston? We have a problem	blazeandcave:end/uh_houston_we_have_a_problem	firework_rocket
 Unending Hell	blazeandcave:end/unending_hell	crimson_nylium
+Unstoppable Force vs Immovable Object	blazeandcave:end/unstoppable_force_vs_immovable_object	wind_charge
 Void Walker	blazeandcave:end/void_walker	leather_boots
 What For?	blazeandcave:end/what_for	crying_obsidian
+Why do I hear boss music?	blazeandcave:end/why_do_i_hear_boss_music	music_disc_mall
+You're doing it wrong	blazeandcave:end/youre_doing_it_wrong	mace
 24 Carrot Gold	blazeandcave:farming/24_carrot_gold	golden_carrot
 An amazing story!	blazeandcave:farming/an_amazing_story	written_book
 An Apple a Day	blazeandcave:farming/an_apple_a_day	apple
@@ -683,8 +698,10 @@ A Mangrove Grove	blazeandcave:farming/a_mangrove_grove	mangrove_propagule
 Bake Bread	blazeandcave:farming/bake_bread	bread
 Bapple!	blazeandcave:farming/bapple	apple
 Berry Nice!	blazeandcave:farming/berry_nice	sweet_berries
+Booshes	blazeandcave:farming/booshes	bush
 Care For the Environment	blazeandcave:farming/care_for_the_environment	oak_sapling
 Castaway	blazeandcave:farming/castaway	dried_kelp
+Certified Spud Chomper	blazeandcave:farming/certified_spud_chomper	player_head
 Combine Harvester	blazeandcave:farming/combine_harvester	bone_meal
 Come to the countryside!	blazeandcave:farming/come_to_the_countryside	beetroot_seeds
 Die, Potato!	blazeandcave:farming/die_potato	potato
@@ -731,6 +748,7 @@ Vegetarian	blazeandcave:farming/vegetarian	carrot
 What's new with composting?	blazeandcave:farming/whats_new_with_composting	oak_leaves
 Write your thoughts	blazeandcave:farming/write_your_thoughts	writable_book
 Yay! Deadbush!	blazeandcave:farming/yay_deadbush	dead_bush
+You can't take the sky from me	blazeandcave:farming/you_cant_take_the_sky_from_me	firefly_bush
 9 to 5	blazeandcave:mining/9_to_5	music_disc_5
 Amethyst Miner	blazeandcave:mining/amethyst_miner	amethyst_block
 Aww it broke!	blazeandcave:mining/aww_it_broke	stick
@@ -826,6 +844,7 @@ We've broken our last shovel	blazeandcave:mining/weve_broken_our_last_shovel	gol
 What's the time, Mr Wolf?	blazeandcave:mining/whats_the_time_mr_wolf	clock
 Where are all your clothes?	blazeandcave:mining/where_are_all_your_clothes	chainmail_leggings
 Coppers and Robbers	blazeandcave:mining/youll_never_take_me_alive_copper	copper_ingot
+Absolute Cinema	blazeandcave:monsters/absolute_cinema	player_head
 Anti-Air	blazeandcave:monsters/anti_air	bow
 Aww man!	blazeandcave:monsters/aww_man	player_head
 A Watery Grave	blazeandcave:monsters/a_watery_grave	seagrass
@@ -860,6 +879,7 @@ House of Freaks	blazeandcave:monsters/house_of_freaks	sculk_shrieker
 Impossible...	blazeandcave:monsters/impossible	arrow
 Iron Belly	blazeandcave:monsters/iron_belly	rotten_flesh
 Keep Your Distance	blazeandcave:monsters/keep_your_distance	bow
+Look Out!	blazeandcave:monsters/look_out	spyglass
 Maximum Resistance	blazeandcave:monsters/maximum_resistance	netherite_chestplate
 Melting	blazeandcave:monsters/melting	sand
 Miracle Drink	blazeandcave:monsters/miracle_drink	honey_bottle
@@ -915,6 +935,7 @@ Bobbleheads	blazeandcave:nether/bobbleheads	strider_spawn_egg
 Bring Down The Beast	blazeandcave:nether/bring_down_the_beast	iron_sword
 Brute Force	blazeandcave:nether/brute_force	golden_axe
 Burnt Right Into Your Soul	blazeandcave:nether/burnt_right_into_your_soul	soul_soil
+Collateral Damage	blazeandcave:nether/collateral_damage	fire_charge
 Cultural Misunderstandings	blazeandcave:nether/cultural_misunderstandings	golden_sword
 Dark Ages	blazeandcave:nether/dark_ages	blackstone
 Decaying Beauty	blazeandcave:nether/decaying_beauty	wither_rose
@@ -937,6 +958,7 @@ Hell's Bells	blazeandcave:nether/hells_bells	bell
 Hell Botanist	blazeandcave:nether/hell_botanist	warped_roots
 High Temperature Fluid Monster	blazeandcave:nether/high_temperature_fluid_monster	magma_cream
 Holy Scrap!	blazeandcave:nether/holy_scrap	netherite_scrap
+Hot Air Balloon	blazeandcave:nether/hot_air_balloon	white_harness
 Hot Reels!	blazeandcave:nether/hot_reels	fishing_rod
 Hot Spring	blazeandcave:nether/hot_spring	water_bucket
 Hung, Drawn and Bartered	blazeandcave:nether/hung_drawn_and_bartered	splash_potion
@@ -945,6 +967,7 @@ Inception	blazeandcave:nether/inception	piston
 Instant Mining	blazeandcave:nether/instant_mining	diamond_pickaxe
 I am Root	blazeandcave:nether/i_am_root	crimson_roots
 Jenga	blazeandcave:nether/jenga	acacia_boat
+Lead Zeppelin	blazeandcave:nether/lead_zeppelin	lead
 Legend of Hell Chicken Riders	blazeandcave:nether/legend_of_hell_chicken_riders	player_head
 Let Me Out!	blazeandcave:nether/let_me_out	white_bed
 Light Show	blazeandcave:nether/light_show	magenta_stained_glass
@@ -952,16 +975,19 @@ Limbo Walker	blazeandcave:nether/limbo_walker	bedrock
 Ludicrous Speed!	blazeandcave:nether/ludicrous_speed	red_glazed_terracotta
 Magma Cube Squisher	blazeandcave:nether/magma_cube_squisher	magma_cube_spawn_egg
 Master Netherite Miner	blazeandcave:nether/master_netherite_miner	netherite_ingot
+Midport Village	blazeandcave:nether/midport_village	brown_harness
 MOAR Upgraded Tools	blazeandcave:nether/moar_upgraded_tools	netherite_pickaxe
 Netherite Mad Lad	blazeandcave:nether/netherite_mad_lad	netherite_block
 Netherite Miner	blazeandcave:nether/netherite_miner	ancient_debris
 Nether Rock Collection	blazeandcave:nether/nether_rock_collection	basalt
 Nugget in a Biscuit	blazeandcave:nether/nugget_in_a_biscuit	nether_gold_ore
 Piglin Peril	blazeandcave:nether/piglin_peril	piglin_head
+Pillow Fight	blazeandcave:nether/pillow_fight	white_wool
 Polar Opposites	blazeandcave:nether/polar_opposites	powder_snow_bucket
 Quicksand	blazeandcave:nether/quicksand	soul_sand
 Roadhog	blazeandcave:nether/roadhog	porkchop
 Seeing Stars	blazeandcave:nether/seeing_stars	glowstone_dust
+Snow Cone?	blazeandcave:nether/snow_cone	snowball
 Soul Runnings!	blazeandcave:nether/soul_runnings	netherite_boots
 Spreading Corruption	blazeandcave:nether/spreading_corruption	basalt
 Stem Research	blazeandcave:nether/stem_research	crimson_stem
@@ -1006,6 +1032,7 @@ Potions	blazeandcave:potion/root	potion
 Secret of the Ooze	blazeandcave:potion/secret_of_the_ooze	slime_block
 Stayin' Frosty	blazeandcave:potion/stayin_frosty	magma_cream
 Stealth Takedown	blazeandcave:potion/stealth_takedown	iron_sword
+String Shot	blazeandcave:potion/string_shot	tipped_arrow
 Super Strength	blazeandcave:potion/super_strength	blaze_powder
 Tank	blazeandcave:potion/tank	turtle_helmet
 The Invisible Player	blazeandcave:potion/the_invisible_player	structure_void
@@ -1046,6 +1073,7 @@ Sculker Box	blazeandcave:redstone/sculker_box	cyan_shulker_box
 Solar Power	blazeandcave:redstone/solar_power	daylight_detector
 Space Dropper	blazeandcave:redstone/space_dropper	dropper
 Space Hopper	blazeandcave:redstone/space_hopper	hopper
+Splatfest	blazeandcave:redstone/splatfest	blue_egg
 Sticky Parts	blazeandcave:redstone/sticky_parts	sticky_piston
 Take Notes	blazeandcave:redstone/take_notes	stick
 Target Acquired	blazeandcave:redstone/target_acquired	target
@@ -1060,6 +1088,7 @@ Vibe Check	blazeandcave:redstone/vibe_check	sculk_sensor
 We Have Liftoff!	blazeandcave:redstone/we_have_liftoff	tnt
 65	blazeandcave:statistics/65_hours_of_walking	netherite_boots
 Ancient Kung Fu Master	blazeandcave:statistics/ancient_kung_fu_master	panda_spawn_egg
+Big Blimp Enthusiast	blazeandcave:statistics/big_blimp_enthusiast	red_harness
 Big Spender	blazeandcave:statistics/big_spender	emerald_block
 Black Belt Ninja	blazeandcave:statistics/black_belt_ninja	leather_chestplate
 Bloodthirsty	blazeandcave:statistics/bloodthirsty	iron_sword
@@ -1108,6 +1137,7 @@ STONKS!	blazeandcave:statistics/stonks	egg
 Supersonic	blazeandcave:statistics/supersonic	elytra
 Take to the Skies	blazeandcave:statistics/take_to_the_skies	phantom_membrane
 Taking It In Stride	blazeandcave:statistics/taking_it_in_stride	lava_bucket
+Test Flight	blazeandcave:statistics/test_flight	light_gray_harness
 The First Night	blazeandcave:statistics/the_first_night	sunflower
 The Haggler	blazeandcave:statistics/the_haggler	emerald
 The Parrots and the Bats	blazeandcave:statistics/the_parrots_and_the_bats	porkchop
@@ -1115,6 +1145,7 @@ This Ride Is Lit, Yo!	blazeandcave:statistics/this_ride_is_lit_yo	strider_spawn_
 Two By Two	blazeandcave:statistics/two_by_two	chicken
 Who Needs Boats?	blazeandcave:statistics/who_needs_boats	warped_fungus_on_a_stick
 Who needs cars?	blazeandcave:statistics/who_needs_cars	iron_boots
+Who Needs Elytra?	blazeandcave:statistics/who_needs_elytra	brown_harness
 XP Grinder	blazeandcave:statistics/xp_grinder	lapis_block
 Your legs must be tired	blazeandcave:statistics/your_legs_must_be_tired	chainmail_leggings
 Yum Yum Yummo	blazeandcave:statistics/yum_yum_yummo	cooked_beef
@@ -1123,6 +1154,7 @@ NOT AN ADVANCEMENT	blazeandcave:technical/a_wizards_breakfast_fail	cooked_beef
 NOT AN ADVANCEMENT	blazeandcave:technical/bacap_branch_end	cooked_beef
 NOT AN ADVANCEMENT	blazeandcave:technical/below_void	cooked_beef
 You are a big cheater!	blazeandcave:technical/big_cheater	barrier
+NOT AN ADVANCEMENT	blazeandcave:technical/boss_music_check	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/branch1_end	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/branch2_end	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/branch3_end	barrier
@@ -1137,7 +1169,11 @@ You are a big cheater!	blazeandcave:technical/cheater2	barrier
 You are a big cheater!	blazeandcave:technical/cheater3	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/consume_food	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/consume_food_null	barrier
+NOT AN ADVANCEMENT	blazeandcave:technical/consume_honey_bottle	barrier
+NOT AN ADVANCEMENT	blazeandcave:technical/consume_poisonous_potato	barrier
+NOT AN ADVANCEMENT	blazeandcave:technical/consume_spider_eye	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/divers_dozen_count	barrier
+NOT AN ADVANCEMENT	blazeandcave:technical/dive_bomb_check	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/factorio_craft	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/fail_dragon_vs	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/feed_parrot_cookie	barrier
@@ -1150,9 +1186,11 @@ NOT AN ADVANCEMENT	blazeandcave:technical/just_keeps_going_start	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/kill_dragon	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/kill_wither	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/lucky_break_check	barrier
+NOT AN ADVANCEMENT	blazeandcave:technical/multishot_crossbow_check	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/on_a_rail_start	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/open_loot_chest	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/place_painting	barrier
+NOT AN ADVANCEMENT	blazeandcave:technical/place_warped_button	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/respawn_dragon	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/respawn_wither	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/return_from_void	barrier
@@ -1166,6 +1204,7 @@ NOT AN ADVANCEMENT	blazeandcave:technical/riddle_seventh_line	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/riddle_sixth_line	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/riddle_tenth_line	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/riddle_third_line	barrier
+NOT AN ADVANCEMENT	blazeandcave:technical/shoot_crossbow	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/sound_the_alarm_check	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/spawn_perfect_all	barrier
 NOT AN ADVANCEMENT	blazeandcave:technical/spawn_perfect_one	barrier

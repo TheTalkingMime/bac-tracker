@@ -31,7 +31,6 @@ class Scoreboard:
 
         for objective in objectives_tag:
             objective = dict(objective)
-            print(objective)
             if objective['Objective'] in self.scoreboards:
                 if self.scoreboards[objective['Objective']] == "max" and scores[objective['Objective']]["value"] < objective['Score']:
                     scores[objective['Objective']]["value"] = int(objective['Score'])
@@ -40,7 +39,7 @@ class Scoreboard:
                     scores[objective['Objective']]["value"] += int(objective['Score'])
             
             if objective['Objective'] == 'bac_current_time' and objective['Name'] == 'time':
-                current_time = objective['Score']
+                current_time = objective.get('Score', 0)
 
             if objective['Objective'] == 'tracker_players':
                 if str(objective['Name']) == '.total' or 'Score' not in objective:
